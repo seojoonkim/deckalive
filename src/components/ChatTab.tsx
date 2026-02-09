@@ -185,21 +185,29 @@ export default function ChatTab({ card }: Props) {
   };
 
   const themeColor = getThemeColor();
+  
+  // 아바타 크기 (일관성을 위해 상수로)
+  const AVATAR_SIZE = 'w-8 h-8';
+  const AVATAR_MARGIN = 'ml-10'; // 아바타 없을 때 여백 (8 + gap 2)
 
   return (
     <div className="flex flex-col h-[calc(100vh-160px)]">
       {/* Messages */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
-        {messages.flatMap((msg) => {
+      <div className="flex-1 overflow-y-auto p-4 space-y-1">
+        {messages.flatMap((msg, msgIndex) => {
           const isUser = msg.role === 'user';
           const isAnimating = msg.id === animatingMessageId;
           const isCompleted = completedMessages.has(msg.id);
           const shouldAnimate = isAnimating && !isUser;
           
+          // 연속 메시지 판단: 다음 메시지가 같은 sender인지
+          const nextMsg = messages[msgIndex + 1];
+          const isLastInGroup = !nextMsg || nextMsg.role !== msg.role;
+          
           // 사용자 메시지
           if (isUser) {
             return [(
-              <div key={msg.id} className="flex justify-end animate-bubble-in-user">
+              <div key={msg.id} className="flex justify-end animate-bubble-in-user mt-3">
                 <div className="max-w-[85%] px-4 py-3 chat-bubble-user text-white">
                   <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
                     {msg.content}
@@ -213,7 +221,13 @@ export default function ChatTab({ card }: Props) {
           if (shouldAnimate) {
             if (typingPhase === 'delay') {
               return [(
-                <div key={msg.id} className="flex justify-start animate-bubble-in">
+                <div key={msg.id} className="flex justify-start items-end gap-2 animate-bubble-in mt-3">
+                  {/* 스트리밍 중에는 항상 아바타 표시 */}
+                  <img 
+                    src={card.imageUrl} 
+                    alt={card.name}
+                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                  />
                   <div className="chat-bubble-assistant px-4 py-3">
                     <TypingDots color={themeColor} />
                   </div>
@@ -224,7 +238,12 @@ export default function ChatTab({ card }: Props) {
             if (typingPhase === 'typing') {
               // 스트리밍 중: 텍스트가 없으면 점 3개, 있으면 텍스트 + 커서
               return [(
-                <div key={msg.id} className="flex justify-start">
+                <div key={msg.id} className="flex justify-start items-end gap-2 mt-3">
+                  <img 
+                    src={card.imageUrl} 
+                    alt={card.name}
+                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                  />
                   <div className="chat-bubble-assistant px-4 py-3 text-gray-100 animate-bubble-in">
                     {msg.content ? (
                       <>
@@ -249,9 +268,19 @@ export default function ChatTab({ card }: Props) {
             return [(
               <div
                 key={msg.id}
-                className={`flex justify-start ${isCompleted ? '' : 'animate-bubble-in'}`}
+                className={`flex justify-start items-end gap-2 ${isCompleted ? '' : 'animate-bubble-in'} ${isLastInGroup ? 'mt-3' : ''}`}
               >
-                <div className="max-w-[85%] px-4 py-3 chat-bubble-assistant text-gray-100">
+                {/* 아바타: 그룹의 마지막 메시지에만 표시 */}
+                {isLastInGroup ? (
+                  <img 
+                    src={card.imageUrl} 
+                    alt={card.name}
+                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                  />
+                ) : (
+                  <div className={`${AVATAR_SIZE} flex-shrink-0`} />
+                )}
+                <div className="max-w-[80%] px-4 py-3 chat-bubble-assistant text-gray-100">
                   <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
                     {msg.content}
                   </ReactMarkdown>
@@ -261,24 +290,44 @@ export default function ChatTab({ card }: Props) {
           }
           
           // 여러 문단: 각각 버블로 분리, 딜레이 애니메이션
-          return paragraphs.map((para, idx) => (
-            <div
-              key={`${msg.id}-${idx}`}
-              className="flex justify-start animate-bubble-in"
-              style={{ animationDelay: `${idx * 350}ms` }}
-            >
-              <div className="max-w-[85%] px-4 py-3 chat-bubble-assistant text-gray-100">
-                <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
-                  {para}
-                </ReactMarkdown>
+          return paragraphs.map((para, idx) => {
+            const isLastParagraph = idx === paragraphs.length - 1;
+            const showAvatar = isLastParagraph && isLastInGroup;
+            
+            return (
+              <div
+                key={`${msg.id}-${idx}`}
+                className={`flex justify-start items-end gap-2 animate-bubble-in ${showAvatar ? 'mt-3' : ''}`}
+                style={{ animationDelay: `${idx * 350}ms` }}
+              >
+                {/* 아바타: 마지막 문단 + 그룹의 마지막 메시지에만 표시 */}
+                {showAvatar ? (
+                  <img 
+                    src={card.imageUrl} 
+                    alt={card.name}
+                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                  />
+                ) : (
+                  <div className={`${AVATAR_SIZE} flex-shrink-0`} />
+                )}
+                <div className="max-w-[80%] px-4 py-3 chat-bubble-assistant text-gray-100">
+                  <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
+                    {para}
+                  </ReactMarkdown>
+                </div>
               </div>
-            </div>
-          ));
+            );
+          });
         })}
         
         {/* API 로딩 중 - 스트리밍 중이거나 스트리밍 버블이 있으면 숨김 */}
         {isLoading && !animatingMessageId && typingPhase === 'done' && (
-          <div className="flex justify-start animate-bubble-in">
+          <div className="flex justify-start items-end gap-2 animate-bubble-in mt-3">
+            <img 
+              src={card.imageUrl} 
+              alt={card.name}
+              className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+            />
             <div className="chat-bubble-assistant px-4 py-3">
               <TypingDots color={themeColor} />
             </div>
