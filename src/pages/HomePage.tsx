@@ -1,4 +1,4 @@
-import { getGameLabel, getGameColor } from '../data/cards';
+import { getGameLabel } from '../data/cards';
 import { useCardStore } from '../stores/card-store';
 import { useTranslation, useLanguageStore } from '../stores/language-store';
 import LanguageToggle from '../components/LanguageToggle';
@@ -93,7 +93,6 @@ export default function HomePage() {
                 imageUrl={card.imageUrl}
                 game={card.game}
                 gameLabel={getGameLabel(card.game, language).split(':')[0]?.split(' ')[0] ?? ''}
-                gameColor={getGameColor(card.game)}
                 highestSale={card.highestSale}
                 borderStyle={card.borderStyle}
                 showEnglishName={language !== 'en'}

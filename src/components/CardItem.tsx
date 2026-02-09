@@ -8,7 +8,7 @@ interface CardItemProps {
   imageUrl: string;
   game: string;
   gameLabel: string;
-  gameColor: string;
+  // gameColor removed - not used
   highestSale: string;
   borderStyle?: 'gold' | 'silver' | 'rainbow' | 'normal' | 'default';
   showEnglishName?: boolean;
@@ -20,7 +20,7 @@ export function CardItem({
   nameLocalized,
   imageUrl,
   gameLabel,
-  gameColor,
+  // gameColor removed
   highestSale,
   borderStyle,
   showEnglishName = false,
