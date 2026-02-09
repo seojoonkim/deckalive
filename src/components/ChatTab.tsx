@@ -3,9 +3,63 @@ import type { Card, ChatMessage } from '../types/card';
 import { useChatStore } from '../stores/chat-store';
 import { useTranslation, useLanguageStore } from '../stores/language-store';
 import ReactMarkdown from 'react-markdown';
+import { getGameColor } from '../data/cards';
 
 interface Props {
   card: Card;
+}
+
+// 타이핑 인디케이터
+function TypingDots({ color }: { color: string }) {
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <span className="typing-dot w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
+      <span className="typing-dot w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
+      <span className="typing-dot w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
+    </span>
+  );
+}
+
+// 타이핑 애니메이션 버블
+function TypingBubble({ 
+  text, 
+  onComplete,
+  onProgress,
+}: { 
+  text: string;
+  onComplete: () => void;
+  onProgress?: () => void;
+}) {
+  const [visibleChars, setVisibleChars] = useState(0);
+  const completedRef = useRef(false);
+
+  useEffect(() => {
+    if (visibleChars >= text.length) {
+      if (!completedRef.current) {
+        completedRef.current = true;
+        onComplete();
+      }
+      return;
+    }
+
+    // 글자당 30~50ms (빠른 타이핑)
+    const delay = 30 + Math.random() * 20;
+    const timer = setTimeout(() => {
+      setVisibleChars(c => c + 1);
+      onProgress?.();
+    }, delay);
+
+    return () => clearTimeout(timer);
+  }, [visibleChars, text.length, onComplete, onProgress]);
+
+  return (
+    <div className="chat-bubble-assistant px-4 py-3 text-gray-100 animate-bubble-in">
+      <span>{text.slice(0, visibleChars)}</span>
+      {visibleChars < text.length && (
+        <span className="inline-block w-0.5 h-4 ml-0.5 bg-yellow-400 animate-pulse" />
+      )}
+    </div>
+  );
 }
 
 export default function ChatTab({ card }: Props) {
@@ -17,13 +71,28 @@ export default function ChatTab({ card }: Props) {
   
   const messages = getMessages(card.id);
   
+  // 애니메이션 상태
+  const [animatingMessageId, setAnimatingMessageId] = useState<string | null>(null);
+  const [typingPhase, setTypingPhase] = useState<'delay' | 'typing' | 'done'>('done');
+  const [completedMessages, setCompletedMessages] = useState<Set<string>>(new Set());
+  
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
   
   useEffect(() => {
     scrollToBottom();
-  }, [messages]);
+  }, [messages, typingPhase]);
+  
+  // 테마 컬러 가져오기
+  const getThemeColor = () => {
+    switch (card.game) {
+      case 'pokemon': return '#EAB308'; // yellow-500
+      case 'mtg': return '#7C3AED'; // purple-600
+      case 'yugioh': return '#2563EB'; // blue-600
+      default: return '#EAB308';
+    }
+  };
   
   // Get greeting based on language
   const getGreeting = () => {
@@ -45,14 +114,34 @@ export default function ChatTab({ card }: Props) {
   // 첫 방문 시 인사말 추가
   useEffect(() => {
     if (messages.length === 0) {
+      const greetingId = `greeting-${Date.now()}`;
       addMessage(card.id, {
-        id: `greeting-${Date.now()}`,
+        id: greetingId,
         role: 'assistant',
         content: getGreeting(),
         timestamp: Date.now()
       });
+      // 첫 인사말도 애니메이션 적용
+      setAnimatingMessageId(greetingId);
+      setTypingPhase('delay');
+      const delay = 500 + Math.random() * 1000; // 0.5~1.5초 딜레이
+      setTimeout(() => setTypingPhase('typing'), delay);
     }
-  }, [card.id, language]);
+  }, [card.id]);
+
+  // 새 assistant 메시지에 애니메이션 적용
+  const startMessageAnimation = (messageId: string) => {
+    setAnimatingMessageId(messageId);
+    setTypingPhase('delay');
+    const delay = 1000 + Math.random() * 2000; // 1~3초 딜레이
+    setTimeout(() => setTypingPhase('typing'), delay);
+  };
+
+  const handleTypingComplete = (messageId: string) => {
+    setCompletedMessages(prev => new Set(prev).add(messageId));
+    setTypingPhase('done');
+    setAnimatingMessageId(null);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -85,56 +174,100 @@ export default function ChatTab({ card }: Props) {
       
       const data = await response.json();
       
+      const assistantId = `assistant-${Date.now()}`;
       addMessage(card.id, {
-        id: `assistant-${Date.now()}`,
+        id: assistantId,
         role: 'assistant',
         content: data.reply,
         timestamp: Date.now()
       });
+      
+      // 애니메이션 시작
+      startMessageAnimation(assistantId);
     } catch (error) {
-      // 에러 시 클라이언트 폴백
+      const assistantId = `assistant-${Date.now()}`;
       addMessage(card.id, {
-        id: `assistant-${Date.now()}`,
+        id: assistantId,
         role: 'assistant',
         content: getLocalResponse(card, language),
         timestamp: Date.now()
       });
+      startMessageAnimation(assistantId);
     } finally {
       setLoading(false);
     }
   };
 
+  const themeColor = getThemeColor();
+
   return (
     <div className="flex flex-col h-[calc(100vh-160px)]">
       {/* Messages */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
-        {messages.map((msg) => (
-          <div
-            key={msg.id}
-            className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
-          >
+        {messages.map((msg) => {
+          const isUser = msg.role === 'user';
+          const isAnimating = msg.id === animatingMessageId;
+          const isCompleted = completedMessages.has(msg.id);
+          const shouldAnimate = isAnimating && !isUser;
+          
+          // 사용자 메시지
+          if (isUser) {
+            return (
+              <div key={msg.id} className="flex justify-end animate-bubble-in-user">
+                <div className="max-w-[85%] px-4 py-3 chat-bubble-user text-white">
+                  <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
+                    {msg.content}
+                  </ReactMarkdown>
+                </div>
+              </div>
+            );
+          }
+          
+          // 어시스턴트 메시지 - 애니메이션 중
+          if (shouldAnimate) {
+            if (typingPhase === 'delay') {
+              return (
+                <div key={msg.id} className="flex justify-start animate-bubble-in">
+                  <div className="chat-bubble-assistant px-4 py-3">
+                    <TypingDots color={themeColor} />
+                  </div>
+                </div>
+              );
+            }
+            
+            if (typingPhase === 'typing') {
+              return (
+                <div key={msg.id} className="flex justify-start">
+                  <TypingBubble
+                    text={msg.content}
+                    onComplete={() => handleTypingComplete(msg.id)}
+                    onProgress={scrollToBottom}
+                  />
+                </div>
+              );
+            }
+          }
+          
+          // 일반 메시지 (완료됨 또는 과거 메시지)
+          return (
             <div
-              className={`max-w-[85%] px-4 py-3 ${
-                msg.role === 'user'
-                  ? 'chat-bubble-user text-white'
-                  : 'chat-bubble-assistant text-gray-100'
-              }`}
+              key={msg.id}
+              className={`flex justify-start ${isCompleted ? '' : 'animate-bubble-in'}`}
             >
-              <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
-                {msg.content}
-              </ReactMarkdown>
+              <div className="max-w-[85%] px-4 py-3 chat-bubble-assistant text-gray-100">
+                <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
+                  {msg.content}
+                </ReactMarkdown>
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
         
+        {/* API 로딩 중 */}
         {isLoading && (
-          <div className="flex justify-start">
-            <div className="chat-bubble-assistant px-4 py-3 text-gray-400">
-              <span className="inline-flex gap-1">
-                <span className="animate-bounce" style={{ animationDelay: '0ms' }}>●</span>
-                <span className="animate-bounce" style={{ animationDelay: '150ms' }}>●</span>
-                <span className="animate-bounce" style={{ animationDelay: '300ms' }}>●</span>
-              </span>
+          <div className="flex justify-start animate-bubble-in">
+            <div className="chat-bubble-assistant px-4 py-3">
+              <TypingDots color={themeColor} />
             </div>
           </div>
         )}
@@ -151,11 +284,11 @@ export default function ChatTab({ card }: Props) {
             onChange={(e) => setInput(e.target.value)}
             placeholder={t.chat.placeholder.replace('{name}', getCardName())}
             className="flex-1 bg-gray-900/80 border border-gray-700/50 rounded-full px-5 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-500/50 focus:ring-1 focus:ring-yellow-500/20 transition-all"
-            disabled={isLoading}
+            disabled={isLoading || typingPhase !== 'done'}
           />
           <button
             type="submit"
-            disabled={!input.trim() || isLoading}
+            disabled={!input.trim() || isLoading || typingPhase !== 'done'}
             className="btn-primary px-6 py-3 rounded-full disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {t.chat.send}
