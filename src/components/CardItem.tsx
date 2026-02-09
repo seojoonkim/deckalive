@@ -89,24 +89,7 @@ export function CardItem({
     }
   };
 
-  const getRarityIndicator = () => {
-    switch (borderStyle) {
-      case 'rainbow':
-        return (
-          <div className="absolute top-3 right-3 w-2 h-2 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 animate-pulse" />
-        );
-      case 'gold':
-        return (
-          <div className="absolute top-3 right-3 w-2 h-2 rounded-full bg-amber-400/80" />
-        );
-      case 'silver':
-        return (
-          <div className="absolute top-3 right-3 w-1.5 h-1.5 rounded-full bg-gray-400/60" />
-        );
-      default:
-        return null;
-    }
-  };
+  // 희귀도 표시 제거 - 모든 카드가 전설급이라 불필요
 
   return (
     <Link to={`/card/${id}`} className="group block">
@@ -165,8 +148,7 @@ export function CardItem({
           {gameLabel}
         </div>
 
-        {/* Rarity Indicator - Minimal dot */}
-        {getRarityIndicator()}
+        {/* 희귀도 표시 제거됨 */}
 
         {/* Card Info - Clean bottom section */}
         <div className="absolute bottom-0 left-0 right-0 p-4" style={{ transform: 'translateZ(20px)' }}>
