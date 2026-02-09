@@ -1,36 +1,113 @@
-# 블랙 매지션 카드 정보
+# Dark Magician Character / 블랙 매지션 캐릭터 / ブラック・マジシャン キャラクター
 
-## 카드 스펙
-- **카드명**: Dark Magician (암흑 마술사)
-- **카드 번호**: LOB-005
-- **타입**: 어둠 속성 / 마법사족
-- **레벨**: ⭐⭐⭐⭐⭐⭐⭐ (7)
-- **ATK/DEF**: 2500/2100
+---
 
-## 카드 텍스트
-> "최고의 마술사. 어떤 공격도 방어도 완벽히 수행한다."
+## 🇺🇸 English
 
-단순하지만 강렬한 플레이버 텍스트입니다.
+### Card Details
 
-## LOB 버전의 특징
-- **Legend of Blue Eyes White Dragon**: 북미 최초 유희왕 세트
-- **1st Edition**: 왼쪽 아래에 금색 "1st Edition" 각인
-- **Ultra Rare**: 금색 카드명 + 홀로 포일
+| Attribute | Value |
+|-----------|-------|
+| Card Name | Dark Magician |
+| Attribute | DARK |
+| Level | 7 ⭐⭐⭐⭐⭐⭐⭐ |
+| Type | Spellcaster |
+| ATK/DEF | 2500/2100 |
+| Set | Legend of Blue Eyes White Dragon |
+| Card Number | LOB-005 |
+| Rarity | Ultra Rare |
 
-## 아트워크
-LOB-005의 일러스트는 **타카하시 카즈키**의 원작 만화 디자인을 기반으로 합니다. 보라색 로브, 녹색 지팡이, 날렵한 헬멧이 특징입니다.
+### Card Text
 
-## 블랙 매지션의 배리에이션
-유희왕에서 가장 많은 버전이 나온 카드 중 하나입니다:
-- **SDY-006**: 스타터 덱 유희 버전
-- **SYE-001**: 스타터 덱 유희 에볼루션
-- **YGLD-ENB03**: 레전더리 덱 버전
-- 외 수십 가지 아트워크 버전
+```
+The ultimate wizard in terms of attack and defense.
+```
 
-## 관련 카드
-- **블랙 매지션 걸**: 블랙 매지션의 제자
-- **마도사의 흑의**: 블랙 매지션 서포트 마법 카드
-- **흑마술 커튼**: 블랙 매지션 특수 소환
+### Comparing to Blue-Eyes
 
-## 경쟁적 위치
-순수 스펙만 보면 현대 유희왕에서는 약하지만, 수많은 서포트 카드 덕분에 "블랙 매지션 덱"은 여전히 캐주얼/반경쟁 레벨에서 즐길 수 있습니다.
+| Stat | Dark Magician | Blue-Eyes |
+|------|--------------|-----------|
+| ATK | 2500 | 3000 |
+| DEF | 2100 | 2500 |
+| Level | 7 | 8 |
+| Tributes | 1 | 2 |
+
+Dark Magician requires fewer resources but has less raw power.
+
+### The Iconic Design
+
+Kazuki Takahashi's design:
+- Purple/dark blue armor
+- Mystical staff
+- Flowing cape
+- Cool, collected expression
+
+### Identifying 1st Edition LOB
+
+Look for:
+1. **"1st Edition"** stamp in gold
+2. **LOB-005** card number
+3. Ultra Rare holographic pattern
+4. NA vs. EU print differences
+
+---
+
+## 🇰🇷 한국어
+
+### 카드 상세
+
+| 속성 | 값 |
+|------|-----|
+| 카드명 | 블랙 매지션 |
+| 속성 | 어둠 |
+| 레벨 | 7 ⭐⭐⭐⭐⭐⭐⭐ |
+| 종족 | 마법사 |
+| 공격력/수비력 | 2500/2100 |
+| 세트 | Legend of Blue Eyes White Dragon |
+| 카드 번호 | LOB-005 |
+| 희귀도 | 울트라 레어 |
+
+### 카드 텍스트
+
+```
+공격과 수비 측면에서 궁극의 마법사.
+```
+
+### 푸른 눈의 백룡과 비교
+
+| 스탯 | 블랙 매지션 | 푸른 눈의 백룡 |
+|------|-----------|--------------|
+| 공격력 | 2500 | 3000 |
+| 수비력 | 2100 | 2500 |
+| 레벨 | 7 | 8 |
+| 제물 | 1 | 2 |
+
+블랙 매지션은 더 적은 자원을 필요로 하지만 순수 파워는 적음.
+
+---
+
+## 🇯🇵 日本語
+
+### カード詳細
+
+| 属性 | 値 |
+|------|-----|
+| カード名 | ブラック・マジシャン |
+| 属性 | 闇 |
+| レベル | 7 ⭐⭐⭐⭐⭐⭐⭐ |
+| 種族 | 魔法使い |
+| 攻撃力/守備力 | 2500/2100 |
+| セット | Legend of Blue Eyes White Dragon |
+| カード番号 | LOB-005 |
+| レアリティ | ウルトラレア |
+
+### 青眼の白龍と比較
+
+| ステータス | ブラック・マジシャン | 青眼の白龍 |
+|-----------|-------------------|----------|
+| 攻撃力 | 2500 | 3000 |
+| 守備力 | 2100 | 2500 |
+| レベル | 7 | 8 |
+| 生贄 | 1 | 2 |
+
+ブラック・マジシャンはより少ないリソースで召喚できるが、純粋なパワーは低い。

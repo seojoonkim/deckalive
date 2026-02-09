@@ -1,44 +1,116 @@
-# 블랙 매지션의 역사
+# Dark Magician History / 블랙 매지션 역사 / ブラック・マジシャン 歴史
 
-## 탄생 비화 (1996)
+---
 
-### 만화에서의 등장
-1996년 주간 소년 점프에서 연재된 유희왕 만화에서 블랙 매지션이 처음 등장합니다. 주인공 무토 유희의 에이스 몬스터로, 수많은 듀얼에서 결정적인 활약을 합니다.
+## 🇺🇸 English
 
-### 캐릭터 배경
-작중 설정상, 블랙 매지션은 고대 이집트의 마법사 **마하드(Mahad)**의 화신입니다. 마하드는 파라오 아템을 섬기던 신관으로, 적과의 싸움에서 목숨을 바쳐 블랙 매지션이 되었습니다.
+### 1996: Manga Debut
 
-### 디자인
-카즈키 타카하시가 직접 디자인. 보라색 로브, 뾰족한 헬멧, 녹색 지팡이라는 상징적인 비주얼은 유희왕을 대표하는 아이콘이 되었습니다.
+Kazuki Takahashi introduced Dark Magician:
+- First appeared in Yu-Gi-Oh! manga
+- Yugi Muto's signature card
+- Represented magic over brute force
 
-## 실제 카드화 (1999-2002)
+### The Ancient Egypt Arc
 
-### 일본 OCG (1999)
-1999년 일본에서 유희왕 OCG가 출시되면서 블랙 매지션도 카드화되었습니다. "암흑 마술사(暗黒の魔術師)"라는 이름으로 출시.
+The manga revealed Dark Magician's origin:
+- Mahad was a priest serving Pharaoh Atem
+- Sacrificed himself fighting Bakura
+- His soul merged with his ka (spirit monster)
+- Eternal loyalty to his master
 
-### 북미 TCG (2002)
-2002년 3월, 어퍼덱이 북미에서 **Legend of Blue Eyes White Dragon (LOB)** 세트를 출시하면서 블랙 매지션(LOB-005)이 영어로 발매되었습니다.
+### 1999: OCG Launch
 
-## 유명해진 계기
+Konami's Official Card Game included Dark Magician:
+- One of the original Ultra Rares
+- 2500 ATK was formidable
+- Perfect for spell-based strategies
 
-### 애니메이션 (2000-2004)
-2000년 시작된 유희왕 듀얼 몬스터즈 애니메이션에서 블랙 매지션은 거의 매 에피소드 등장합니다. "암흑 마술사를 소환!"이라는 대사는 세대를 상징하는 명대사가 되었습니다.
+### 2002: North American Release
 
-### 결정적 장면들
-- 페가수스와의 결전에서 등장
-- 마리크와의 배틀 시티 결승전
-- 파라오의 기억 편에서 마하드의 정체 공개
+LOB brought Dark Magician to English:
+- LOB-005 card number
+- 1st Edition extremely sought after
+- Anime was peak popularity
 
-## 문화적 영향
+### 2000s: Support Cards
 
-### "암흑 마술"의 아이콘
-블랙 매지션은 유희왕뿐 아니라 **다크 판타지 마법사의 상징**이 되었습니다. 수많은 패러디와 오마주가 등장했습니다.
+Konami expanded Dark Magician's archetype:
+- Dark Magician Girl (2002)
+- Dark Magical Circle (2016)
+- Eternal Soul (2016)
+- Complete competitive deck emerged
 
-### 블랙 매지션 걸
-블랙 매지션의 제자로 등장한 블랙 매지션 걸은 또 다른 인기 캐릭터가 되었습니다. 두 카드는 종종 함께 언급됩니다.
+### Modern Era
 
-### 콜렉터블 가치
-LOB 1st Edition 블랙 매지션은 유희왕 수집가들의 최고 목표 중 하나입니다. 푸른 눈의 백룡과 함께 "양대 레전드"로 불립니다.
+Dark Magician remains relevant:
+- Regular support card releases
+- Nostalgic collector demand
+- 25th anniversary spotlight
+- Structure decks still produced
 
-## 현재 상태
-PSA 10 등급 LOB-005는 $20,000~$80,000 사이에서 거래됩니다. 수많은 재인쇄 버전이 존재하지만, 오리지널 LOB 1st Edition의 가치는 독보적입니다.
+---
+
+## 🇰🇷 한국어
+
+### 1996: 만화 데뷔
+
+타카하시 카즈키가 블랙 매지션 도입:
+- 유희왕 만화에서 첫 등장
+- 무토 유희의 시그니처 카드
+- 무력보다 마법을 대표
+
+### 고대 이집트 편
+
+만화가 블랙 매지션의 기원을 공개:
+- 마하드는 파라오 아템을 섬기는 신관이었음
+- 바쿠라와 싸우다 자신을 희생
+- 그의 영혼이 카(정령 몬스터)와 합체
+- 주인에 대한 영원한 충성
+
+### 1999: OCG 출시
+
+코나미의 공식 카드 게임에 블랙 매지션 포함:
+- 오리지널 울트라 레어 중 하나
+- 2500 공격력은 강력했음
+- 마법 기반 전략에 완벽
+
+### 2002: 북미 출시
+
+LOB가 블랙 매지션을 영어로 가져옴:
+- LOB-005 카드 번호
+- 1판이 극도로 인기
+- 애니메이션 인기 절정
+
+---
+
+## 🇯🇵 日本語
+
+### 1996年: 漫画デビュー
+
+高橋和希がブラック・マジシャンを導入：
+- 遊戯王漫画で初登場
+- 武藤遊戯のシグネチャーカード
+- 力よりも魔法を代表
+
+### 古代エジプト編
+
+漫画がブラック・マジシャンの起源を公開：
+- マハードはファラオ・アテムに仕える神官だった
+- バクラと戦って自らを犠牲に
+- 彼の魂がカー（精霊モンスター）と融合
+- 主人への永遠の忠誠
+
+### 1999年: OCG発売
+
+コナミのオフィシャルカードゲームにブラック・マジシャン収録：
+- オリジナルウルトラレアの一つ
+- 2500攻撃力は強力だった
+- 魔法ベース戦略に最適
+
+### 2002年: 北米発売
+
+LOBがブラック・マジシャンを英語に：
+- LOB-005カード番号
+- 初版が非常に求められた
+- アニメ人気絶頂

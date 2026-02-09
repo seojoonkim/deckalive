@@ -1,47 +1,116 @@
-# 푸른 눈의 백룡의 역사
+# Blue-Eyes White Dragon History / 푸른 눈의 백룡 역사 / 青眼の白龍 歴史
 
-## 탄생 비화 (1996)
+---
 
-### 만화에서의 첫 등장
-1996년 유희왕 만화에서 푸른 눈의 백룡이 첫 등장합니다. 무토 유희의 할아버지가 소유한 이 카드는 "세상에 4장만 존재하는" 전설의 카드로 소개됩니다.
+## 🇺🇸 English
 
-### 카이바의 집착
-라이벌 카이바 세토는 4장의 백룡 중 3장을 손에 넣고, 나머지 1장(유희 할아버지 소유)을 빼앗기 위해 수단을 가리지 않습니다. 이 스토리는 유희왕 초반부의 핵심입니다.
+### 1996: Manga Origins
 
-### 디자인 탄생
-타카하시 카즈키는 "가장 강력하고 아름다운 드래곤"을 목표로 디자인했습니다. 푸른 눈, 하얀 비늘, 우아한 몸체는 그의 미학이 담긴 결과물입니다.
+Kazuki Takahashi created Yu-Gi-Oh! manga:
+- Blue-Eyes first appeared in 1996
+- Represented ultimate power in Duel Monsters
+- Seto Kaiba's signature monster
 
-## 실제 카드화 (1999-2002)
+### 1999: Japanese TCG Launch
 
-### 일본 OCG (1999)
-1999년 일본에서 "青眼の白龍"이 카드화되었습니다. 스타터 덱 카이바에 수록되어 많은 팬들이 소유할 수 있게 되었습니다.
+Konami launched the OCG (Official Card Game):
+- Blue-Eyes was the premier card
+- 3000 ATK = highest normal monster
+- Immediately iconic
 
-### 북미 TCG (2002)
-2002년 3월, **Legend of Blue Eyes White Dragon (LOB)** 세트가 출시되었습니다. 세트 이름에서 알 수 있듯이 백룡이 메인 카드이며, LOB-001로 첫 번째 번호를 차지했습니다.
+### 2002: North American Release
 
-## 유명해진 계기
+LOB (Legend of Blue Eyes White Dragon) launched in NA:
+- March 8, 2002
+- First English Yu-Gi-Oh! booster set
+- Blue-Eyes was LOB-001 (first card!)
+- 1st Edition extremely limited
 
-### 애니메이션 (2000-2004)
-"분쇄! 멸망! 푸른 눈의 백룡!"이라는 카이바의 대사는 세대를 상징하는 명대사가 되었습니다. 거의 모든 듀얼에서 등장하며 압도적인 존재감을 보여주었습니다.
+### 2000s: Anime Dominance
 
-### 문화적 임팩트
-- "3000 공격력"은 유희왕에서 강함의 기준
-- 카이바의 아이덴티티와 동일시
-- 수많은 패러디와 밈 생성
+The anime series made Blue-Eyes legendary:
+- Kaiba vs. Yugi battles
+- "Blue-Eyes Ultimate Dragon" fusion
+- Cultural phenomenon in late 90s/early 2000s
 
-## 푸른 눈의 백룡 파생 카드들
-- 푸른 눈의 궁극룡 (융합)
-- 푸른 눈의 쌍폭렬룡 (싱크로)
-- 푸른 눈의 카오스 MAX 드래곤 (의식)
-- Neo 푸른 눈의 궁극룡 (융합)
+### 2020s: Collector Boom
 
-## 콜렉터블 가치
+Modern era brought new attention:
+- 25th anniversary celebrations
+- PSA 10 prices reached $85,000+
+- Crossover with Pokémon collector market
+- Celebrity collectors emerged
 
-### "유희왕의 블랙 로터스"
-LOB-001 1st Edition은 유희왕에서 가장 가치 있는 카드입니다. MTG의 블랙 로터스처럼, 이 카드는 유희왕 수집가들의 최고 목표입니다.
+### Cultural Impact
 
-### 2022년 최고가
-PSA 10 등급 LOB-001이 $85,100에 낙찰되면서, 유희왕 카드 사상 최고가를 기록했습니다.
+Blue-Eyes transcends the game:
+- Parodies in media
+- Fashion collaborations
+- Recognized by non-players
+- Symbol of Yu-Gi-Oh! itself
 
-## 현재 상태
-PSA 10 등급은 $30,000~$80,000 사이에서 거래됩니다. 수많은 재인쇄 버전이 있지만, 오리지널 LOB 1st Edition의 가치는 독보적입니다.
+---
+
+## 🇰🇷 한국어
+
+### 1996: 만화 기원
+
+타카하시 카즈키가 유희왕 만화 창작:
+- 푸른 눈의 백룡이 1996년 첫 등장
+- 듀얼 몬스터즈에서 궁극의 파워를 대표
+- 카이바 세토의 시그니처 몬스터
+
+### 1999: 일본 TCG 출시
+
+코나미가 OCG (공식 카드 게임) 출시:
+- 푸른 눈의 백룡이 프리미어 카드
+- 3000 공격력 = 최강 일반 몬스터
+- 즉시 아이콘이 됨
+
+### 2002: 북미 출시
+
+LOB (Legend of Blue Eyes White Dragon)가 북미 출시:
+- 2002년 3월 8일
+- 첫 영어 유희왕 부스터 세트
+- 푸른 눈의 백룡이 LOB-001 (첫 카드!)
+- 1판 매우 제한적
+
+### 2000년대: 애니메이션 지배
+
+애니메이션 시리즈가 푸른 눈의 백룡을 전설로:
+- 카이바 vs. 유희 배틀
+- "푸른 눈의 궁극룡" 융합
+- 90년대 후반/2000년대 초반 문화 현상
+
+---
+
+## 🇯🇵 日本語
+
+### 1996年: 漫画の起源
+
+高橋和希が遊戯王漫画を創作：
+- 青眼の白龍が1996年に初登場
+- デュエルモンスターズで究極のパワーを代表
+- 海馬瀬人のシグネチャーモンスター
+
+### 1999年: 日本TCG発売
+
+コナミがOCG（オフィシャルカードゲーム）発売：
+- 青眼の白龍がプレミアカード
+- 3000攻撃力 = 最強通常モンスター
+- 即座にアイコンに
+
+### 2002年: 北米発売
+
+LOB（Legend of Blue Eyes White Dragon）が北米発売：
+- 2002年3月8日
+- 最初の英語遊戯王ブースターセット
+- 青眼の白龍がLOB-001（最初のカード！）
+- 初版は非常に限定
+
+### 2000年代: アニメ支配
+
+アニメシリーズが青眼の白龍を伝説に：
+- 海馬 vs. 遊戯バトル
+- 「青眼の究極竜」融合
+- 90年代後半/2000年代初頭の文化現象

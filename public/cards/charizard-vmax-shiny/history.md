@@ -1,37 +1,129 @@
-# 샤이니 리자몽 VMAX의 역사
+# Shiny Charizard VMAX History / 샤이니 리자몽 VMAX 역사 / シャイニーリザードンVMAX 歴史
 
-## 탄생 비화 (2020)
+---
 
-### Champion's Path 세트
-2020년 9월, 포켓몬 컴퍼니는 **Champion's Path** 특별 세트를 출시했습니다. 포켓몬 소드/실드 게임의 체육관 관장과 챔피언들을 테마로 한 세트였습니다.
+## 🇺🇸 English
 
-### Shiny Vault 서브세트
-Champion's Path에는 **Shiny Vault**라는 숨겨진 서브세트가 있었습니다. 일반 번호(1-73) 외에 SV 번호로 시작하는 샤이니 버전 카드들이 극히 낮은 확률로 등장했습니다.
+### September 2020: Release
 
-### 샤이니 리자몽 VMAX (SV107)
-Shiny Vault의 마지막 카드이자 최고 레어리티. 검은색 바디의 샤이니 리자몽이 기가맥스 폼으로 그려진 풀아트 카드입니다.
+Champion's Path launched as a special set:
+- Sold through special collections
+- Shiny Vault subset included
+- Shiny Charizard VMAX = chase card
+- Pull rate approximately 1 in 450 packs
 
-## 유명해진 계기
+### October 2020: Sellout Chaos
 
-### 팬데믹과 포켓몬 붐 (2020-2021)
-COVID-19 팬데믹으로 집에 갇힌 사람들이 어린 시절 취미를 다시 찾으면서 포켓몬 카드 시장이 폭발했습니다. Champion's Path 팩은 매장에서 즉시 품절되었고, 스캘핑이 심각한 문제가 되었습니다.
+Within weeks:
+- All Champion's Path products sold out
+- Scalpers bought entire store stocks
+- eBay prices for sealed product 3-5x MSRP
+- Shiny Charizard VMAX raw selling for $300+
+
+### January-March 2021: Peak Mania
+
+The perfect storm:
+- Logan Paul opens $200K worth on stream
+- Stimulus checks + lockdown boredom
+- PSA/BGS backlogs reach 12+ months
+- PSA 10 prices hit $50,000
+
+### The Logan Paul Effect
+
+YouTuber Logan Paul:
+1. Wore BGS 10 Black Label as necklace ($300K+ card)
+2. Livestreamed massive openings
+3. Fought Floyd Mayweather wearing Charizard
+4. Single-handedly drove mainstream attention
+
+### 2022: The Correction
+
+Reality set in:
+- Prices dropped 90%+ from peak
+- PSA 10 settled around $1,500
+- Many investors took losses
+- "Modern cards don't hold value" narrative
+
+### 2024: Stabilization
+
+Current state:
+- PSA 10 stable at $1,000-1,500
+- BGS Black Labels still ultra-premium
+- Part of Pokémon TCG history
+
+---
+
+## 🇰🇷 한국어
+
+### 2020년 9월: 출시
+
+Champion's Path가 특별 세트로 출시:
+- 특별 컬렉션을 통해 판매
+- 샤이니 볼트 서브세트 포함
+- 샤이니 리자몽 VMAX = 추격 카드
+- 풀레이트 약 450팩 중 1장
+
+### 2020년 10월: 품절 혼란
+
+몇 주 안에:
+- 모든 Champion's Path 제품 품절
+- 되팔이꾼들이 매장 재고 전량 구매
+- eBay 밀봉 제품 가격 정가의 3-5배
+- 샤이니 리자몽 VMAX Raw $300+ 거래
+
+### 2021년 1-3월: 피크 광기
+
+완벽한 폭풍:
+- Logan Paul이 스트림에서 $200K 개봉
+- 지원금 + 락다운 권태
+- PSA/BGS 적체 12개월+
+- PSA 10 가격 $50,000 도달
 
 ### Logan Paul 효과
-유튜버 Logan Paul이 2020년 말부터 포켓몬 카드 개봉 영상을 올리면서, 샤이니 리자몽 VMAX는 "뽑아야 할 카드"의 상징이 되었습니다. 그의 영상 하나가 수백만 뷰를 기록하며 가격을 끌어올렸습니다.
 
-### $500,000 거래 (2021년 3월)
-**BGS 10 Black Label** 등급의 샤이니 리자몽 VMAX가 $500,000에 비공개 거래되었다는 소식이 알려졌습니다. 이는 현대 포켓몬 카드 사상 최고가로, 1999년 1st Edition 리자몽을 뛰어넘었습니다.
+유튜버 Logan Paul:
+1. BGS 10 블랙라벨을 목걸이로 착용 ($300K+ 카드)
+2. 대규모 개봉 라이브스트림
+3. 리자몽 착용하고 Floyd Mayweather와 경기
+4. 혼자서 메인스트림 관심 견인
 
-## 문화적 영향
+### 2022년: 조정
 
-### "현대 포켓몬의 새로운 왕"
-샤이니 리자몽 VMAX는 현대 포켓몬 TCG의 상징이 되었습니다. 1st Edition 리자몽이 "올드스쿨 레전드"라면, VMAX는 "뉴제너레이션 챔피언"입니다.
+현실 직면:
+- 가격 피크에서 90%+ 하락
+- PSA 10이 $1,500 부근 안착
+- 많은 투자자가 손실
 
-### 그레이딩 붐
-이 카드를 계기로 PSA, BGS, CGC 같은 그레이딩 서비스 수요가 폭증했습니다. 그레이딩 대기 시간이 몇 달에서 1년까지 늘어났습니다.
+---
 
-### 버블과 교훈 (2022)
-2022년 시장이 급락하면서 샤이니 리자몽 VMAX 가격도 90% 이상 떨어졌습니다. 이는 투기적 과열의 위험성을 보여주는 사례가 되었습니다.
+## 🇯🇵 日本語
 
-## 현재 상태
-2024년 현재, PSA 10 등급은 $300~500 수준으로 안정화되었습니다. 여전히 현대 포켓몬에서 가장 탐나는 카드 중 하나이며, 장기적으로 가치가 상승할 것으로 예상됩니다.
+### 2020年9月: 発売
+
+チャンピオンズパスが特別セットとして発売:
+- 特別コレクションを通じて販売
+- シャイニーボルトサブセット含む
+- シャイニーリザードンVMAX = チェイスカード
+- プルレート約450パック中1枚
+
+### 2020年10月: 完売の混乱
+
+数週間以内に:
+- すべてのチャンピオンズパス製品完売
+- 転売ヤーが店舗在庫を全量購入
+- eBayシール製品価格が定価の3-5倍
+
+### 2021年1-3月: ピークマニア
+
+完璧な嵐:
+- Logan Paulがストリームで$200K分開封
+- 給付金 + ロックダウンの退屈
+- PSA/BGSバックログが12ヶ月以上
+- PSA 10価格が$50,000に到達
+
+### Logan Paul効果
+
+YouTuber Logan Paul:
+1. BGS 10ブラックラベルをネックレスとして着用（$300K+カード）
+2. 大規模開封をライブストリーム
+3. メインストリームの注目を一人で牽引

@@ -1,30 +1,88 @@
-# 매직: 더 개더링 세계관
+# Black Lotus World / 블랙 로터스 세계관 / ブラック・ロータス の世界
 
-## 개요
-**Magic: The Gathering (MTG)**은 1993년 수학자 Richard Garfield가 디자인하고 Wizards of the Coast가 발매한 최초의 트레이딩 카드 게임입니다. 플레이어는 "플레인즈워커(Planeswalker)"라는 강력한 마법사 역할을 맡아, 다양한 차원(Plane)을 여행하며 마법과 생물을 소환하여 대결합니다.
+---
 
-## 다중 우주 (Multiverse)
-MTG의 세계관은 단일 세계가 아닌 **다중 우주**입니다. 수많은 차원(Plane)이 존재하며, 각각 고유한 문화, 생물, 마법 체계를 가지고 있습니다.
+## 🇺🇸 English
 
-### 주요 차원들
-- **도미나리아(Dominaria)**: MTG의 원조 차원. 많은 역사적 사건의 배경
-- **라브니카(Ravnica)**: 10개 길드가 통치하는 도시 차원
-- **잔디카(Zendikar)**: 엘드라지가 봉인된 모험의 차원
-- **미로딘(Mirrodin)**: 금속으로 이루어진 인공 차원
+### Magic: The Gathering Universe
 
-## 다섯 가지 마나
-MTG에서 마법의 근원은 **마나(Mana)**입니다. 다섯 가지 색이 존재합니다:
+Created by Richard Garfield and released by Wizards of the Coast in 1993, Magic: The Gathering takes place across the **Multiverse**—infinite planes of existence where Planeswalkers travel and battle.
 
-| 색 | 상징 | 특성 |
-|---|---|---|
-| 백색 (White) | 평원 | 질서, 보호, 치유 |
-| 청색 (Blue) | 섬 | 지식, 속임수, 통제 |
-| 흑색 (Black) | 늪 | 죽음, 야망, 희생 |
-| 적색 (Red) | 산 | 격정, 파괴, 자유 |
-| 녹색 (Green) | 숲 | 자연, 성장, 본능 |
+### The Mana System
 
-## TCG 시스템
-각 플레이어는 시작 시 20점의 생명력을 가지며, 덱에서 카드를 뽑아 대지(Land)에서 마나를 추출하고, 그 마나로 주문을 발동하거나 생물을 소환합니다. 상대의 생명력을 0으로 만들면 승리합니다.
+Mana is the magical energy that powers all spells:
+- **Lands** produce mana each turn
+- Most powerful spells require more mana
+- Players normally play one land per turn
 
-## 블랙 로터스의 위치
-블랙 로터스는 MTG 세계관에서 전설적인 아티팩트입니다. 게임 내에서 **0마나로 3마나를 즉시 생성**하는 극도로 강력한 효과를 가지며, MTG 역사상 가장 강력한 카드로 인정받고 있습니다.
+Black Lotus breaks this fundamental rule.
+
+### Why Black Lotus is Special
+
+```
+{0}
+Artifact
+{T}, Sacrifice Black Lotus: Add three mana of any one color.
+```
+
+**The Problem:**
+- Free to cast (0 mana)
+- Produces 3 mana immediately
+- Enables turn 1 plays that should take turns 3-4
+
+### Alpha Set Context
+
+Alpha was the first MTG set with only ~2.6 million cards printed. Black Lotus was a rare, meaning roughly **1,100 copies** exist in Alpha.
+
+### The Flower Symbolism
+
+The lotus represents enlightenment in Eastern philosophy—something precious rising from murky waters. In MTG, it represents the ultimate shortcut to power.
+
+---
+
+## 🇰🇷 한국어
+
+### 매직: 더 개더링 세계관
+
+1993년 Richard Garfield가 만들고 Wizards of the Coast가 발매한 매직: 더 개더링은 **다원우주(Multiverse)**를 배경으로 합니다.
+
+### 마나 시스템
+
+마나는 모든 주문의 원천이 되는 마법 에너지입니다:
+- **대지**가 매 턴 마나를 생산
+- 강력한 주문은 더 많은 마나 필요
+- 플레이어는 보통 턴당 대지 1장만 플레이
+
+블랙 로터스는 이 기본 규칙을 깨뜨립니다.
+
+### 왜 블랙 로터스가 특별한가
+
+- 무료 발동 (0 마나)
+- 즉시 3 마나 생산
+- 3~4턴에 해야 할 플레이를 1턴에 가능
+
+### 알파 세트 맥락
+
+알파는 첫 MTG 세트로 약 260만 장만 인쇄되었습니다. 블랙 로터스는 레어였으므로 알파에 약 **1,100장**만 존재합니다.
+
+---
+
+## 🇯🇵 日本語
+
+### マジック：ザ・ギャザリングの世界観
+
+1993年にRichard Garfieldが創作し、Wizards of the Coastが発売したマジック：ザ・ギャザリングは**多元宇宙（Multiverse）**を舞台にしています。
+
+### マナシステム
+
+マナはすべての呪文の源となる魔法エネルギーです。ブラック・ロータスはこの基本ルールを破ります。
+
+### なぜブラック・ロータスが特別なのか
+
+- 無料で唱えられる（0マナ）
+- 即座に3マナ生産
+- 3〜4ターン目のプレイを1ターン目に可能にする
+
+### アルファセットの文脈
+
+アルファは最初のMTGセットで約260万枚のみ印刷されました。ブラック・ロータスはレアだったため、アルファには約**1,100枚**しか存在しません。

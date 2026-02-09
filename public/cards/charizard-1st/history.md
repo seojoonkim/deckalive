@@ -1,39 +1,121 @@
-# 1판 리자몽의 역사
+# 1st Edition Charizard History / 1판 리자몽 역사 / 初版リザードン 歴史
 
-## 탄생 비화 (1996-1999)
+---
 
-### 일본에서의 시작
-리자몽은 1996년 일본 포켓몬 TCG 첫 세트에서 등장했습니다. 게임에서의 인기를 반영해 카드에서도 강력한 스펙을 가졌고, 홀로그램 처리된 일러스트는 아이들의 눈을 사로잡았습니다.
+## 🇺🇸 English
 
-### 미국 상륙 (1999)
-1999년 1월, Wizards of the Coast가 포켓몬 TCG를 미국에 출시했습니다. Base Set의 1st Edition 인쇄본이 가장 먼저 나왔고, 리자몽은 그 중 가장 탐나는 카드였습니다.
+### 1996: Japanese Origin
 
-### "Shadowless" 버전
-초기 인쇄본은 카드 오른쪽에 그림자 효과가 없는 "Shadowless" 버전입니다. 이후 대량 인쇄된 Unlimited 버전에는 그림자가 추가되었고, 이 차이가 수집 가치에 큰 영향을 미칩니다.
+Pokémon TCG first launched in Japan in October 1996. The original Charizard was part of the first expansion set.
 
-## 유명해진 계기
+### 1999: American Explosion
 
-### 90년대 스쿨 야드 레전드
-1999년 미국 초등학교에서 리자몽 카드는 **절대적인 위상**을 가졌습니다. 아이들은 리자몽 한 장을 위해 수십 장의 다른 카드를 트레이드했고, 리자몽을 가진 아이는 인기 스타였습니다.
+Wizards of the Coast brought Pokémon TCG to North America:
 
-### 포켓몬 카드 절도 사건
-리자몽의 가치 때문에 학교에서 카드 도난 사건이 빈발했고, 많은 학교에서 포켓몬 카드를 금지했습니다. 이는 역설적으로 카드의 희소성과 신화적 지위를 높였습니다.
+**January 9, 1999** - Base Set 1st Edition released
+- Limited print run
+- Immediate sellout
+- Charizard becomes THE card to have
 
-### 코로나 시대 부활 (2020)
-2020년 팬데믹 시기, 집에 갇힌 사람들이 어린 시절 향수에 빠지면서 포켓몬 카드 붐이 일어났습니다. 리자몽 가격은 수직 상승했고, 미디어에서 대서특필되었습니다.
+### The Schoolyard Economy
 
-## 문화적 영향
+Every 90s kid remembers:
+- Trading in cafeterias
+- Showing off holographic cards
+- The kid who had Charizard was royalty
+- Rumors of "$50 Charizards" (actually true!)
 
-### 셀럽 컬렉터
-- **Logic**: 래퍼, $220,000에 PSA 10 구매
-- **Gary Vaynerchuk**: 기업인, 적극적 수집가
-- **Logan Paul**: 유튜버, 포켓몬 카드 언박싱으로 유명
+### 2000s: The Dark Ages
 
-### 대체 투자 자산
-리자몽은 "대체 투자 자산"으로서 트레이딩 카드의 가능성을 보여주었습니다. 부분 소유권 플랫폼, 카드 투자 펀드 등 새로운 금융 상품이 등장했습니다.
+Interest faded:
+- Kids grew up
+- New Pokémon sets diluted market
+- Cards sat in closets
+- PSA 10 Charizards sold for $1,000-2,000
 
-### 세대의 상징
-1st Edition 리자몽은 **밀레니얼 세대의 문화적 아이콘**이 되었습니다. 어린 시절의 꿈을 이룬다는 상징적 의미로, 성공한 후 리자몽을 구매하는 사람들이 많습니다.
+### 2016: The Awakening
 
-## 현재 상태
-PSA 10 등급 1st Edition Shadowless 리자몽은 약 120장이 존재합니다. 가격은 2021년 고점에서 하락했으나 여전히 $200,000 이상이며, 포켓몬 카드 시장의 바로미터로 여겨집니다.
+Pokémon GO launched → nostalgia wave:
+- Adults rediscovered collections
+- Grading submissions increased
+- Prices started climbing
+
+### 2020-2021: The Boom
+
+COVID-19 + stimulus checks + Logan Paul = explosion:
+- Logan Paul livestreamed $200K+ openings
+- Celebrity purchases made headlines
+- PSA 10 hit $400,000+
+- Cultural phenomenon status
+
+### 2022-Present: Stabilization
+
+Market correction:
+- Prices dropped from peaks
+- Still 10x higher than pre-2020
+- Charizard remains king
+
+---
+
+## 🇰🇷 한국어
+
+### 1996: 일본 기원
+
+포켓몬 TCG는 1996년 10월 일본에서 처음 출시되었습니다. 오리지널 리자몽은 첫 확장팩의 일부였습니다.
+
+### 1999: 미국 폭발
+
+Wizards of the Coast가 포켓몬 TCG를 북미에 가져왔습니다:
+
+**1999년 1월 9일** - 베이스 세트 1판 출시
+- 제한된 인쇄량
+- 즉시 품절
+- 리자몽이 가져야 할 카드가 됨
+
+### 학교 운동장 경제
+
+90년대 아이들 모두 기억합니다:
+- 구내식당에서 트레이드
+- 홀로그램 카드 자랑
+- 리자몽 있는 아이가 왕
+- "$50 리자몽" 소문 (실제로 사실!)
+
+### 2020-2021: 폭등
+
+COVID-19 + 지원금 + Logan Paul = 폭발:
+- Logan Paul이 $200K+ 개봉 라이브스트림
+- 셀럽 구매가 헤드라인
+- PSA 10이 $400,000+ 도달
+- 문화 현상 지위
+
+---
+
+## 🇯🇵 日本語
+
+### 1996年: 日本の起源
+
+ポケモンTCGは1996年10月に日本で初めて発売されました。オリジナルのリザードンは最初の拡張パックの一部でした。
+
+### 1999年: アメリカでの爆発
+
+Wizards of the CoastがポケモンTCGを北米に持ち込みました：
+
+**1999年1月9日** - ベースセット初版発売
+- 限定印刷
+- 即座に完売
+- リザードンが持つべきカードに
+
+### 学校の経済
+
+90年代の子供たちは皆覚えています：
+- カフェテリアでのトレード
+- ホログラフィックカードの自慢
+- リザードンを持つ子が王様
+- 「$50リザードン」の噂（実際に本当！）
+
+### 2020-2021年: ブーム
+
+COVID-19 + 給付金 + Logan Paul = 爆発:
+- Logan Paulが$200K+開封をライブストリーム
+- セレブ購入がヘッドラインに
+- PSA 10が$400,000+に到達

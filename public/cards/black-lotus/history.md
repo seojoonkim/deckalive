@@ -1,39 +1,103 @@
-# 블랙 로터스의 역사
+# Black Lotus History / 블랙 로터스 역사 / ブラック・ロータス 歴史
 
-## 탄생 비화 (1993)
+---
 
-### Richard Garfield의 창조
-블랙 로터스는 MTG 창시자 **Richard Garfield** 박사가 직접 디자인한 카드입니다. 당시 Garfield는 펜실베이니아 대학의 수학 박사 과정 학생이었고, Wizards of the Coast에 자신의 게임 아이디어를 가져왔습니다.
+## 🇺🇸 English
 
-### 디자인 의도
-Garfield는 블랙 로터스를 "일회성 강력한 부스트"로 설계했습니다. 희생해야 하므로 한 번만 사용할 수 있다는 점에서 밸런스가 맞을 것이라고 생각했습니다. 그러나 그는 **카드 게임이 경쟁적으로 플레이될 것**이라는 점을 과소평가했습니다.
+### 1993: Birth of a Legend
 
-### Christopher Rush의 아트워크
-카드 일러스트는 **Christopher Rush**가 그렸습니다. 그는 MTG 초기 아티스트 중 한 명으로, 블랙 로터스의 신비로운 이미지는 그의 대표작이 되었습니다. Rush는 2016년 세상을 떠났지만, 그의 아트워크는 MTG 역사에 영원히 남았습니다.
+Richard Garfield designed Black Lotus as part of Magic's first set. He knew mana acceleration was powerful but underestimated just how game-breaking free mana would be.
 
-## 유명해진 계기
+### The Original Sin
 
-### 초기 인식 (1993-1995)
-출시 당시, 블랙 로터스의 가치는 겨우 $20~$30 정도였습니다. 그러나 플레이어들이 카드의 압도적인 강력함을 깨닫기 시작했고, 가격은 빠르게 상승했습니다.
+**Why did they print it?**
+- MTG was a new concept
+- No playtesting at scale
+- "It's just one card"
+- Didn't realize games would center on it
 
-### 토너먼트 지배 (1994-1996)
-Pro Tour와 같은 경쟁 환경에서 블랙 로터스를 가진 덱은 압도적인 성능을 보였습니다. 결국 WotC는 1994년 최초의 **제한/금지 리스트**를 도입했고, 블랙 로터스는 즉시 포함되었습니다.
+### 1994: First Restriction
 
-### Reserve List 영구 보존 (1996)
-1996년, Wizards of the Coast는 컬렉터 가치 보호를 위해 **Reserve List**를 발표했습니다. 블랙 로터스는 이 리스트에 포함되어 영구히 재인쇄가 금지되었습니다. 이 결정은 오늘날까지 논쟁의 대상이지만, 카드의 가치를 천문학적으로 끌어올린 주요 원인입니다.
+Within a year, Black Lotus was **restricted** to one copy per deck in Type I (Vintage). It was the first card to receive this treatment.
 
-## 문화적 영향
+### 1996: Reserve List
 
-### "블랙 로터스"라는 이름
-"블랙 로터스"는 이제 MTG를 넘어 **고가 수집품의 대명사**가 되었습니다. 다른 TCG에서도 "우리 게임의 블랙 로터스"라는 표현이 사용되곤 합니다.
+When players complained about reprints devaluing their collections, Wizards created the **Reserve List**—cards that would never be printed again. Black Lotus was obviously included.
 
-### 미디어와 대중문화
-- 여러 다큐멘터리에서 다뤄짐
-- 뮤직비디오, 영화에서 고가 아이템으로 등장
-- "가짜 블랙 로터스" 스캠 사건들이 뉴스에 보도
+### 2000s: Value Explosion
 
-### 대체 투자 자산으로서의 인정
-블랙 로터스는 트레이딩 카드가 **진정한 대체 투자 자산**이 될 수 있음을 증명했습니다. 헤지펀드와 자산운용사들이 고가 MTG 카드에 투자하기 시작했습니다.
+As the collector market grew:
+- 2005: $3,000-5,000
+- 2010: $10,000-15,000
+- 2015: $25,000-40,000
 
-## 현재 상태
-Alpha 버전 블랙 로터스 중 PSA 10 등급은 전 세계에 단 수 장만 존재하는 것으로 알려져 있습니다. 대부분의 고급 매물은 개인 거래나 프리미엄 경매사를 통해 거래되며, 일반 시장에서 찾기 매우 어렵습니다.
+### 2020s: Six Figures
+
+The pandemic trading card boom pushed Black Lotus into unprecedented territory:
+- 2021: $540,000 for PSA 10 Alpha
+- Now consistently trades in six figures
+
+### Cultural Impact
+
+Black Lotus transcends MTG. It's become:
+- A symbol of trading card value
+- Referenced in tech/startup culture ("the Black Lotus of X")
+- A mainstream collectible
+
+---
+
+## 🇰🇷 한국어
+
+### 1993: 전설의 탄생
+
+Richard Garfield는 매직의 첫 세트에 블랙 로터스를 디자인했습니다. 마나 가속이 강력하다는 건 알았지만, 무료 마나가 얼마나 게임을 깨뜨릴지 과소평가했습니다.
+
+### 왜 인쇄했는가?
+
+- MTG는 새로운 개념이었음
+- 대규모 테스트 없었음
+- "카드 한 장일 뿐"
+- 게임이 이 카드 중심으로 돌아갈 줄 몰랐음
+
+### 1994: 첫 제한
+
+1년 만에 Type I (빈티지)에서 덱당 1장으로 **제한**되었습니다.
+
+### 1996: Reserve List
+
+재인쇄가 컬렉션 가치를 떨어뜨린다는 불만에 Wizards는 **Reserve List**를 만들었습니다—다시는 인쇄되지 않을 카드 목록. 블랙 로터스는 당연히 포함.
+
+### 2020년대: 6자릿수
+
+팬데믹 트레이딩 카드 붐으로 블랙 로터스는 전례 없는 영역에 진입:
+- 2021: PSA 10 알파가 $540,000
+- 현재 6자릿수에서 거래
+
+---
+
+## 🇯🇵 日本語
+
+### 1993年: 伝説の誕生
+
+Richard Garfieldはマジックの最初のセットにブラック・ロータスをデザインしました。マナ加速が強力なことは知っていましたが、無料マナがどれほどゲームを壊すかを過小評価しました。
+
+### なぜ印刷したのか？
+
+- MTGは新しいコンセプトだった
+- 大規模なテストがなかった
+- 「たった1枚のカード」
+- ゲームがこのカード中心になるとは思わなかった
+
+### 1994年: 最初の制限
+
+1年以内にType I（ヴィンテージ）でデッキ1枚に**制限**されました。
+
+### 1996年: Reserve List
+
+再版がコレクションの価値を下げるという苦情に対し、Wizardsは**Reserve List**を作成—二度と印刷されないカードのリスト。ブラック・ロータスは当然含まれました。
+
+### 2020年代: 6桁
+
+パンデミックのトレーディングカードブームでブラック・ロータスは前例のない領域に:
+- 2021年: PSA 10アルファが$540,000
+- 現在6桁で取引

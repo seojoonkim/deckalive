@@ -1,42 +1,113 @@
-# 샤이니 리자몽 VMAX 카드 정보
+# Shiny Charizard VMAX Character / 샤이니 리자몽 VMAX 캐릭터 / シャイニーリザードンVMAX キャラクター
 
-## 카드 스펙
-- **카드명**: Charizard VMAX (Shiny)
-- **카드 번호**: SV107 (Shiny Vault)
-- **타입**: 불꽃 / VMAX
-- **HP**: 330
-- **약점**: 물 ×2
-- **저항**: 없음
-- **후퇴 비용**: ⭐⭐⭐
+---
 
-## 기술
-### G-Max Wildfire (기가맥스 와일드파이어)
-- **데미지**: 300
-- **비용**: 🔥🔥🔥🔥🔥
-- **효과**: 상대의 벤치 포켓몬에게 원하는 만큼 데미지를 나누어 줄 수 있습니다.
+## 🇺🇸 English
 
-## 샤이니 버전의 특징
-- **색상**: 일반 리자몽의 오렌지 → 검은색/회색
-- **불꽃**: 날개에서 나오는 불꽃도 보라/파란빛
-- **홀로 패턴**: 레인보우 샤이닝 패턴
-- **텍스처**: 풀아트 특수 질감
+### Card Details
 
-## Pull Rate (등장 확률)
-- **일반 Champion's Path 팩**: 약 1/450팩
-- **ETB (Elite Trainer Box)**: 약 1/40박스
-- **가격 상승 요인**: 극도로 낮은 확률 + 리자몽 인기
+| Attribute | Value |
+|-----------|-------|
+| Card Name | Charizard VMAX |
+| HP | 330 |
+| Type | Fire |
+| Set | Champion's Path (Shiny Vault) |
+| Card Number | SV107 |
+| Rarity | Shiny Secret Rare |
+| Artist | 5ban Graphics |
 
-## 등급 가이드
-- **PSA 10 Gem Mint**: 최상위, 수십만 달러
-- **BGS 10 Black Label**: PSA 10보다 엄격, 최고가
-- **CGC 10 Perfect**: 비교적 새로운 그레이딩 서비스
-- **센터링**: 이 카드는 센터링 불량이 많아 고등급 희귀
+### Card Text
 
-## vs 1st Edition 리자몽
-| 항목 | 1st Ed 리자몽 | 샤이니 VMAX |
-|------|-------------|-------------|
-| 출시년도 | 1999 | 2020 |
-| 희소성 | 매우 높음 | 높음 |
-| 최고가 | $420,000 | $500,000 |
-| 역사적 가치 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
-| 시각적 임팩트 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+**G-Max Wildfire** (3 Fire + 1 Colorless) - 300 damage
+Discard 2 Energy from this Pokémon.
+
+### VMAX Mechanic
+
+- Evolves from Charizard V
+- 330 HP = highest possible at time
+- 300 damage = one-shots most Pokémon
+- Gives up 3 prizes when knocked out
+
+### The Shiny Design
+
+The Shiny Charizard VMAX features:
+- Black/charcoal body instead of orange
+- Red wing membranes
+- Golden background gradient
+- Full art extending to edges
+
+### Grading Population
+
+| Grade | Population | Value (2024) |
+|-------|------------|--------------|
+| BGS 10 Black Label | ~5 | $300,000+ |
+| PSA 10 | ~3,000 | $1,000-1,500 |
+| PSA 9 | ~5,000 | $200-400 |
+| Raw | — | $150-250 |
+
+---
+
+## 🇰🇷 한국어
+
+### 카드 상세
+
+| 속성 | 값 |
+|------|-----|
+| 카드명 | 리자몽 VMAX |
+| HP | 330 |
+| 타입 | 불꽃 |
+| 세트 | Champion's Path (샤이니 볼트) |
+| 카드 번호 | SV107 |
+| 희귀도 | 샤이니 시크릿 레어 |
+| 아티스트 | 5ban Graphics |
+
+### 카드 텍스트
+
+**G-Max 와일드파이어** (불꽃 3 + 무색 1) - 300 데미지
+이 포켓몬에서 에너지 2개를 버린다.
+
+### VMAX 메커니즘
+
+- 리자몽 V에서 진화
+- 330 HP = 당시 최고
+- 300 데미지 = 대부분의 포켓몬 원킬
+- 기절 시 프라이즈 3장 제공
+
+### 샤이니 디자인
+
+샤이니 리자몽 VMAX의 특징:
+- 주황색 대신 검은/숯빛 몸
+- 빨간 날개막
+- 황금색 배경 그라데이션
+- 가장자리까지 확장된 풀아트
+
+---
+
+## 🇯🇵 日本語
+
+### カード詳細
+
+| 属性 | 値 |
+|------|-----|
+| カード名 | リザードンVMAX |
+| HP | 330 |
+| タイプ | 炎 |
+| セット | チャンピオンズパス（シャイニーボルト）|
+| カード番号 | SV107 |
+| レアリティ | シャイニーシークレットレア |
+| アーティスト | 5ban Graphics |
+
+### VMAXメカニズム
+
+- リザードンVから進化
+- 330 HP = 当時最高
+- 300ダメージ = ほとんどのポケモンをワンキル
+- きぜつ時サイド3枚提供
+
+### 色違いデザイン
+
+色違いリザードンVMAXの特徴：
+- オレンジではなく黒/炭色のボディ
+- 赤い翼膜
+- 金色の背景グラデーション
+- 端まで広がるフルアート

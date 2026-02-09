@@ -1,25 +1,94 @@
-# 유희왕 세계관
+# Dark Magician World / 블랙 매지션 세계관 / ブラック・マジシャン の世界
 
-## 개요
-**유희왕(遊☆戯☆王, Yu-Gi-Oh!)**은 1996년 카즈키 타카하시가 주간 소년 점프에 연재한 만화입니다. "듀얼 몬스터즈"라는 카드 게임을 중심으로 한 스토리가 큰 인기를 얻어 실제 TCG, 애니메이션, 게임 등으로 확장되었습니다.
+---
 
-## 스토리 배경
-### 밀레니엄 아이템
-고대 이집트에서 유래한 7개의 신비로운 아이템. 주인공 무토 유희는 "밀레니엄 퍼즐"을 완성하여 3,000년 전 파라오의 영혼과 융합합니다.
+## 🇺🇸 English
 
-### 듀얼 몬스터즈
-작중에서 플레이되는 카드 게임. 몬스터, 마법, 함정 카드를 사용해 상대의 라이프 포인트를 0으로 만들면 승리합니다.
+### Yu-Gi-Oh! Universe
 
-### 어둠의 게임
-패배하면 영혼을 잃는 위험한 듀얼. 밀레니엄 아이템의 힘으로 발동되며, 스토리의 핵심 긴장감을 제공합니다.
+In Yu-Gi-Oh!, Duel Monsters cards contain real spirits. The Dark Magician is one of the most powerful, bound to Yugi Muto through ancient Egyptian magic.
 
-## 실제 TCG
-1999년 코나미가 일본에서 "유희왕 오피셜 카드 게임(OCG)"을 출시. 2002년 어퍼덱이 북미에서 "Yu-Gi-Oh! Trading Card Game (TCG)"을 출시했습니다.
+### The Ancient Egyptian Connection
 
-### 카드 종류
-- **몬스터 카드**: 공격/수비 담당
-- **마법 카드**: 다양한 효과 제공
-- **함정 카드**: 상대 턴에 발동하는 카드
+**Mahad the Priest**
+- Served Pharaoh Atem 3,000 years ago
+- Sacrificed himself to become the Dark Magician
+- His loyalty transcends death itself
+- Still protects the Pharaoh's soul (Yugi)
 
-## 블랙 매지션의 위치
-블랙 매지션(암흑 마술사)은 주인공 무토 유희의 **에이스 몬스터**입니다. 그의 전생인 파라오 아템과도 깊은 인연이 있으며, 작중에서 수많은 결정적 순간에 등장합니다.
+### Yugi vs. Kaiba Rivalry
+
+| Duelist | Ace Monster | Philosophy |
+|---------|-------------|------------|
+| Yugi Muto | Dark Magician | Heart of the cards |
+| Seto Kaiba | Blue-Eyes | Power through technology |
+
+Their rivalry defines Yu-Gi-Oh!:
+- Magic vs. Power
+- Heart vs. Mind
+- Dark Magician vs. Blue-Eyes
+
+### The Dark Magician Family
+
+| Card | Relation |
+|------|----------|
+| Dark Magician | The master |
+| Dark Magician Girl | Apprentice (Mana) |
+| Magician of Black Chaos | Evolution |
+| Dark Paladin | Fusion with Buster Blader |
+
+---
+
+## 🇰🇷 한국어
+
+### 유희왕 세계관
+
+유희왕에서 듀얼 몬스터즈 카드는 실제 영혼을 담고 있습니다. 블랙 매지션은 가장 강력한 존재 중 하나로, 고대 이집트 마법을 통해 무토 유희와 연결되어 있습니다.
+
+### 고대 이집트 연결
+
+**신관 마하드**
+- 3,000년 전 파라오 아템을 섬김
+- 자신을 희생하여 블랙 매지션이 됨
+- 그의 충성은 죽음을 초월함
+- 여전히 파라오의 영혼(유희)을 보호
+
+### 유희 vs. 카이바 라이벌
+
+| 듀얼리스트 | 에이스 몬스터 | 철학 |
+|-----------|-------------|------|
+| 무토 유희 | 블랙 매지션 | 카드의 마음 |
+| 카이바 세토 | 푸른 눈의 백룡 | 기술을 통한 힘 |
+
+이들의 라이벌 관계가 유희왕을 정의:
+- 마법 vs. 힘
+- 마음 vs. 정신
+- 블랙 매지션 vs. 푸른 눈의 백룡
+
+---
+
+## 🇯🇵 日本語
+
+### 遊戯王の世界観
+
+遊戯王では、デュエルモンスターズカードは実際の精霊を宿しています。ブラック・マジシャンは最も強力な存在の一つで、古代エジプトの魔法を通じて武藤遊戯と繋がっています。
+
+### 古代エジプトの繋がり
+
+**神官マハード**
+- 3,000年前にファラオ・アテムに仕えた
+- 自らを犠牲にしてブラック・マジシャンになった
+- 彼の忠誠は死を超越する
+- 今もファラオの魂（遊戯）を守護
+
+### 遊戯 vs. 海馬 ライバル
+
+| デュエリスト | エースモンスター | 哲学 |
+|-------------|-----------------|------|
+| 武藤遊戯 | ブラック・マジシャン | カードの心 |
+| 海馬瀬人 | 青眼の白龍 | 技術による力 |
+
+彼らのライバル関係が遊戯王を定義：
+- 魔法 vs. 力
+- 心 vs. 頭脳
+- ブラック・マジシャン vs. 青眼の白龍

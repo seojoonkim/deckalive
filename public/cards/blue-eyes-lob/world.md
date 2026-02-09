@@ -1,24 +1,104 @@
-# 유희왕 세계관 - 드래곤의 전설
+# Blue-Eyes White Dragon World / 푸른 눈의 백룡 세계관 / 青眼の白龍 の世界
 
-## 유희왕 개요
-유희왕(遊☆戯☆王)은 1996년 카즈키 타카하시가 창작한 만화이자, 세계적인 TCG 프랜차이즈입니다. "듀얼 몬스터즈" 카드 게임을 중심으로 한 스토리가 전개됩니다.
+---
 
-## 드래곤의 위상
-유희왕에서 드래곤은 가장 강력하고 상징적인 몬스터 종류입니다. 특히 "푸른 눈의 백룡"은 드래곤 카드의 정점에 있습니다.
+## 🇺🇸 English
 
-## 카이바 세토와 백룡
-### 카이바 세토
-유희왕의 라이벌 캐릭터. 카이바 코퍼레이션의 젊은 CEO이자 천재 듀얼리스트. "푸른 눈의 백룡"에 집착하며, 세상에 4장 존재하던 이 카드 중 3장을 손에 넣었습니다.
+### Yu-Gi-Oh! Universe
 
-### "백룡은 내 혼이다"
-카이바는 작중에서 "블루 아이즈 화이트 드래곤은 나의 혼"이라고 선언합니다. 이 카드에 대한 그의 집착은 스토리의 핵심 요소입니다.
+Yu-Gi-Oh! takes place in a world where ancient Egyptian magic, card games, and modern life intersect. **Duel Monsters** is the most popular game, where holographic technology brings cards to life.
 
-## LOB 세트
-**Legend of Blue Eyes White Dragon (LOB)**는 2002년 북미에서 출시된 최초의 유희왕 세트입니다. 이름에서 알 수 있듯이 푸른 눈의 백룡이 메인 카드입니다.
+### The Blue-Eyes Legacy
 
-## TCG 게임플레이
-유희왕 TCG에서 플레이어는:
-- 8000 라이프 포인트로 시작
-- 몬스터, 마법, 함정 카드 사용
-- 상대 라이프를 0으로 만들면 승리
-푸른 눈의 백룡(ATK 3000)은 가장 높은 공격력의 바닐라 몬스터입니다.
+The Blue-Eyes White Dragon is one of four in existence:
+- Seto Kaiba owns three
+- One was torn by Kaiba (belonging to Sugoroku Muto)
+- Represents ultimate power and rarity
+
+### Kaiba Corporation
+
+Seto Kaiba's company revolutionized dueling:
+- Holographic duel arenas
+- Duel Disks for portable battles
+- Kaiba Land theme parks
+- All centered around Blue-Eyes
+
+### Monster Levels
+
+| Level | Stars | Examples |
+|-------|-------|----------|
+| 1-4 | ⭐-⭐⭐⭐⭐ | Normal Summon |
+| 5-6 | ⭐⭐⭐⭐⭐-⭐⭐⭐⭐⭐⭐ | 1 Tribute |
+| 7-8 | ⭐⭐⭐⭐⭐⭐⭐-⭐⭐⭐⭐⭐⭐⭐⭐ | 2 Tributes |
+
+Blue-Eyes = Level 8, requires 2 tributes.
+
+### Attack Power Hierarchy (1999)
+
+| Card | ATK |
+|------|-----|
+| **Blue-Eyes** | 3000 |
+| Summoned Skull | 2500 |
+| Dark Magician | 2500 |
+
+Blue-Eyes was THE strongest normal monster.
+
+---
+
+## 🇰🇷 한국어
+
+### 유희왕 세계관
+
+유희왕은 고대 이집트 마법, 카드 게임, 현대 생활이 교차하는 세계를 배경으로 합니다. **듀얼 몬스터즈**가 가장 인기 있는 게임으로, 홀로그램 기술이 카드를 생생하게 만듭니다.
+
+### 푸른 눈의 백룡 전설
+
+푸른 눈의 백룡은 세상에 4장만 존재:
+- 카이바 세토가 3장 보유
+- 1장은 카이바가 찢음 (무토 스고로쿠 소유)
+- 궁극의 파워와 희귀성을 상징
+
+### 카이바 코퍼레이션
+
+카이바 세토의 회사가 듀얼을 혁신:
+- 홀로그램 듀얼 아레나
+- 휴대용 배틀을 위한 듀얼 디스크
+- 카이바랜드 테마파크
+- 모두 푸른 눈의 백룡 중심
+
+### 공격력 계층 (1999)
+
+| 카드 | 공격력 |
+|------|--------|
+| **푸른 눈의 백룡** | 3000 |
+| 데몬 소환 | 2500 |
+| 블랙 매지션 | 2500 |
+
+푸른 눈의 백룡이 최강 일반 몬스터였습니다.
+
+---
+
+## 🇯🇵 日本語
+
+### 遊戯王の世界観
+
+遊戯王は古代エジプトの魔法、カードゲーム、現代生活が交差する世界を舞台にしています。**デュエルモンスターズ**が最も人気のあるゲームで、ホログラム技術がカードを生き生きとさせます。
+
+### 青眼の白龍の伝説
+
+青眼の白龍は世界に4枚のみ存在:
+- 海馬瀬人が3枚所有
+- 1枚は海馬が破った（武藤双六所有）
+- 究極のパワーと希少性を象徴
+
+### 海馬コーポレーション
+
+海馬瀬人の会社がデュエルを革新:
+- ホログラムデュエルアリーナ
+- ポータブルバトル用デュエルディスク
+- 海馬ランドテーマパーク
+- すべて青眼の白龍中心
+
+### 攻撃力ヒエラルキー（1999）
+
+青眼の白龍が最強の通常モンスターでした。

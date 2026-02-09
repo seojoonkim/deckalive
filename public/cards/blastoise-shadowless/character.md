@@ -1,86 +1,30 @@
-# Blastoise Character / 거북왕 캐릭터 / カメックス キャラクター
+# 거북왕 (Blastoise)
 
----
+## 기본 정보
 
-## 🇺🇸 English
-
-### Basic Info
-
-| Stat | Value |
-|------|-------|
-| Pokédex | #009 |
-| Type | Water |
-| Height | 1.6m |
-| Weight | 85.5kg |
-| Ability | Torrent / Rain Dish (Hidden) |
-
-### Evolution Line
-
-```
-Squirtle (Lv.16) → Wartortle (Lv.36) → Blastoise
-                                       ├→ Mega Blastoise
-                                       └→ Gigantamax Blastoise
-```
-
-### Base Stats
-- HP: 79
-- Attack: 83
-- Defense: 100
-- Sp. Atk: 85
-- Sp. Def: 105
-- Speed: 78
-- **Total: 530**
-
-### Signature Moves
-- **Hydro Pump**: 110 power, water cannon blast
-- **Hydro Cannon**: 150 power, ultimate water attack
-- **Shell Smash**: Sacrifices defense for offense
-
----
-
-## 🇰🇷 한국어
-
-### 기본 정보
-
-| 항목 | 내용 |
+| 항목 | 정보 |
 |------|------|
-| 도감 번호 | #009 |
-| 타입 | 물 |
-| 높이 | 1.6m |
-| 무게 | 85.5kg |
-| 특성 | 급류 / 젖은접시(숨겨진 특성) |
+| **도감 번호** | #009 |
+| **타입** | 💧 물 |
+| **분류** | 껍질 포켓몬 |
+| **키/몸무게** | 1.6m / 85.5kg |
 
-### 진화 계통
-
-```
-꼬부기 (Lv.16) → 어니부기 (Lv.36) → 거북왕
-                                    ├→ 메가거북왕
-                                    └→ 거다이맥스 거북왕
-```
-
-### 종족값
-- HP: 79, 공격: 83, 방어: 100
-- 특수공격: 85, 특수방어: 105, 스피드: 78
-- **총합: 530**
-
----
-
-## 🇯🇵 日本語
-
-### 基本情報
-
-| 項目 | 内容 |
-|------|------|
-| 図鑑番号 | #009 |
-| タイプ | みず |
-| 高さ | 1.6m |
-| 重さ | 85.5kg |
-| 特性 | げきりゅう / あめうけざら(隠れ特性) |
-
-### 進化系統
+## 진화 계통
 
 ```
-ゼニガメ (Lv.16) → カメール (Lv.36) → カメックス
-                                      ├→ メガカメックス
-                                      └→ キョダイマックスカメックス
+꼬부기 → [Lv.16] → 어니부기 → [Lv.36] → 거북왕
+                                    ↓
+                              메가거북왕
 ```
+
+## TCG에서의 역할
+
+### Rain Dance 능력
+- 물 에너지를 물 타입 포켓몬에게 무제한 부착
+- 초기 메타의 최강 덱 아키타입
+- Hydro Pump와 시너지
+
+### 리자몽과의 비교
+- 리자몽: 화력, 인기
+- 거북왕: 실용성, 전략
+- 가격: 리자몽의 약 50%

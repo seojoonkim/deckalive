@@ -1,33 +1,116 @@
-# 1판 리자몽 카드 정보
+# 1st Edition Charizard Character / 1판 리자몽 캐릭터 / 初版リザードン キャラクター
 
-## 카드 스펙
-- **카드명**: Charizard (리자몽)
-- **카드 번호**: 4/102
-- **타입**: 불꽃/Stage 2
-- **HP**: 120
-- **약점**: 물 ×2
-- **저항**: 격투 -30
-- **후퇴 비용**: ⭐⭐⭐
+---
 
-## 기술
-### Energy Burn (포켓몬 파워)
-원할 때마다 리자몽에 붙은 모든 에너지 카드를 불꽃 에너지로 취급할 수 있습니다.
+## 🇺🇸 English
 
-### Fire Spin (불꽃 회오리)
-- **데미지**: 100
-- **비용**: 🔥🔥🔥🔥
-- **효과**: 리자몽에 붙은 에너지 카드 2장을 버려야 합니다.
+### Card Details
 
-## 1st Edition vs 일반판
-- **1st Edition 마크**: 카드 왼쪽 중앙에 "Edition 1" 스탬프
-- **Shadowless**: 오른쪽 테두리에 그림자 효과 없음 (초기 인쇄)
-- **Unlimited**: 일반 대량 인쇄본
+| Attribute | Value |
+|-----------|-------|
+| Card Name | Charizard |
+| HP | 120 |
+| Type | Fire |
+| Set | Base Set 1st Edition |
+| Card Number | 4/102 |
+| Rarity | Holo Rare |
+| Artist | Mitsuhiro Arita |
 
-## 아티스트
-**Mitsuhiro Arita** - 포켓몬 카드 역사상 가장 많은 카드를 그린 아티스트. 리자몽 원화는 그의 대표작.
+### Card Text
 
-## 등급 가이드
-- **PSA 10 Gem Mint**: 완벽한 상태, 가장 높은 가치
-- **PSA 9 Mint**: 미세한 결함, 여전히 고가
-- **PSA 8 이하**: 중심 불량, 흠집 등으로 가치 하락
-- **BGS Black Label**: PSA 10보다 더 엄격한 최상위 등급
+**Energy Burn** (Pokémon Power)
+As often as you like during your turn, you may turn all Energy attached to Charizard into Fire Energy.
+
+**Fire Spin** (4 Fire Energy) - 100 damage
+Discard 2 Energy cards attached to Charizard.
+
+### The Iconic Design
+
+Mitsuhiro Arita's artwork captured Charizard's fierce spirit:
+- Dynamic pose
+- Flames from tail and mouth
+- Menacing eyes
+- Perfect for the holographic treatment
+
+### Identifying 1st Edition
+
+Look for:
+1. **1st Edition stamp** (black on left side)
+2. **No shadow** behind the artwork box
+3. Copyright reads "99" not "98-99"
+
+### Grading
+
+| Grade | Population | Value |
+|-------|------------|-------|
+| PSA 10 | ~120 | $300,000-400,000 |
+| PSA 9 | ~2,000 | $20,000-30,000 |
+| PSA 8 | ~4,000 | $5,000-8,000 |
+
+---
+
+## 🇰🇷 한국어
+
+### 카드 상세
+
+| 속성 | 값 |
+|------|-----|
+| 카드명 | 리자몽 |
+| HP | 120 |
+| 타입 | 불꽃 |
+| 세트 | 베이스 세트 1판 |
+| 카드 번호 | 4/102 |
+| 희귀도 | 홀로 레어 |
+| 아티스트 | 아리타 미츠히로 |
+
+### 카드 텍스트
+
+**에너지 번** (포켓몬 파워)
+턴 중 원하는 만큼, 리자몽에 붙은 모든 에너지를 불꽃 에너지로 변환할 수 있습니다.
+
+**파이어 스핀** (불꽃 4) - 100 데미지
+리자몽에 붙은 에너지 카드 2장을 버립니다.
+
+### 1판 식별
+
+확인할 점:
+1. **1st Edition 스탬프** (왼쪽에 검은색)
+2. 아트워크 박스 뒤에 **그림자 없음**
+3. 저작권이 "99"로 표기 ("98-99" 아님)
+
+### 그레이딩
+
+| 등급 | 인구 | 가치 |
+|------|------|------|
+| PSA 10 | ~120 | $300,000-400,000 |
+| PSA 9 | ~2,000 | $20,000-30,000 |
+
+---
+
+## 🇯🇵 日本語
+
+### カード詳細
+
+| 属性 | 値 |
+|------|-----|
+| カード名 | リザードン |
+| HP | 120 |
+| タイプ | 炎 |
+| セット | ベースセット初版 |
+| カード番号 | 4/102 |
+| レアリティ | ホロレア |
+| アーティスト | 有田満弘 |
+
+### 初版の見分け方
+
+確認ポイント：
+1. **1st Editionスタンプ**（左側に黒）
+2. アートワークボックスの後ろに**影がない**
+3. 著作権が「99」と表記（「98-99」ではない）
+
+### グレーディング
+
+| グレード | 人口 | 価値 |
+|----------|------|------|
+| PSA 10 | 約120 | $300,000-400,000 |
+| PSA 9 | 約2,000 | $20,000-30,000 |
