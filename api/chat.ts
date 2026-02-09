@@ -1,5 +1,4 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { getRelevantCardContext } from '../src/lib/card-rag';
 
 const anthropic = new Anthropic();
 
@@ -200,7 +199,7 @@ interface Message {
 
 export async function POST(request: Request) {
   try {
-    const { cardId, message, history, language = 'ko' } = await request.json();
+    const { cardId, message, history, language = 'ko', ragContext = '' } = await request.json();
     
     const card = cardData[cardId];
     if (!card) {
@@ -210,10 +209,7 @@ export async function POST(request: Request) {
       });
     }
     
-    // RAG: 사용자 메시지에서 관련 카드 컨텍스트 추출
-    const ragContext = getRelevantCardContext(cardId, message, language);
-    
-    // 시스템 프롬프트 + RAG 컨텍스트 결합
+    // 시스템 프롬프트 + RAG 컨텍스트 결합 (클라이언트에서 전달)
     const systemPrompt = buildSystemPrompt(card) + ragContext;
     
     const messages: Message[] = [

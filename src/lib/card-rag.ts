@@ -131,10 +131,9 @@ export function extractLanguageSection(content: string, language: string): strin
     ja: ['🇯🇵', '日本語', 'Japanese']
   };
   
-  const markers = langMarkers[language] || langMarkers.ko;
+  const markers = langMarkers[language] ?? langMarkers.ko ?? [''];
   const lines = content.split('\n');
   let capturing = false;
-  let depth = 0;
   const result: string[] = [];
   
   for (const line of lines) {
@@ -147,7 +146,6 @@ export function extractLanguageSection(content: string, language: string): strin
       // 현재 언어 섹션인지 확인
       if (markers.some(marker => line.includes(marker))) {
         capturing = true;
-        depth = 2;
         result.push(line);
         continue;
       }

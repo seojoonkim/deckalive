@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
-import type { Card, ChatMessage } from '../types/card';
+import type { Card, ChatMessage, Language } from '../types/card';
 import { useChatStore } from '../stores/chat-store';
 import { useTranslation, useLanguageStore } from '../stores/language-store';
 import ReactMarkdown from 'react-markdown';
-import { getGameColor } from '../data/cards';
+import { getRAGContext } from '../lib/keyword-rag';
 
 interface Props {
   card: Card;
@@ -159,6 +159,13 @@ export default function ChatTab({ card }: Props) {
     setLoading(true);
     
     try {
+      // RAG: 사용자 메시지에서 키워드 감지 → 관련 카드 정보 로드
+      const ragContext = await getRAGContext(
+        card.id,
+        userMessage.content,
+        language as Language
+      );
+      
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -166,7 +173,8 @@ export default function ChatTab({ card }: Props) {
           cardId: card.id,
           message: userMessage.content,
           history: messages.slice(-10),
-          language
+          language,
+          ragContext // RAG 컨텍스트 추가
         })
       });
       
