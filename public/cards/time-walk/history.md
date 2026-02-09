@@ -1,73 +1,198 @@
-# Time Walk History / 타임 워크 역사 / タイムウォークの歴史
+# Time Walk: 시간을 사는 가격
+
+## ⏰ 탄생 배경: "추가 턴이 뭐가 문제야?"
+
+### Richard Garfield의 또 다른 실수
+
+1993년, Garfield는 시간 마법을 디자인했다:
+
+> "추가 턴을 주면 재밌지 않을까? 상대가 한 턴 쉬는 거니까..."
+
+그의 계산:
+- 2마나는 적당한 비용
+- 어차피 한 번 쓰고 끝
+- 그렇게 강하지 않을 거야
+
+**또 틀렸다.**
+
+### 추가 턴의 진짜 가치
+
+Time Walk가 하는 일:
+
+1. **내 턴 한 번 더** = 드로우, 언탭, 공격
+2. **상대 턴 스킵** = 상대 드로우/언탭/공격 박탈
+3. **2마나로 이걸 함** = 게임이 끝남
 
 ---
 
-## 🇺🇸 English
+## 🎨 Amy Weber의 시간 여행
 
-### Design Philosophy (1993)
+### 일러스트
 
-Richard Garfield designed Time Walk as the blue Power 9 member representing **temporal manipulation**:
+**Amy Weber**가 Time Walk를 그렸다:
+- 마법사가 시간 속을 걷는 장면
+- 푸른 빛과 시간의 소용돌이
+- "시간을 거스르는" 신비로운 이미지
 
-> "Blue should be able to control time itself. What's more blue than literally taking extra turns?"
+### 텍스트의 단순함
 
-### The "2 Mana Problem"
+```
+Take an extra turn after this one.
+(이 턴 후에 추가 턴을 가진다.)
+```
 
-Originally, Garfield thought:
-- Cards would be scarce
-- Not everyone would have Time Walk
-- The cost seemed fair for a rare effect
-
-Reality: Competitive players acquired 4 copies and dominated.
-
-### First Restriction (1994)
-
-Time Walk was restricted to 1 copy in Type 1 immediately. It has never been unrestricted.
-
-### Amy Weber's Art
-
-The artwork shows a mysterious figure walking through a swirling timescape. Simple yet iconic—representing the journey through time itself.
-
-### Legacy
-
-Every extra turn spell since is designed with Time Walk in mind:
-- All cost 5+ mana
-- Some have additional costs
-- None match its efficiency
+8개 단어. 하지만 그 8개 단어가 **게임을 파괴했다**.
 
 ---
 
-## 🇰🇷 한국어
+## 📅 발매와 금지
 
-### 디자인 철학 (1993년)
+### Alpha 세트의 일부
 
-리처드 가필드는 타임 워크를 **시간 조작**을 대표하는 청색 Power 9 멤버로 디자인했다:
+Time Walk는 1993년 Alpha와 함께 태어났다:
+- Rare 등급
+- 약 1,100장 인쇄
+- 처음엔 "재밌는 카드" 정도
 
-> "청색은 시간 그 자체를 제어할 수 있어야 합니다. 문자 그대로 추가 턴을 갖는 것보다 더 청색다운 게 뭐가 있겠어요?"
+### 빠른 금지
 
-### "2마나 문제"
+1994년, Wizards는 Time Walk를 **1장 제한**:
+- Vintage에서만 1장 사용 가능
+- 다른 모든 포맷에서 금지
 
-원래 가필드는 생각했다:
-- 카드가 희귀할 것
-- 모두가 타임 워크를 갖지 않을 것
-- 희귀 효과치고 비용이 적절해 보임
-
-현실: 경쟁적 플레이어들이 4장을 구해 지배했다.
+> "2마나에 추가 턴은 정상이 아닙니다."
+> — DCI
 
 ---
 
-## 🇯🇵 日本語
+## 🌟 게임플레이의 전설
 
-### デザイン哲学 (1993年)
+### 왜 이렇게 강한가?
 
-リチャード・ガーフィールドはタイムウォークを**時間操作**を代表する青のパワー9メンバーとしてデザインした：
+MTG에서 "턴"의 가치:
 
-> 「青は時間そのものを制御できるべきです。文字通り追加ターンを得ることより青らしいものがあるでしょうか？」
+| 턴에서 하는 일 | 효과 |
+|---------------|------|
+| 카드 드로우 | +1 자원 |
+| 대지 언탭 | 모든 마나 재생 |
+| 대지 플레이 | +1 마나 |
+| 공격 | 피해 |
+| 주문 사용 | 전부 |
 
-### 「2マナ問題」
+Time Walk = **이 모든 것을 한 번 더**
 
-元々ガーフィールドは考えた：
-- カードは希少になる
-- 全員がタイムウォークを持つわけではない
-- レアな効果にしてはコストが適切に見えた
+### 2마나의 가치
 
-現実：競技プレイヤーが4枚を入手して支配した。
+다른 "추가 턴" 카드들:
+
+| 카드 | 비용 | 연도 |
+|------|------|------|
+| **Time Walk** | 2 | 1993 |
+| Time Warp | 5 | 1997 |
+| Temporal Manipulation | 5 | 1997 |
+| Nexus of Fate | 7 | 2018 |
+
+Time Walk 이후 모든 추가 턴은 **최소 5마나**.
+
+---
+
+## 👤 Power Nine에서의 위치
+
+### 3번째 Blue 카드
+
+Power Nine 중 Blue 카드:
+1. Ancestral Recall (드로우)
+2. **Time Walk** (추가 턴)
+3. Timetwister (리셋)
+
+Time Walk는 "템포"의 극치.
+
+### 가격 순위
+
+| 순위 | 카드 | Alpha BGS 9 |
+|------|------|-------------|
+| 1 | Black Lotus | $150K |
+| 2 | Ancestral Recall | $100K |
+| **3** | **Time Walk** | **$60K** |
+| 4 | Mox Sapphire | $60K |
+
+Ancestral보다 약간 저렴한 이유:
+- Ancestral은 "확정된 이득"
+- Time Walk는 "잠재적 이득"
+
+---
+
+## 🌍 문화적 영향
+
+### "시간 = 돈"이 아니다
+
+MTG에서 증명된 것:
+
+> "시간 = 승리"
+
+Time Walk가 가르쳐준 교훈.
+
+### 밈과 농담
+
+- "Time Walk 쓰면 친구 잃는다"
+- "2마나로 게임 끝내기"
+- "Garfield는 시간의 가치를 몰랐다"
+
+### 후계자들의 노력
+
+Wizards는 적절한 "추가 턴"을 만들려 했다:
+
+| 카드 | 비용 | 문제 |
+|------|------|------|
+| Time Stretch | 10 | 2턴 추가, 너무 비쌈 |
+| Nexus of Fate | 7 | 덱에 섞임, Banned |
+| Alrund's Epiphany | 7 | Foretell로 싸게, Banned |
+
+**적절한 추가 턴은 불가능하다.**
+
+---
+
+## 💰 가격의 역사
+
+### 연도별 추이 (Alpha)
+
+| 연도 | BGS 9 가격 |
+|------|-----------|
+| 2000 | $1,000 |
+| 2010 | $3,000 |
+| 2015 | $8,000 |
+| 2020 | $50,000 |
+| 2021 | $70,000 (최고가) |
+| 2024 | $55,000 |
+
+### Power Nine 중 안정적
+
+Time Walk는:
+- Black Lotus/Ancestral보다 저렴
+- Mox들과 비슷한 가격대
+- 안정적인 수요 유지
+
+---
+
+## 🔮 시간은 계속 흐른다
+
+### 왜 아직도 금지인가?
+
+30년이 지났지만 Time Walk는:
+- Vintage에서도 1장 제한
+- 다른 모든 포맷에서 금지
+- **여전히 너무 강함**
+
+### Richard Garfield의 회고
+
+> "Time Walk가 이렇게 될 줄 몰랐습니다. 하지만 그래서 MTG가 재밌는 거죠. 우리도 예측 못 한 것들이 있어요."
+
+### 마지막 생각
+
+**1993년, 어떤 마법사가 시간을 걸었다.**
+
+2마나를 내고, 한 턴을 더 가졌다.
+
+30년 후, 그 마법은 **7만 달러**가 되었다.
+
+**시간은 정말로 돈이었다.** ⏳
