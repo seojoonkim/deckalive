@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { getGameLabel } from '../data/cards';
 import { useCardStore } from '../stores/card-store';
 import { useTranslation, useLanguageStore } from '../stores/language-store';
@@ -7,8 +8,13 @@ import CardItem from '../components/CardItem';
 
 export default function HomePage() {
   const { t } = useTranslation();
-  const { language } = useLanguageStore();
+  const { language, initFromBrowser } = useLanguageStore();
   const cards = useCardStore((s) => s.cards);
+
+  // 브라우저 언어 자동 감지 (첫 방문 시)
+  useEffect(() => {
+    initFromBrowser();
+  }, [initFromBrowser]);
 
   const getCardName = (card: typeof cards[0]) => {
     switch (language) {

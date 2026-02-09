@@ -2,16 +2,35 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Language } from '../types/card';
 
+// 브라우저 언어 감지
+function detectBrowserLanguage(): Language {
+  if (typeof navigator === 'undefined') return 'ko';
+  const browserLang = navigator.language || (navigator as any).userLanguage || 'ko';
+  const lang = browserLang.toLowerCase().split('-')[0];
+  if (lang === 'ja') return 'ja';
+  if (lang === 'en') return 'en';
+  return 'ko'; // 기본값
+}
+
 interface LanguageState {
   language: Language;
   setLanguage: (lang: Language) => void;
+  initialized: boolean;
+  initFromBrowser: () => void;
 }
 
 export const useLanguageStore = create<LanguageState>()(
   persist(
-    (set) => ({
+    (set, get) => ({
       language: 'ko',
+      initialized: false,
       setLanguage: (lang) => set({ language: lang }),
+      initFromBrowser: () => {
+        // 이미 사용자가 설정한 적 있으면 유지
+        if (!get().initialized) {
+          set({ language: detectBrowserLanguage(), initialized: true });
+        }
+      },
     }),
     {
       name: 'deckalive-language',

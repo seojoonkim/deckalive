@@ -3,7 +3,6 @@ import { useParams, Link } from 'react-router';
 import { getGameLabel, getGameColor, getBorderStyle } from '../data/cards';
 import { useCardStore } from '../stores/card-store';
 import { useTranslation, useLanguageStore } from '../stores/language-store';
-import LanguageToggle from '../components/LanguageToggle';
 import ParticleBackground from '../components/ParticleBackground';
 import ChatTab from '../components/ChatTab';
 import InfoTab from '../components/InfoTab';
@@ -130,7 +129,6 @@ export default function CardPage() {
           
           {/* Right Side */}
           <div className="flex items-center gap-3">
-            <LanguageToggle />
             <span className={`px-3 py-1.5 rounded-lg text-xs font-bold text-white ${getGameColor(card!.game)} shadow-lg`}>
               {getGameLabel(card!.game, language).split(':')[0]?.split(' ')[0] ?? ''}
             </span>
