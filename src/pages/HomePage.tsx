@@ -31,8 +31,8 @@ export default function HomePage() {
             {/* Top Bar */}
             <div className="flex items-center justify-between mb-16">
               {/* Logo */}
-              <div className="flex items-center gap-3">
-                <span className="text-2xl">🃏</span>
+              <div className="flex items-center gap-2.5">
+                <img src="/logo.svg" alt="DeckAlive" className="h-9 w-auto" />
                 <span className="text-lg font-semibold text-white/90 tracking-tight">DeckAlive</span>
               </div>
               
@@ -106,7 +106,10 @@ export default function HomePage() {
         <footer className="py-16 border-t border-white/5">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center">
-              <span className="text-lg font-semibold text-white/60 tracking-tight">DeckAlive</span>
+              <div className="flex items-center justify-center gap-2">
+                <img src="/logo.svg" alt="" className="h-6 w-auto opacity-40" />
+                <span className="text-lg font-semibold text-white/40 tracking-tight">DeckAlive</span>
+              </div>
               
               <p className="text-white/25 text-sm mt-4 max-w-md mx-auto font-light">
                 {t.footer}

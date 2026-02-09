@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" fill="none">
+  <!-- Card Shape -->
+  <rect x="4" y="4" width="112" height="152" rx="12" fill="#0a0a0a" stroke="#d4a853" stroke-width="2"/>
+  
+  <!-- Inner Border -->
+  <rect x="12" y="12" width="96" height="136" rx="8" fill="none" stroke="#d4a853" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Creature Silhouette - Abstract/Stylized (not specific character) -->
+  <g fill="#d4a853" opacity="0.9">
+    <!-- Left Ear - pointed -->
+    <path d="M32 55 L40 30 L48 50 Q44 55 40 55 Z"/>
+    <!-- Right Ear - pointed -->
+    <path d="M72 55 L80 30 L88 50 Q84 55 80 55 Z"/>
+    <!-- Head -->
+    <ellipse cx="60" cy="70" rx="28" ry="22"/>
+    <!-- Body -->
+    <ellipse cx="60" cy="105" rx="24" ry="28"/>
+    <!-- Cheek marks (stylized) -->
+    <circle cx="40" cy="72" r="4" fill="#0a0a0a"/>
+    <circle cx="80" cy="72" r="4" fill="#0a0a0a"/>
+  </g>
+  
+  <!-- Subtle glow effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
