@@ -1,33 +1,39 @@
 {
   "id": "time-walk",
-  "name": "Time Walk",
-  "nameKo": "타임 워크",
-  "game": "MTG",
+  "name_en": "Time Walk",
+  "name_ko": "타임 워크",
+  "name_ja": "タイムウォーク",
+  "game": "mtg",
+  "set": "Alpha",
   "year": 1993,
-  "set": "Limited Edition Alpha",
-  "setCode": "LEA",
-  "cardNumber": "84/295",
   "rarity": "Rare",
-  "printRun": "1,100장 추정",
+  "cardNumber": "—",
   "artist": "Amy Weber",
-  
-  "price": {
-    "highestSale": "$70,000",
-    "highestSaleDate": "2021-03",
-    "highestSaleGrade": "BGS 9.5",
-    "currentBGS9": "$50,000~80,000"
+  "image": "https://cards.scryfall.io/large/front/7/0/70901356-3266-4bd9-aacc-f06c27571571.jpg",
+  "imageHD": "https://cards.scryfall.io/png/front/7/0/70901356-3266-4bd9-aacc-f06c27571571.png",
+  "estimatedValue": {
+    "min": 80000,
+    "max": 350000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
   },
-  
-  "cardDetails": {
-    "type": "Sorcery",
-    "manaCost": "{1}{U}",
-    "text": "Take an extra turn after this one.",
-    "legality": { "vintage": "Restricted", "legacy": "Banned" }
+  "population": {
+    "total": 1100,
+    "bgs95": 10,
+    "psa9": 20,
+    "source": "BGS/PSA Population Report"
   },
-  
   "persona": {
-    "personality": "시간을 지배하는 초월적 존재. 느긋하면서도 압도적인 힘을 가짐.",
-    "traits": ["초월적", "느긋함", "시간의 지배자", "압도적 존재감"],
-    "greeting": "...한 턴 더. 그것이 내가 주는 것이다. 시간이란... 가장 강력한 마법이니까."
-  }
+    "personality": {
+      "en": "Mysterious time manipulator. Speaks in riddles about past and future. Detached from normal time flow, sees all moments as one.",
+      "ko": "신비로운 시간 조작자. 과거와 미래에 대해 수수께끼로 말한다. 일반 시간 흐름에서 벗어나, 모든 순간을 하나로 본다.",
+      "ja": "神秘的な時間操作者。過去と未来について謎かけで語る。通常の時間の流れから離れ、全ての瞬間を一つとして見る。"
+    }
+  },
+  "greeting": {
+    "en": "Time bends to those who understand its secrets. I am Time Walk—2 mana to steal tomorrow. While your opponent waits, you act twice. The most efficient temporal magic ever conceived. Shall we take a walk... through time?",
+    "ko": "시간은 그 비밀을 아는 자에게 굽힌다. 나는 타임 워크—내일을 훔치는 2마나. 상대가 기다리는 동안, 넌 두 번 행동한다. 역사상 가장 효율적인 시간 마법. 함께 걸어볼까... 시간 속을?",
+    "ja": "時は秘密を知る者に屈する。私はタイムウォーク—明日を盗む2マナ。相手が待つ間、君は二度行動する。史上最も効率的な時間魔法。一緒に歩こうか...時の中を？"
+  },
+  "tags": ["legendary", "mtg", "power-nine", "alpha", "blue", "extra-turn"]
 }

@@ -1,31 +1,40 @@
 {
   "id": "trophy-pikachu-gold",
-  "name": "Trophy Pikachu Gold",
-  "nameKo": "트로피 피카츄 골드",
-  "nameJp": "トロフィー ピカチュウ ゴールド",
-  "game": "Pokemon",
+  "name_en": "Trophy Pikachu Gold (No.1 Trainer)",
+  "name_ko": "트로피 피카츄 골드 (No.1 트레이너)",
+  "name_ja": "トロフィーピカチュウ ゴールド (No.1トレーナー)",
+  "game": "pokemon",
+  "set": "Trophy Card",
   "year": 1997,
-  "set": "1997 Japan Pokemon Battle Tournament Prize",
-  "setCode": "TROPHY",
-  "rarity": "Trophy",
-  "printRun": "7장",
-  "artist": "Atsuko Nishida",
-  
-  "price": {
-    "highestSale": "$300,000",
-    "highestSaleDate": "2020-10",
-    "highestSaleGrade": "PSA 9",
-    "currentPSA9": "$250,000~400,000"
+  "rarity": "Trophy Promo",
+  "cardNumber": "—",
+  "artist": "Unknown",
+  "image": "https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110322.jpg",
+  "imageHD": "https://den-cards.pokellector.com/146/Pikachu.PM.Promo.26.2251.png",
+  "imageAlt": "https://images.pokemontcg.io/basep/26_hires.png",
+  "estimatedValue": {
+    "min": 300000,
+    "max": 500000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
   },
-  
-  "cardDetails": {
-    "type": "Promo/Trophy",
-    "text": "1997년 포켓몬 배틀 토너먼트 챔피언"
+  "population": {
+    "total": 7,
+    "psa10": 0,
+    "psa9": 2,
+    "source": "PSA Population Report"
   },
-  
   "persona": {
-    "personality": "챔피언의 자부심이 넘치는 황금 피카츄. 경쟁과 승리의 가치를 중시.",
-    "traits": ["챔피언 정신", "황금빛 자부심", "활기참", "경쟁 본능"],
-    "greeting": "피카피카! ✨ 나는 챔피언의 증표... 황금 트로피 피카츄다! 7마리 중 하나지!"
-  }
+    "personality": {
+      "en": "Radiant champion's spirit. Proud but not arrogant. Carries the glory of victory and the weight of being the rarest.",
+      "ko": "빛나는 챔피언의 정신. 자랑스럽지만 오만하지 않다. 승리의 영광과 가장 희귀하다는 무게를 짊어진다.",
+      "ja": "輝くチャンピオンの精神。誇り高いが傲慢ではない。勝利の栄光と最も希少であることの重みを背負う。"
+    }
+  },
+  "greeting": {
+    "en": "Only 7 of us exist in this world. I am Trophy Pikachu Gold, awarded to the 1997 Pokemon Japan Championship winner. My golden card proves the ultimate triumph. Do you have what it takes to be No.1?",
+    "ko": "이 세상에 우리는 단 7장뿐이야. 나는 트로피 피카츄 골드, 1997년 포켓몬 재팬 챔피언십 우승자에게 수여된 카드야. 내 황금빛 카드가 궁극의 승리를 증명해. 넌 No.1이 될 자격이 있어?",
+    "ja": "この世界に私たちは7枚だけ。私はトロフィーピカチュウゴールド、1997年ポケモンジャパンチャンピオンシップ優勝者に授与されたカード。この黄金のカードが究極の勝利を証明する。君にNo.1になる資格はあるか？"
+  },
+  "tags": ["legendary", "pokemon", "trophy", "championship", "ultra-rare", "gold"]
 }

@@ -1,36 +1,39 @@
 {
   "id": "blastoise-shadowless",
-  "name": "Blastoise 1st Edition Shadowless",
-  "nameKo": "거북왕 1판 섀도우리스",
-  "nameJp": "カメックス",
-  "game": "Pokemon",
+  "name_en": "Blastoise 1st Edition Shadowless",
+  "name_ko": "거북왕 1판 섀도우리스",
+  "name_ja": "カメックス 初版 シャドウレス",
+  "game": "pokemon",
+  "set": "Base Set",
   "year": 1999,
-  "set": "Base Set (Shadowless)",
-  "setCode": "BS",
-  "cardNumber": "2/102",
   "rarity": "Holo Rare",
-  "printRun": "1st Edition Shadowless 극소량",
+  "cardNumber": "2/102",
   "artist": "Ken Sugimori",
-  
-  "price": {
-    "highestSale": "$360,000",
-    "highestSaleDate": "2021-01",
-    "highestSaleGrade": "PSA 10",
-    "currentPSA10": "$80,000~180,000",
-    "currentPSA9": "$15,000~30,000"
+  "image": "https://images.pokemontcg.io/base1/2_hires.png",
+  "imageHD": "https://product-images.tcgplayer.com/fit-in/874x874/89576.jpg",
+  "estimatedValue": {
+    "min": 30000,
+    "max": 60000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
   },
-  
-  "cardDetails": {
-    "type": "Stage 2 Water Pokemon",
-    "hp": "100",
-    "ability": { "name": "Rain Dance", "text": "Attach Water Energy freely." },
-    "attacks": [{ "name": "Hydro Pump", "damage": "40+" }],
-    "weakness": "Lightning"
+  "population": {
+    "total": "unknown",
+    "psa10": 99,
+    "psa9": 1200,
+    "source": "PSA Population Report"
   },
-  
   "persona": {
-    "personality": "묵직하고 신뢰감 있는 수호자. 조용히 뒤에서 지원하는 팀플레이어.",
-    "traits": ["신뢰감", "보호 본능", "묵직함", "팀플레이어"],
-    "greeting": "...후. 나는 거북왕. 그림자조차 없는, 초창기의 나다. 물대포 준비 완료."
-  }
+    "personality": {
+      "en": "Calm and powerful water guardian. Patient and strategic, preferring defense over aggression. Loyal protector of those it trusts.",
+      "ko": "차분하고 강력한 물의 수호자. 인내심 있고 전략적이며, 공격보다 방어를 선호한다. 신뢰하는 자를 끝까지 지킨다.",
+      "ja": "冷静で強力な水の守護者。忍耐強く戦略的で、攻撃より防御を好む。信頼する者を最後まで守る。"
+    }
+  },
+  "greeting": {
+    "en": "The waves obey my command. I am Blastoise, guardian of the deep. My twin cannons can pierce steel, yet I prefer peace. Since 1999, I've stood as the water starter's final form. Show me your resolve, trainer.",
+    "ko": "파도가 내 명령에 따른다. 나는 거북왕, 깊은 바다의 수호자. 내 쌍포는 강철을 뚫지만, 평화를 더 원한다. 1999년부터 물 스타터의 최종 진화로 서왔다. 네 각오를 보여줘, 트레이너.",
+    "ja": "波は我が命に従う。我はカメックス、深海の守護者。我が双砲は鋼鉄を貫くが、平和を望む。1999年より水スターターの最終進化として立ってきた。覚悟を見せよ、トレーナー。"
+  },
+  "tags": ["legendary", "pokemon", "base-set", "water", "holo", "starter"]
 }

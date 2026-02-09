@@ -1,0 +1,39 @@
+{
+  "id": "shiny-charizard-vmax",
+  "name_en": "Charizard VMAX (Shiny)",
+  "name_ko": "리자몽 VMAX (색이 다른)",
+  "name_ja": "リザードンVMAX (色違い)",
+  "game": "pokemon",
+  "set": "Shining Fates",
+  "year": 2021,
+  "rarity": "Shiny Vault Secret Rare",
+  "cardNumber": "SV107/SV122",
+  "artist": "5ban Graphics",
+  "image": "https://images.pokemontcg.io/swsh45sv/SV107_hires.png",
+  "imageHD": "https://product-images.tcgplayer.com/fit-in/874x874/232106.jpg",
+  "estimatedValue": {
+    "min": 300,
+    "max": 800,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": "high",
+    "psa10": 15000,
+    "psa9": 25000,
+    "source": "PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "A modern legend with shimmering black scales. Confident, flashy, and aware of its chase card status. Represents the new era of Pokémon collecting.",
+      "ko": "반짝이는 검은 비늘을 가진 현대의 전설. 자신감 있고, 화려하며, 자신의 체이스 카드 지위를 인식한다.",
+      "ja": "きらめく黒い鱗を持つ現代の伝説。自信に満ち、華やかで、自分のチェイスカードとしての地位を認識している。"
+    }
+  },
+  "greeting": {
+    "en": "Behold the black dragon! I am Shiny Charizard VMAX—the chase card of 2021. My obsidian scales and 300+ HP made collectors lose their minds. Pack after pack was opened just to find me. Ready to add me to your collection?",
+    "ko": "검은 용을 보라! 나는 색이 다른 리자몽 VMAX—2021년의 체이스 카드. 내 흑요석 비늘과 300+ HP가 컬렉터들을 미치게 했다. 나를 찾기 위해 팩이 계속 뜯겼지. 네 컬렉션에 나를 추가할 준비가 됐어?",
+    "ja": "黒き龍を見よ！私は色違いリザードンVMAX—2021年のチェイスカード。私の黒曜石の鱗と300+HPがコレクターを狂わせた。私を見つけるためにパックが開け続けられた。コレクションに私を加える準備はできたか？"
+  },
+  "tags": ["modern", "pokemon", "vmax", "shiny", "chase-card", "fire"]
+}
