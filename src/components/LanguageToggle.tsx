@@ -3,9 +3,9 @@ import { useLanguageStore } from '../stores/language-store';
 import type { Language } from '../types/card';
 
 const languages: { code: Language; flag: string; label: string }[] = [
-  { code: 'ko', flag: 'KR', label: '한국어' },
-  { code: 'en', flag: 'US', label: 'English' },
-  { code: 'ja', flag: 'JP', label: '日本語' },
+  { code: 'ko', flag: '🇰🇷', label: '한국어' },
+  { code: 'en', flag: '🇺🇸', label: 'English' },
+  { code: 'ja', flag: '🇯🇵', label: '日本語' },
 ];
 
 interface LanguageToggleProps {

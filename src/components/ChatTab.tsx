@@ -296,7 +296,7 @@ export default function ChatTab({ card }: Props) {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder={t.chat.placeholder.replace('{name}', getCardName())}
-            className="flex-1 bg-gray-900/80 border border-gray-700/50 rounded-full px-5 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-500/50 focus:ring-1 focus:ring-yellow-500/20 transition-all"
+            className="flex-1 bg-white/5 border border-white/10 rounded-full px-5 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-500/50 focus:ring-1 focus:ring-yellow-500/20 transition-all backdrop-blur-sm"
             disabled={isLoading || typingPhase !== 'done'}
           />
           <button
