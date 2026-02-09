@@ -276,8 +276,8 @@ export default function ChatTab({ card }: Props) {
           ));
         })}
         
-        {/* API 로딩 중 - 스트리밍 버블이 있으면 숨김 */}
-        {isLoading && !animatingMessageId && (
+        {/* API 로딩 중 - 스트리밍 중이거나 스트리밍 버블이 있으면 숨김 */}
+        {isLoading && !animatingMessageId && typingPhase === 'done' && (
           <div className="flex justify-start animate-bubble-in">
             <div className="chat-bubble-assistant px-4 py-3">
               <TypingDots color={themeColor} />
