@@ -36,3 +36,11 @@ export interface ChatMessage {
 }
 
 export type Language = 'ko' | 'en' | 'ja';
+
+export interface Comment {
+  id: string;
+  cardId: string;
+  author: string;
+  content: string;
+  timestamp: number;
+}

@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { useParams, Link } from 'react-router';
-import { getCardById, getGameLabel, getGameColor, getBorderStyle } from '../data/cards';
+import { getGameLabel, getGameColor, getBorderStyle } from '../data/cards';
+import { useCardStore } from '../stores/card-store';
 import { useTranslation, useLanguageStore } from '../stores/language-store';
 import LanguageToggle from '../components/LanguageToggle';
 import ParticleBackground from '../components/ParticleBackground';
@@ -15,10 +16,11 @@ export default function CardPage() {
   const [activeTab, setActiveTab] = useState<TabType>('chat');
   const { t } = useTranslation();
   const { language } = useLanguageStore();
+  const cards = useCardStore((s) => s.cards);
   const cardImageRef = useRef<HTMLDivElement>(null);
   const [imageTransform, setImageTransform] = useState('');
   
-  const card = getCardById(cardId || '');
+  const card = cards.find((c) => c.id === cardId);
   
   if (!card) {
     return (
@@ -129,8 +131,8 @@ export default function CardPage() {
           {/* Right Side */}
           <div className="flex items-center gap-3">
             <LanguageToggle />
-            <span className={`px-3 py-1.5 rounded-lg text-xs font-bold text-white ${getGameColor(card.game)} shadow-lg`}>
-              {getGameLabel(card.game, language).split(':')[0].split(' ')[0]}
+            <span className={`px-3 py-1.5 rounded-lg text-xs font-bold text-white ${getGameColor(card!.game)} shadow-lg`}>
+              {getGameLabel(card!.game, language).split(':')[0]?.split(' ')[0] ?? ''}
             </span>
           </div>
         </div>

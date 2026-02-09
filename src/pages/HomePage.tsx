@@ -1,5 +1,5 @@
-import { Link } from 'react-router';
-import { cards, getGameLabel, getGameColor, getBorderStyle } from '../data/cards';
+import { getGameLabel, getGameColor } from '../data/cards';
+import { useCardStore } from '../stores/card-store';
 import { useTranslation, useLanguageStore } from '../stores/language-store';
 import LanguageToggle from '../components/LanguageToggle';
 import ParticleBackground from '../components/ParticleBackground';
@@ -8,6 +8,7 @@ import CardItem from '../components/CardItem';
 export default function HomePage() {
   const { t } = useTranslation();
   const { language } = useLanguageStore();
+  const cards = useCardStore((s) => s.cards);
 
   const getCardName = (card: typeof cards[0]) => {
     switch (language) {
@@ -86,7 +87,7 @@ export default function HomePage() {
                 nameLocalized={getCardName(card)}
                 imageUrl={card.imageUrl}
                 game={card.game}
-                gameLabel={getGameLabel(card.game, language).split(':')[0].split(' ')[0]}
+                gameLabel={getGameLabel(card.game, language).split(':')[0]?.split(' ')[0] ?? ''}
                 gameColor={getGameColor(card.game)}
                 highestSale={card.highestSale}
                 borderStyle={card.borderStyle}

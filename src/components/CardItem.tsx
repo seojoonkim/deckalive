@@ -10,7 +10,7 @@ interface CardItemProps {
   gameLabel: string;
   gameColor: string;
   highestSale: string;
-  borderStyle: 'gold' | 'silver' | 'rainbow' | 'default';
+  borderStyle?: 'gold' | 'silver' | 'rainbow' | 'normal' | 'default';
   showEnglishName?: boolean;
 }
 
@@ -63,6 +63,7 @@ export function CardItem({
         return 'border-2 border-yellow-500/70 shadow-[0_0_30px_rgba(255,215,0,0.3)]';
       case 'silver':
         return 'border-2 border-gray-400/50 shadow-[0_0_20px_rgba(192,192,192,0.2)]';
+      case 'normal':
       default:
         return 'border border-gray-700/50';
     }
@@ -88,6 +89,7 @@ export function CardItem({
             RARE
           </div>
         );
+      case 'normal':
       default:
         return null;
     }

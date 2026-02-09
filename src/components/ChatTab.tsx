@@ -190,5 +190,6 @@ function getLocalResponse(card: Card, lang: string): string {
   };
   
   const langResponses = responses[lang as keyof typeof responses] || responses.ko;
-  return langResponses[Math.floor(Math.random() * langResponses.length)];
+  const idx = Math.floor(Math.random() * langResponses.length);
+  return langResponses[idx] ?? '...';
 }
