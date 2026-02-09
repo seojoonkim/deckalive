@@ -1,0 +1,60 @@
+{
+  "cards": [
+    {
+      "id": "pikachu-illustrator",
+      "name": "Pikachu Illustrator",
+      "game": "Pokemon",
+      "highestSale": "$5,275,000"
+    },
+    {
+      "id": "black-lotus",
+      "name": "Black Lotus",
+      "game": "MTG",
+      "highestSale": "$540,000"
+    },
+    {
+      "id": "charizard-1st",
+      "name": "Charizard 1st Edition",
+      "game": "Pokemon",
+      "highestSale": "$420,000"
+    },
+    {
+      "id": "blastoise-shadowless",
+      "name": "Blastoise 1st Edition Shadowless",
+      "game": "Pokemon",
+      "highestSale": "$360,000"
+    },
+    {
+      "id": "trophy-pikachu-gold",
+      "name": "Trophy Pikachu Gold",
+      "game": "Pokemon",
+      "highestSale": "$300,000"
+    },
+    {
+      "id": "ancestral-recall",
+      "name": "Ancestral Recall",
+      "game": "MTG",
+      "highestSale": "$120,000"
+    },
+    {
+      "id": "mox-sapphire",
+      "name": "Mox Sapphire",
+      "game": "MTG",
+      "highestSale": "$100,000"
+    },
+    {
+      "id": "blue-eyes-lob",
+      "name": "Blue-Eyes White Dragon",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$85,100"
+    },
+    {
+      "id": "time-walk",
+      "name": "Time Walk",
+      "game": "MTG",
+      "highestSale": "$70,000"
+    }
+  ],
+  "totalValue": "$6,770,100+",
+  "lastUpdated": "2024-01"
+}

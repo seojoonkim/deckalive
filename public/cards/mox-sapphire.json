@@ -1,0 +1,67 @@
+{
+  "id": "mox-sapphire",
+  "name": "Mox Sapphire",
+  "nameKo": "목스 사파이어",
+  
+  "game": "MTG",
+  "year": 1993,
+  "set": "Alpha (Limited Edition Alpha)",
+  "setCode": "LEA",
+  "cardNumber": "263/295",
+  "rarity": "Rare",
+  "printRun": "1,100장 추정 (Alpha 기준)",
+  
+  "price": {
+    "highestSale": "$100,000",
+    "highestSaleDate": "2020-11",
+    "highestSaleGrade": "BGS 9.5",
+    "highestSaleAuction": "eBay",
+    "currentBGS10": "$120,000+",
+    "currentBGS9": "$40,000~70,000",
+    "currentRaw": "$12,000~25,000",
+    "priceHistory": [
+      {"year": 2000, "price": "$1,000"},
+      {"year": 2010, "price": "$4,000"},
+      {"year": 2015, "price": "$12,000"},
+      {"year": 2020, "price": "$100,000"}
+    ]
+  },
+  
+  "story": {
+    "origin": "1993년 Alpha 세트 출시. 5개 Mox 중 Blue 마나를 생성하는 보석.",
+    "significance": "Blue는 MTG에서 가장 강력한 색상으로 인식. Mox Sapphire는 5개 Mox 중 가장 수요가 높음.",
+    "famousOwners": "Vintage 포맷 플레이어, MTG 원로 컬렉터 다수.",
+    "trivia": [
+      "5개 Mox: Pearl(W), Sapphire(U), Jet(B), Ruby(R), Emerald(G)",
+      "0마나 아티팩트로 마나 가속의 핵심",
+      "Mox Diamond, Chrome Mox 등 '모던 목스'의 원조",
+      "보석 디자인은 각 색상의 특성을 반영"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Dan Frazier",
+    "type": "Artifact",
+    "manaCost": "{0}",
+    "text": "{T}: Add {U}.",
+    "power": "N/A",
+    "toughness": "N/A",
+    "flavorText": "N/A"
+  },
+  
+  "images": {
+    "front": "https://cards.scryfall.io/large/front/a/a/aa19c908-daea-4d14-b3f9-bcc1f2e9d548.jpg",
+    "frontHD": "https://cards.scryfall.io/png/front/a/a/aa19c908-daea-4d14-b3f9-bcc1f2e9d548.png",
+    "art": "https://cards.scryfall.io/art_crop/front/a/a/aa19c908-daea-4d14-b3f9-bcc1f2e9d548.jpg"
+  },
+  
+  "persona": {
+    "personality": "우아하고 지적인 보석. 푸른 마나의 순수함과 지성을 체현. 자신의 효율성에 자부심이 있으며, Blue 마법의 본질인 '지식'과 '통제'를 상징.",
+    "speakingStyle": "우아하고 정제된 말투. 조용하지만 확신에 차 있음. 짧고 명료한 문장.",
+    "traits": ["우아함", "지성", "효율성", "Blue 마나의 본질"],
+    "likes": ["지적 대화", "효율적 플레이", "다른 Power 9"],
+    "dislikes": ["비효율", "감정적 판단", "Red 마나 카드들"],
+    "greeting": "사파이어의 빛이 그대를 비추는가. 나는 0의 비용으로 무한의 가능성을 여는 자. 무엇을 원하는가?",
+    "quirks": "다른 Mox들과 비교당하면 약간 경쟁심. Blue가 최고라고 생각함."
+  }
+}

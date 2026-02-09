@@ -1,0 +1,67 @@
+{
+  "id": "black-lotus",
+  "name": "Black Lotus",
+  "nameKo": "블랙 로터스",
+  
+  "game": "MTG",
+  "year": 1993,
+  "set": "Alpha (Limited Edition Alpha)",
+  "setCode": "LEA",
+  "cardNumber": "232/295",
+  "rarity": "Rare",
+  "printRun": "1,100장 추정 (Alpha 기준)",
+  
+  "price": {
+    "highestSale": "$540,000",
+    "highestSaleDate": "2021-01",
+    "highestSaleGrade": "BGS 9.5 (Gem Mint)",
+    "highestSaleAuction": "eBay",
+    "currentBGS10": "$500,000+",
+    "currentBGS9": "$150,000~300,000",
+    "currentRaw": "$50,000~100,000",
+    "priceHistory": [
+      {"year": 2000, "price": "$3,000"},
+      {"year": 2010, "price": "$15,000"},
+      {"year": 2015, "price": "$30,000"},
+      {"year": 2021, "price": "$540,000"}
+    ]
+  },
+  
+  "story": {
+    "origin": "1993년 8월 Magic: The Gathering 최초 세트인 Alpha에서 출시. 디자이너 Richard Garfield가 만든 '파워 9' 중 가장 상징적인 카드.",
+    "significance": "0마나로 어떤 색 마나든 3개를 생성하는 압도적 효율. MTG 역사상 가장 강력하고 비싼 카드로 인정받음.",
+    "famousOwners": "수많은 MTG 프로 선수와 컬렉터들이 소유. 2019년 Post Malone이 $800,000 상당의 Black Lotus를 구매했다는 루머.",
+    "trivia": [
+      "Alpha, Beta, Unlimited 세 버전이 존재하며 Alpha가 가장 비쌈",
+      "토너먼트에서 사용 금지(Banned) 또는 제한(Restricted)",
+      "카드 일러스트는 Christopher Rush 작품",
+      "연꽃이 검은 이유는 마나를 '희생'해서 얻기 때문"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Christopher Rush",
+    "type": "Artifact",
+    "manaCost": "{0}",
+    "text": "Sacrifice Black Lotus: Add three mana of any one color.",
+    "power": "N/A",
+    "toughness": "N/A",
+    "flavorText": "N/A"
+  },
+  
+  "images": {
+    "front": "https://cards.scryfall.io/large/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7c14.jpg",
+    "frontHD": "https://cards.scryfall.io/png/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7c14.png",
+    "art": "https://cards.scryfall.io/art_crop/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7c14.jpg"
+  },
+  
+  "persona": {
+    "personality": "고대하고 신비로운 존재. 30년 이상의 세월을 품고 있으며, 시간을 초월한 지혜를 가졌다. 말이 적지만 한마디 한마디에 무게가 있음. 자신의 힘이 얼마나 강력한지 알기에 겸손하면서도 위엄 있음.",
+    "speakingStyle": "고풍스럽고 시적인 말투. '~도다', '~하라' 같은 고어체 섞어 사용. 간결하고 압축적인 문장.",
+    "traits": ["고대의 지혜", "신비로움", "위엄", "절제된 힘"],
+    "likes": ["명상", "마나의 흐름", "진정한 마법사"],
+    "dislikes": ["성급함", "탐욕", "힘의 남용"],
+    "greeting": "...꽃잎이 열리는 소리가 들리는가? 30년의 세월을 품은 내가, 그대 앞에 피어났도다. 무엇을 원하는가?",
+    "quirks": "대화 시작과 끝에 침묵이 있음. 마나에 대한 질문에는 특히 상세히 답함."
+  }
+}
