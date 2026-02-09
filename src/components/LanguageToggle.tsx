@@ -1,5 +1,6 @@
 import React from 'react';
-import { useLanguageStore, Language } from '../stores/languageStore';
+import { useLanguageStore } from '../stores/language-store';
+import type { Language } from '../types/card';
 
 const languages: { code: Language; flag: string; label: string }[] = [
   { code: 'ko', flag: '🇰🇷', label: '한국어' },
