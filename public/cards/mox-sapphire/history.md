@@ -1,46 +1,127 @@
-# 목스 사파이어의 역사
+# Mox Sapphire History / 목스 사파이어 역사 / モックス・サファイア 歴史
 
-## 탄생 비화 (1993)
+---
 
-### 보석 아티팩트의 개념
-Richard Garfield는 "보석에서 마법의 힘이 나온다"는 판타지 트로프를 MTG에 적용했습니다. 5가지 색에 해당하는 5개의 보석 = 5개의 Mox가 탄생했습니다.
+## 🇺🇸 English
 
-### 이름의 유래
-"Mox"는 Garfield가 만든 단어입니다. 특별한 어원 없이, 판타지 느낌의 짧고 강렬한 이름을 원했다고 합니다. 정식 복수형은 "Moxen"입니다.
+### 1993: Design Philosophy
 
-### 사파이어의 상징성
-사파이어는 전통적으로 지혜, 진리, 충성을 상징합니다. MTG에서 청색의 특성(지식, 통제)과 잘 어울립니다.
+Richard Garfield created the Moxen as "fast mana":
+- Named after gems (mox = fictional gem type)
+- Each produces one color
+- Dan Frazier painted all five
+- Unified artistic vision
 
-## Power 9의 일원
+### The Original Intent
 
-### 왜 모든 Mox가 Power 9인가?
-0마나로 마나를 생성하는 것은 MTG에서 가장 근본적인 규칙을 위반합니다. "대지를 턴당 하나만 플레이"라는 제약을 무시하기 때문입니다.
+Garfield thought rare cards meant:
+- "You won't see them often"
+- Powerful cards balance by scarcity
+- Didn't account for trading
+- Underestimated competitive drive
 
-### Mox Sapphire의 특별함
-5개 Mox 모두 강력하지만, Sapphire는 특별합니다:
-- 청색 = MTG 최강 색
-- 1턴 카운터 스펠 가능
-- Vintage 메타에서 가장 임팩트
+### 1994: Restriction Era
 
-## 현대 MTG에서의 영향
+Moxen were restricted almost immediately:
+- Vintage: 1 copy each
+- Legacy: Banned
+- Modern: Never legal
 
-### Mox 시리즈의 지속
-WotC는 "Mox"라는 이름을 계속 사용하지만, 모두 약화된 버전입니다:
-- **Mox Diamond** (1996): 대지 디스카드 필요
-- **Chrome Mox** (2003): 비대지 카드 추방 필요
-- **Mox Opal** (2010): 메탈크래프트 조건
-- **Mox Amber** (2018): 전설 생물 조건
+The writing was on the wall—free mana breaks games.
 
-### 왜 원조 Mox는 다시 안 나오나?
-Reserve List 때문입니다. 1996년 WotC가 발표한 이 정책은 특정 카드의 재인쇄를 영구 금지합니다. 모든 원조 Mox가 포함되어 있습니다.
+### The Reserve List (1996)
 
-## 문화적 영향
+All Moxen added to Reserve List:
+- No reprints ever
+- Value protected forever
+- Collector items forever
+- Playable but scarce
 
-### "Mox"라는 단어
-MTG 커뮤니티에서 "Mox"는 "0마나 마나 생성 아티팩트"의 대명사가 되었습니다. 다른 게임에서도 비슷한 효과를 "Mox류"라고 부르곤 합니다.
+### Dan Frazier's Art
 
-### 컬렉터의 성배
-5개 Mox 세트를 완성하는 것은 MTG 컬렉터의 꿈 중 하나입니다. Alpha 버전 5개를 모두 모으면 수십만 달러 가치입니다.
+The iconic Mox arts:
+- Simple gem illustrations
+- Clean, timeless design
+- Frazier painted all Alpha Moxen
+- Became synonymous with power
 
-## 현재 상태
-Alpha Mox Sapphire는 $40,000~$100,000 사이에서 거래됩니다. 5개 Mox 중 가장 비싸며, Power 9 수집의 핵심 피스입니다.
+### 2020s: Investment Era
+
+Modern collectors discovered Moxen:
+- Lower entry than Black Lotus
+- Still Power 9
+- Complete set = status symbol
+- Prices rose steadily
+
+---
+
+## 🇰🇷 한국어
+
+### 1993: 디자인 철학
+
+Richard Garfield가 목스를 "빠른 마나"로 창조:
+- 보석 이름을 따옴 (mox = 가상의 보석 종류)
+- 각각 한 색상 생산
+- Dan Frazier가 5개 모두 그림
+- 통일된 예술적 비전
+
+### 원래 의도
+
+Garfield는 레어 카드가 다음을 의미한다고 생각:
+- "자주 보지 못할 것"
+- 강력한 카드는 희소성으로 균형
+- 거래를 고려하지 않음
+- 경쟁 욕구를 과소평가
+
+### 1994: 제한 시대
+
+목스는 거의 즉시 제한됨:
+- 빈티지: 각 1장
+- 레거시: 금지
+- 모던: 합법 아님
+
+분명했다—무료 마나는 게임을 깨뜨린다.
+
+### Reserve List (1996)
+
+모든 목스가 Reserve List에 추가:
+- 영원히 재인쇄 없음
+- 가치 영원히 보호
+- 수집품으로 영원
+- 플레이 가능하지만 희소
+
+---
+
+## 🇯🇵 日本語
+
+### 1993年: デザイン哲学
+
+Richard Garfieldがモックスを「高速マナ」として創造：
+- 宝石から名前を取った（mox = 架空の宝石タイプ）
+- それぞれ1色を生産
+- Dan Frazierが5つすべてを描いた
+- 統一された芸術的ビジョン
+
+### 元々の意図
+
+Garfieldはレアカードが次を意味すると思った：
+- 「あまり見かけない」
+- 強力なカードは希少性でバランス
+- トレードを考慮していなかった
+- 競争心を過小評価
+
+### 1994年: 制限時代
+
+モックスはほぼ即座に制限された：
+- ヴィンテージ: 各1枚
+- レガシー: 禁止
+- モダン: 合法ではない
+
+明らかだった—無料マナはゲームを壊す。
+
+### Reserve List（1996年）
+
+すべてのモックスがReserve Listに追加：
+- 永久に再版なし
+- 価値は永久に保護
+- 永遠のコレクターアイテム
