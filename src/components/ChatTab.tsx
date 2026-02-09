@@ -20,52 +20,10 @@ function TypingDots({ color }: { color: string }) {
   );
 }
 
-// 타이핑 애니메이션 버블
-function TypingBubble({ 
-  text, 
-  onComplete,
-  onProgress,
-}: { 
-  text: string;
-  onComplete: () => void;
-  onProgress?: () => void;
-}) {
-  const [visibleChars, setVisibleChars] = useState(0);
-  const completedRef = useRef(false);
-
-  useEffect(() => {
-    if (visibleChars >= text.length) {
-      if (!completedRef.current) {
-        completedRef.current = true;
-        onComplete();
-      }
-      return;
-    }
-
-    // 글자당 30~50ms (빠른 타이핑)
-    const delay = 30 + Math.random() * 20;
-    const timer = setTimeout(() => {
-      setVisibleChars(c => c + 1);
-      onProgress?.();
-    }, delay);
-
-    return () => clearTimeout(timer);
-  }, [visibleChars, text.length, onComplete, onProgress]);
-
-  return (
-    <div className="chat-bubble-assistant px-4 py-3 text-gray-100 animate-bubble-in">
-      <span>{text.slice(0, visibleChars)}</span>
-      {visibleChars < text.length && (
-        <span className="inline-block w-0.5 h-4 ml-0.5 bg-yellow-400 animate-pulse" />
-      )}
-    </div>
-  );
-}
-
 export default function ChatTab({ card }: Props) {
   const [input, setInput] = useState('');
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const { getMessages, addMessage, isLoading, setLoading } = useChatStore();
+  const { getMessages, addMessage, updateMessage, isLoading, setLoading } = useChatStore();
   const { t } = useTranslation();
   const { language } = useLanguageStore();
   
@@ -121,21 +79,10 @@ export default function ChatTab({ card }: Props) {
         content: getGreeting(),
         timestamp: Date.now()
       });
-      // 첫 인사말도 애니메이션 적용
-      setAnimatingMessageId(greetingId);
-      setTypingPhase('delay');
-      const delay = 500 + Math.random() * 1000; // 0.5~1.5초 딜레이
-      setTimeout(() => setTypingPhase('typing'), delay);
+      // 첫 인사말은 바로 완료 상태로
+      setCompletedMessages(prev => new Set(prev).add(greetingId));
     }
   }, [card.id]);
-
-  // 새 assistant 메시지에 애니메이션 적용
-  const startMessageAnimation = (messageId: string) => {
-    setAnimatingMessageId(messageId);
-    setTypingPhase('delay');
-    const delay = 1000 + Math.random() * 2000; // 1~3초 딜레이
-    setTimeout(() => setTypingPhase('typing'), delay);
-  };
 
   const handleTypingComplete = (messageId: string) => {
     setCompletedMessages(prev => new Set(prev).add(messageId));
@@ -158,6 +105,19 @@ export default function ChatTab({ card }: Props) {
     setInput('');
     setLoading(true);
     
+    // 스트리밍용 assistant 메시지 미리 생성
+    const assistantId = `assistant-${Date.now()}`;
+    addMessage(card.id, {
+      id: assistantId,
+      role: 'assistant',
+      content: '',
+      timestamp: Date.now()
+    });
+    
+    // 스트리밍 중 애니메이션 상태 설정
+    setAnimatingMessageId(assistantId);
+    setTypingPhase('typing');
+    
     try {
       // RAG: 사용자 메시지에서 키워드 감지 → 관련 카드 정보 로드
       const ragContext = await getRAGContext(
@@ -174,33 +134,51 @@ export default function ChatTab({ card }: Props) {
           message: userMessage.content,
           history: messages.slice(-10),
           language,
-          ragContext // RAG 컨텍스트 추가
+          ragContext
         })
       });
       
       if (!response.ok) throw new Error('API error');
       
-      const data = await response.json();
+      // 스트리밍 응답 처리
+      const reader = response.body?.getReader();
+      if (!reader) throw new Error('No reader');
       
-      const assistantId = `assistant-${Date.now()}`;
-      addMessage(card.id, {
-        id: assistantId,
-        role: 'assistant',
-        content: data.reply,
-        timestamp: Date.now()
-      });
+      const decoder = new TextDecoder();
+      let fullText = '';
       
-      // 애니메이션 시작
-      startMessageAnimation(assistantId);
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        
+        const chunk = decoder.decode(value, { stream: true });
+        const lines = chunk.split('\n');
+        
+        for (const line of lines) {
+          if (line.startsWith('data: ')) {
+            const data = line.slice(6);
+            if (data === '[DONE]') break;
+            
+            try {
+              const parsed = JSON.parse(data);
+              if (parsed.text) {
+                fullText += parsed.text;
+                updateMessage(card.id, assistantId, fullText);
+                scrollToBottom();
+              }
+            } catch {
+              // JSON 파싱 실패 무시
+            }
+          }
+        }
+      }
+      
+      // 스트리밍 완료
+      handleTypingComplete(assistantId);
     } catch (error) {
-      const assistantId = `assistant-${Date.now()}`;
-      addMessage(card.id, {
-        id: assistantId,
-        role: 'assistant',
-        content: getLocalResponse(card, language),
-        timestamp: Date.now()
-      });
-      startMessageAnimation(assistantId);
+      // 에러 시 로컬 응답으로 대체
+      updateMessage(card.id, assistantId, getLocalResponse(card, language));
+      handleTypingComplete(assistantId);
     } finally {
       setLoading(false);
     }
@@ -231,7 +209,7 @@ export default function ChatTab({ card }: Props) {
             );
           }
           
-          // 어시스턴트 메시지 - 애니메이션 중
+          // 어시스턴트 메시지 - 스트리밍/애니메이션 중
           if (shouldAnimate) {
             if (typingPhase === 'delay') {
               return (
@@ -244,13 +222,13 @@ export default function ChatTab({ card }: Props) {
             }
             
             if (typingPhase === 'typing') {
+              // 스트리밍 중: 실시간 텍스트 + 커서
               return (
                 <div key={msg.id} className="flex justify-start">
-                  <TypingBubble
-                    text={msg.content}
-                    onComplete={() => handleTypingComplete(msg.id)}
-                    onProgress={scrollToBottom}
-                  />
+                  <div className="chat-bubble-assistant px-4 py-3 text-gray-100 animate-bubble-in">
+                    <span>{msg.content}</span>
+                    <span className="inline-block w-0.5 h-4 ml-0.5 bg-yellow-400 animate-pulse" />
+                  </div>
                 </div>
               );
             }

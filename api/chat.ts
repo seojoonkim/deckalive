@@ -209,7 +209,7 @@ export async function POST(request: Request) {
       });
     }
     
-    // 시스템 프롬프트 + RAG 컨텍스트 결합 (클라이언트에서 전달)
+    // 시스템 프롬프트 + RAG 컨텍스트 결합
     const systemPrompt = buildSystemPrompt(card) + ragContext;
     
     const messages: Message[] = [
@@ -220,19 +220,42 @@ export async function POST(request: Request) {
       { role: 'user' as const, content: message }
     ];
     
-    const response = await anthropic.messages.create({
+    // 스트리밍 응답 생성
+    const stream = anthropic.messages.stream({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 500,
       system: systemPrompt,
       messages
     });
     
-    const reply = response.content[0].type === 'text' 
-      ? response.content[0].text 
-      : '';
+    // ReadableStream으로 변환
+    const encoder = new TextEncoder();
+    const readableStream = new ReadableStream({
+      async start(controller) {
+        try {
+          for await (const event of stream) {
+            if (event.type === 'content_block_delta' && 
+                event.delta.type === 'text_delta') {
+              const text = event.delta.text;
+              // SSE 형식으로 전송
+              controller.enqueue(encoder.encode(`data: ${JSON.stringify({ text })}\n\n`));
+            }
+          }
+          // 스트림 종료 시그널
+          controller.enqueue(encoder.encode(`data: [DONE]\n\n`));
+          controller.close();
+        } catch (error) {
+          controller.error(error);
+        }
+      }
+    });
     
-    return new Response(JSON.stringify({ reply }), {
-      headers: { 'Content-Type': 'application/json' }
+    return new Response(readableStream, {
+      headers: {
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive'
+      }
     });
   } catch (error) {
     console.error('Chat API error:', error);

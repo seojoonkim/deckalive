@@ -7,6 +7,7 @@ interface ChatState {
   comments: Comment[];
   isLoading: boolean;
   addMessage: (cardId: string, message: ChatMessage) => void;
+  updateMessage: (cardId: string, messageId: string, content: string) => void;
   getMessages: (cardId: string) => ChatMessage[];
   addComment: (comment: Comment) => void;
   getComments: (cardId: string) => Comment[];
@@ -25,6 +26,15 @@ export const useChatStore = create<ChatState>()(
         messages: {
           ...state.messages,
           [cardId]: [...(state.messages[cardId] || []), message]
+        }
+      })),
+      
+      updateMessage: (cardId, messageId, content) => set((state) => ({
+        messages: {
+          ...state.messages,
+          [cardId]: (state.messages[cardId] || []).map((msg) =>
+            msg.id === messageId ? { ...msg, content } : msg
+          )
         }
       })),
       
