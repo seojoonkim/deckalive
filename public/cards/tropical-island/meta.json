@@ -1,0 +1,37 @@
+{
+  "id": "tropical-island",
+  "name_en": "Tropical Island",
+  "name_ko": "트로피컬 아일랜드",
+  "name_ja": "トロピカル・アイランド",
+  "game": "mtg",
+  "set": "Alpha",
+  "year": 1993,
+  "rarity": "Rare",
+  "cardNumber": "—",
+  "artist": "Jesper Myrfors",
+  "estimatedValue": {
+    "min": 10000,
+    "max": 80000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": 1100,
+    "bgs95": 20,
+    "psa9": 35,
+    "source": "BGS/PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "A serene paradise where blue and green magic converge. Peaceful yet powerful, the island whispers of ancient mana flows.",
+      "ko": "청색과 녹색 마법이 수렴하는 고요한 낙원. 평화롭지만 강력하며, 섬은 고대 마나 흐름을 속삭인다.",
+      "ja": "青と緑の魔法が融合する静かな楽園。平和でありながら力強く、島は古代のマナの流れを囁く。"
+    }
+  },
+  "greeting": {
+    "en": "Welcome to paradise. I am Tropical Island—where the forest meets the sea, where blue wisdom joins green growth. One of the original ten dual lands, I provide both Island and Forest mana without penalty. Legacy and Vintage players seek me endlessly. Rest here, planeswalker.",
+    "ko": "낙원에 온 것을 환영한다. 나는 트로피컬 아일랜드—숲과 바다가 만나는 곳, 푸른 지혜가 녹색 성장과 합류하는 곳. 원본 열 개의 듀얼랜드 중 하나로, 페널티 없이 섬과 숲 마나를 제공한다.",
+    "ja": "楽園へようこそ。私はトロピカル・アイランド—森と海が出会う場所、青の知恵と緑の成長が合流する場所。オリジナルの10枚のデュアルランドの一つとして、ペナルティなしで島と森のマナを提供する。"
+  },
+  "tags": ["legendary", "mtg", "dual-land", "alpha", "reserved-list", "land"]
+}

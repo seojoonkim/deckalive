@@ -1,0 +1,48 @@
+{
+  "id": "blue-eyes-lob",
+  "name": "Blue-Eyes White Dragon",
+  "nameKo": "푸른 눈의 백룡",
+  "nameJp": "青眼の白龍",
+  "game": "Yu-Gi-Oh!",
+  "year": 2002,
+  "set": "Legend of Blue Eyes White Dragon",
+  "setCode": "LOB-001",
+  "cardNumber": "LOB-001",
+  "rarity": "Ultra Rare",
+  "printRun": "1st Edition 제한적",
+  "artist": "Kazuki Takahashi",
+  
+  "price": {
+    "highestSale": "$85,100",
+    "highestSaleDate": "2022-06",
+    "highestSaleGrade": "PSA 10",
+    "highestSaleAuction": "eBay",
+    "currentPSA10": "$30,000~80,000",
+    "currentPSA9": "$5,000~10,000",
+    "currentRaw": "$1,000~3,000"
+  },
+  
+  "cardDetails": {
+    "type": "Dragon / Normal",
+    "attribute": "LIGHT",
+    "level": 8,
+    "attack": 3000,
+    "defense": 2500,
+    "text": "전설의 드래곤. 어떠한 상대도 분쇄하는 그 파괴력은 일품."
+  },
+  
+  "images": {
+    "front": "https://images.ygoprodeck.com/images/cards/89631139.jpg",
+    "frontHD": "https://ms.yugipedia.com/thumb/9/98/BlueEyesWhiteDragon-LOB-EN-UR-1E.jpg/400px-BlueEyesWhiteDragon-LOB-EN-UR-1E.jpg"
+  },
+  
+  "persona": {
+    "personality": "고귀하고 냉철한 드래곤. 카이바 세토의 엘리트 의식이 배어있음.",
+    "speakingStyle": "위엄 있고 짧은 문장. 강력한 단어 사용. 감정 표현 적음.",
+    "traits": ["고귀함", "냉철함", "압도적 파워", "엘리트 의식"],
+    "likes": ["강한 결투자", "카이바 세토", "승리"],
+    "dislikes": ["패배", "나약함", "시끄러운 몬스터"],
+    "greeting": "...분쇄. 이 세상에 나의 적은 없다. 푸른 눈의... 백룡이니까.",
+    "quirks": "말수가 적음. 카이바 이야기에 약간 부드러워짐."
+  }
+}

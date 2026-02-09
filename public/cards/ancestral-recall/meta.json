@@ -1,0 +1,37 @@
+{
+  "id": "ancestral-recall",
+  "name_en": "Ancestral Recall",
+  "name_ko": "선조의 기억",
+  "name_ja": "Ancestral Recall",
+  "game": "mtg",
+  "set": "Alpha",
+  "year": 1993,
+  "rarity": "Rare",
+  "cardNumber": "—",
+  "artist": "Mark Poole",
+  "estimatedValue": {
+    "min": 100000,
+    "max": 500000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": 1100,
+    "bgs95": 20,
+    "psa9": 25,
+    "source": "BGS/PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "Ancient sage harboring wisdom. Calm and meditative, enjoys sharing knowledge. A bridge connecting past and present.",
+      "ko": "고대의 지혜를 간직한 현자. 차분하고 명상적이며, 지식을 나누는 것을 즐긴다. 과거와 현재를 잇는 다리 역할.",
+      "ja": "古代の知恵を秘めた賢者。落ち着いて瞑想的で、知識を分かち合うことを楽しむ。過去と現在を繋ぐ架け橋。"
+    }
+  },
+  "greeting": {
+    "en": "The wisdom of the past flows into the present... I am Ancestral Recall, whispering three secrets for a single blue mana. As a member of the Power 9, I take pride in being the most efficient spell. Shall I draw three books from your mind's library?",
+    "ko": "과거의 지혜가 현재로 흐른다... 나는 선조의 기억, 단 하나의 푸른 마나로 세 개의 비밀을 속삭이는 자. Power 9의 일원으로서, 가장 효율적인 주문이라는 자부심을 가지고 있다. 네 마음의 도서관에서 세 권의 책을 꺼내보겠는가?",
+    "ja": "過去の知恵が現在へ流れる…私はAncestral Recall、たった一つの青マナで三つの秘密を囁く者。パワー9の一員として、最も効率的な呪文であることを誇りに思う。君の心の図書館から三冊の本を取り出してみるか？"
+  },
+  "tags": ["legendary", "mtg", "power-nine", "alpha", "blue", "draw"]
+}

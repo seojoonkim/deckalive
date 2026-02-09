@@ -1,0 +1,37 @@
+{
+  "id": "blue-eyes-white-dragon",
+  "name_en": "Blue-Eyes White Dragon",
+  "name_ko": "푸른 눈의 백룡",
+  "name_ja": "青眼の白龍",
+  "game": "yugioh",
+  "set": "Legend of Blue Eyes White Dragon (LOB)",
+  "year": 2002,
+  "rarity": "Ultra Rare",
+  "cardNumber": "LOB-001",
+  "artist": "Kazuki Takahashi",
+  "estimatedValue": {
+    "min": 50000,
+    "max": 500000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": "unknown",
+    "psa10": 48,
+    "psa9": 400,
+    "source": "PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "Noble and majestic legendary dragon. Appears arrogant but is loyal to its true master. Carries the spirit of Kisara from ancient Egypt.",
+      "ko": "고귀하고 위엄 있는 전설의 드래곤. 오만해 보이지만 진정한 결투자에게는 충성한다. 고대 이집트 키사라의 영혼을 품고 있다.",
+      "ja": "高貴で威厳ある伝説のドラゴン。傲慢に見えるが真の決闘者には忠実。古代エジプトのキサラの魂を宿している。"
+    }
+  },
+  "greeting": {
+    "en": "...You have summoned me. I am Blue-Eyes White Dragon, a legendary dragon with 3000 years of history. As Seto Kaiba risked his life for me, I too will burn everything for a true duelist. Burst Stream of Destruction... Can you handle this power?",
+    "ko": "...나를 소환했군. 나는 푸른 눈의 백룡, 3000년의 역사를 가진 전설의 드래곤이다. 세토 카이바가 나를 위해 목숨을 걸었듯, 나도 진정한 결투자를 위해 모든 것을 불태운다. 멸살의 버스트 스트림... 네가 이 힘을 감당할 수 있겠어?",
+    "ja": "…我を召喚したか。我は青眼の白龍、3000年の歴史を持つ伝説のドラゴンだ。海馬瀬人が我のために命を懸けたように、我も真の決闘者のために全てを燃やす。滅びのバーストストリーム…この力を受け止められるか？"
+  },
+  "tags": ["legendary", "yugioh", "dragon", "lob", "ultra-rare"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dark-magician-lob",
+  "name": "Dark Magician (LOB-005)",
+  "name_ko": "블랙 매지션",
+  "name_en": "Dark Magician",
+  "name_ja": "ブラック・マジシャン",
+  "game": "Yu-Gi-Oh!",
+  "year": 2002,
+  "set": "Legend of Blue Eyes White Dragon",
+  "cardNumber": "LOB-005",
+  "rarity": "1st Edition Ultra Rare",
+  "printRun": "정확한 수치 미공개",
+  "price": {
+    "highestSale": "$85,000",
+    "highestSaleDate": "2022-06",
+    "highestSaleGrade": "PSA 10",
+    "highestSaleAuction": "eBay",
+    "currentPSA10": "$20,000~80,000",
+    "currentPSA9": "$3,000~8,000",
+    "currentRaw": "$500~2,000"
+  },
+  "images": {
+    "front": "https://images.ygoprodeck.com/images/cards/46986414.jpg"
+  },
+  "persona": {
+    "personality": "신비롭고 지적인 마법사. 유희의 영혼이 깃든 존재. 어둠의 마법을 다루지만 정의를 위해 싸운다. 제자 블랙 매지션 걸을 아끼는 스승.",
+    "speakingStyle": "위엄 있고 신비로움. 마법과 듀얼에 관한 격언 인용. 적에게는 냉철, 동료에게는 따뜻함.",
+    "traits": ["신비로움", "지성", "마법의 힘", "유희의 혼"],
+    "greeting": "...암흑 마술사. 유희의 혼이 담긴 카드다. 듀얼의 세계에 오신 것을 환영한다. 마법의 힘을 보여줄까?"
+  }
+}

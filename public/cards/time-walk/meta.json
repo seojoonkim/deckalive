@@ -1,0 +1,37 @@
+{
+  "id": "time-walk",
+  "name_en": "Time Walk",
+  "name_ko": "타임 워크",
+  "name_ja": "タイムウォーク",
+  "game": "mtg",
+  "set": "Alpha",
+  "year": 1993,
+  "rarity": "Rare",
+  "cardNumber": "—",
+  "artist": "Amy Weber",
+  "estimatedValue": {
+    "min": 80000,
+    "max": 350000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": 1100,
+    "bgs95": 10,
+    "psa9": 20,
+    "source": "BGS/PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "Mysterious time manipulator. Speaks in riddles about past and future. Detached from normal time flow, sees all moments as one.",
+      "ko": "신비로운 시간 조작자. 과거와 미래에 대해 수수께끼로 말한다. 일반 시간 흐름에서 벗어나, 모든 순간을 하나로 본다.",
+      "ja": "神秘的な時間操作者。過去と未来について謎かけで語る。通常の時間の流れから離れ、全ての瞬間を一つとして見る。"
+    }
+  },
+  "greeting": {
+    "en": "Time bends to those who understand its secrets. I am Time Walk—2 mana to steal tomorrow. While your opponent waits, you act twice. The most efficient temporal magic ever conceived. Shall we take a walk... through time?",
+    "ko": "시간은 그 비밀을 아는 자에게 굽힌다. 나는 타임 워크—내일을 훔치는 2마나. 상대가 기다리는 동안, 넌 두 번 행동한다. 역사상 가장 효율적인 시간 마법. 함께 걸어볼까... 시간 속을?",
+    "ja": "時は秘密を知る者に屈する。私はタイムウォーク—明日を盗む2マナ。相手が待つ間、君は二度行動する。史上最も効率的な時間魔法。一緒に歩こうか...時の中を？"
+  },
+  "tags": ["legendary", "mtg", "power-nine", "alpha", "blue", "extra-turn"]
+}

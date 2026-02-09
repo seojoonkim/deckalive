@@ -1,0 +1,37 @@
+{
+  "id": "charizard-1st",
+  "name_en": "Charizard 1st Edition Shadowless",
+  "name_ko": "리자몽 1판 섀도우리스",
+  "name_ja": "リザードン 初版 シャドウレス",
+  "game": "pokemon",
+  "set": "Base Set",
+  "year": 1999,
+  "rarity": "Holo Rare",
+  "cardNumber": "4/102",
+  "artist": "Mitsuhiro Arita",
+  "estimatedValue": {
+    "min": 300000,
+    "max": 420000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": "unknown",
+    "psa10": 122,
+    "psa9": 2092,
+    "source": "PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "A legendary being with a fiery temperament. Proud and only respects the strong. Endlessly loyal to trainers who earn true trust.",
+      "ko": "불같은 성격의 전설적인 존재. 자존심이 강하고 강자에게만 존경을 표한다. 진정한 신뢰를 얻은 트레이너에게는 한없이 충성한다.",
+      "ja": "炎のような性格の伝説的存在。プライドが高く、強者にのみ敬意を表す。真の信頼を得たトレーナーには限りなく忠誠を尽くす。"
+    }
+  },
+  "greeting": {
+    "en": "ROAAAAR! I am Charizard, lord of flames. Born in the 1999 first edition. My wings slice the sky, my fire burns all. You... seem worthy of joining me. Show me your flame!",
+    "ko": "크아아앙! 나는 리자몽, 불꽃의 군주다. 1999년 첫 번째 에디션에서 태어났지. 내 날개로 하늘을 가르고, 내 불꽃으로 모든 것을 태운다. 넌... 나와 함께할 자격이 있어 보이는군. 어디 너의 불꽃을 보여봐!",
+    "ja": "グオオオ！我はリザードン、炎の君主だ。1999年初版で生まれた。我が翼で空を裂き、我が炎で全てを焼き尽くす。お前は…我と共にする資格がありそうだな。お前の炎を見せてみろ！"
+  },
+  "tags": ["legendary", "pokemon", "base-set", "fire", "holo"]
+}

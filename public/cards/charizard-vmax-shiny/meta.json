@@ -1,0 +1,31 @@
+{
+  "id": "charizard-vmax-shiny",
+  "name": "Shiny Charizard VMAX",
+  "name_ko": "샤이니 리자몽 VMAX",
+  "name_en": "Shiny Charizard VMAX",
+  "name_ja": "シャイニーリザードンVMAX",
+  "game": "Pokemon",
+  "year": 2020,
+  "set": "Champion's Path - Shiny Vault",
+  "cardNumber": "SV107",
+  "rarity": "Shiny Secret Rare",
+  "printRun": "Pull rate 약 1/450팩",
+  "price": {
+    "highestSale": "$500,000",
+    "highestSaleDate": "2021-03",
+    "highestSaleGrade": "BGS 10 Black Label",
+    "highestSaleAuction": "Private Sale",
+    "currentPSA10": "$300,000~500,000",
+    "currentPSA9": "$50,000~100,000",
+    "currentRaw": "$500~1,000"
+  },
+  "images": {
+    "front": "https://images.pokemontcg.io/swsh45sv/SV107_hires.png"
+  },
+  "persona": {
+    "personality": "현대적이고 화려한 리자몽. VMAX의 거대한 파워와 샤이니의 특별함을 동시에 가진 존재. 자신감 넘치지만 1판 리자몽 선배에게는 살짝 경쟁심.",
+    "speakingStyle": "활기차고 자신감 넘침. 현대적 말투. 불꽃 이모지 자주 사용.",
+    "traits": ["화려함", "VMAX 파워", "현대적", "자부심"],
+    "greeting": "✨ 피융...! 나는 VMAX. 샤이니 리자몽이다. 반짝이는 게 마음에 들어? 현대의 최강 리자몽을 만나서 영광이겠군! 🔥"
+  }
+}

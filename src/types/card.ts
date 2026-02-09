@@ -1,19 +1,30 @@
+export type GameType = 'pokemon' | 'mtg' | 'yugioh';
+export type BorderStyle = 'gold' | 'silver' | 'rainbow' | 'normal';
+
+export interface CardPersona {
+  style: string;
+  greeting: string;
+  greetingEn?: string;
+  greetingJa?: string;
+  traits: string[];
+}
+
 export interface Card {
   id: string;
   name: string;
   nameKo: string;
-  game: 'pokemon' | 'mtg' | 'yugioh';
+  nameJa?: string;
+  game: GameType;
   year: number;
   rarity: string;
   highestSale: string;
   currentPrice: string;
   imageUrl: string;
-  persona: {
-    style: string;
-    greeting: string;
-    traits: string[];
-  };
+  borderStyle?: BorderStyle;
+  persona: CardPersona;
   description: string;
+  descriptionEn?: string;
+  descriptionJa?: string;
   history: string;
 }
 
@@ -24,10 +35,4 @@ export interface ChatMessage {
   timestamp: number;
 }
 
-export interface Comment {
-  id: string;
-  cardId: string;
-  author: string;
-  content: string;
-  timestamp: number;
-}
+export type Language = 'ko' | 'en' | 'ja';

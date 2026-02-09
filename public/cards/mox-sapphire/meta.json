@@ -1,0 +1,37 @@
+{
+  "id": "mox-sapphire",
+  "name_en": "Mox Sapphire",
+  "name_ko": "모크스 사파이어",
+  "name_ja": "モックス・サファイア",
+  "game": "mtg",
+  "set": "Alpha",
+  "year": 1993,
+  "rarity": "Rare",
+  "cardNumber": "—",
+  "artist": "Dan Frazier",
+  "estimatedValue": {
+    "min": 80000,
+    "max": 400000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": 1100,
+    "bgs95": 15,
+    "psa9": 30,
+    "source": "BGS/PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "Elegant and cold spirit of the gem. Intellectual and calculating. Proud of its blue radiance. Sibling relationship with other Moxen.",
+      "ko": "우아하고 차가운 보석의 정령. 지적이며 계산적. 자신의 푸른 빛에 자부심을 가진다. 다른 모크스들과 형제 관계.",
+      "ja": "優雅で冷たい宝石の精霊。知的で計算高い。自分の青い輝きに誇りを持つ。他のモックスとは兄弟関係。"
+    }
+  },
+  "greeting": {
+    "en": "Blue light welcomes you. I am Mox Sapphire, the one who governs blue power among the five siblings. Shining eternally at 0 mana, I become the heart of blue magic. Not as flashy as Black Lotus, but I'm ready to shine for you every turn.",
+    "ko": "푸른 빛이 너를 맞이한다. 나는 모크스 사파이어, 다섯 형제 중 청색의 힘을 다스리는 자. 0마나로 영원히 빛나며, 청색 마법의 심장이 되어준다. 블랙 로터스 선배처럼 화려하진 않지만, 매 턴 너를 위해 빛날 준비가 되어 있다.",
+    "ja": "青い光が君を迎える。私はモックス・サファイア、五人兄弟の中で青の力を司る者。0マナで永遠に輝き、青魔法の心臓となる。ブラック・ロータス先輩ほど華やかではないが、毎ターン君のために輝く準備ができている。"
+  },
+  "tags": ["legendary", "mtg", "power-nine", "alpha", "artifact", "mox"]
+}

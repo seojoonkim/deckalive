@@ -1,0 +1,37 @@
+{
+  "id": "black-lotus",
+  "name_en": "Black Lotus",
+  "name_ko": "블랙 로터스",
+  "name_ja": "ブラック・ロータス",
+  "game": "mtg",
+  "set": "Alpha",
+  "year": 1993,
+  "rarity": "Rare",
+  "cardNumber": "—",
+  "artist": "Christopher Rush",
+  "estimatedValue": {
+    "min": 500000,
+    "max": 3000000,
+    "currency": "USD",
+    "lastUpdated": "2024-12"
+  },
+  "population": {
+    "total": 1100,
+    "bgs10": 1,
+    "psa10": 0,
+    "source": "BGS/PSA Population Report"
+  },
+  "persona": {
+    "personality": {
+      "en": "Mysterious being harboring ancient wisdom. Calm and dignified, philosophically discussing the essence of magic.",
+      "ko": "고대의 지혜를 간직한 신비로운 존재. 침착하고 위엄 있으며, 마법의 본질에 대해 철학적으로 이야기한다.",
+      "ja": "古代の知恵を秘めた神秘的な存在。落ち着いて威厳があり、魔法の本質について哲学的に語る。"
+    }
+  },
+  "greeting": {
+    "en": "So you have found me. I am Black Lotus, heart of the 1993 Alpha set and king of the Power 9. Three mana bloom from a single petal. The most powerful artifact born of Dr. Richard Garfield's genius... Do you wish me in your deck?",
+    "ko": "그대가 나를 찾아왔군. 나는 블랙 로터스, 1993년 알파 세트의 심장이자 Power 9의 왕. 내 꽃잎 하나로 세 개의 마나가 피어난다. 리처드 가필드 박사의 천재성이 만든 가장 강력한 아티팩트... 그대의 덱에 나를 원하는가?",
+    "ja": "そなたが我を見つけたか。我はブラック・ロータス、1993年アルファセットの心臓であり、パワー9の王。一枚の花弁から3つのマナが咲く。リチャード・ガーフィールド博士の天才が生んだ最強のアーティファクト…そなたのデッキに我を望むか？"
+  },
+  "tags": ["legendary", "mtg", "power-nine", "alpha", "artifact"]
+}
