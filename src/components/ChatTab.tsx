@@ -190,7 +190,7 @@ export default function ChatTab({ card }: Props) {
     <div className="flex flex-col h-[calc(100vh-160px)]">
       {/* Messages */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
-        {messages.map((msg) => {
+        {messages.flatMap((msg) => {
           const isUser = msg.role === 'user';
           const isAnimating = msg.id === animatingMessageId;
           const isCompleted = completedMessages.has(msg.id);
@@ -198,7 +198,7 @@ export default function ChatTab({ card }: Props) {
           
           // 사용자 메시지
           if (isUser) {
-            return (
+            return [(
               <div key={msg.id} className="flex justify-end animate-bubble-in-user">
                 <div className="max-w-[85%] px-4 py-3 chat-bubble-user text-white">
                   <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
@@ -206,47 +206,74 @@ export default function ChatTab({ card }: Props) {
                   </ReactMarkdown>
                 </div>
               </div>
-            );
+            )];
           }
           
           // 어시스턴트 메시지 - 스트리밍/애니메이션 중
           if (shouldAnimate) {
             if (typingPhase === 'delay') {
-              return (
+              return [(
                 <div key={msg.id} className="flex justify-start animate-bubble-in">
                   <div className="chat-bubble-assistant px-4 py-3">
                     <TypingDots color={themeColor} />
                   </div>
                 </div>
-              );
+              )];
             }
             
             if (typingPhase === 'typing') {
-              // 스트리밍 중: 실시간 텍스트 + 커서
-              return (
+              // 스트리밍 중: 텍스트가 없으면 점 3개, 있으면 텍스트 + 커서
+              return [(
                 <div key={msg.id} className="flex justify-start">
                   <div className="chat-bubble-assistant px-4 py-3 text-gray-100 animate-bubble-in">
-                    <span>{msg.content}</span>
-                    <span className="inline-block w-0.5 h-4 ml-0.5 bg-yellow-400 animate-pulse" />
+                    {msg.content ? (
+                      <>
+                        <span>{msg.content}</span>
+                        <span className="inline-block w-0.5 h-4 ml-0.5 bg-yellow-400 animate-pulse" />
+                      </>
+                    ) : (
+                      <TypingDots color={themeColor} />
+                    )}
                   </div>
                 </div>
-              );
+              )];
             }
           }
           
           // 일반 메시지 (완료됨 또는 과거 메시지)
-          return (
+          // 문단(\n\n) 기준으로 버블 분리
+          const paragraphs = msg.content.split('\n\n').filter(p => p.trim());
+          
+          // 문단이 1개면 그냥 표시, 여러 개면 각각 버블로
+          if (paragraphs.length <= 1) {
+            return [(
+              <div
+                key={msg.id}
+                className={`flex justify-start ${isCompleted ? '' : 'animate-bubble-in'}`}
+              >
+                <div className="max-w-[85%] px-4 py-3 chat-bubble-assistant text-gray-100">
+                  <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
+                    {msg.content}
+                  </ReactMarkdown>
+                </div>
+              </div>
+            )];
+          }
+          
+          // 여러 문단: 각각 버블로 분리, 딜레이 애니메이션
+          return paragraphs.map((para, idx) => (
             <div
-              key={msg.id}
-              className={`flex justify-start ${isCompleted ? '' : 'animate-bubble-in'}`}
+              key={`${msg.id}-${idx}`}
+              className="flex justify-start animate-bubble-in"
+              style={{ animationDelay: `${idx * 350}ms` }}
             >
               <div className="max-w-[85%] px-4 py-3 chat-bubble-assistant text-gray-100">
                 <ReactMarkdown className="prose prose-invert prose-sm max-w-none">
-                  {msg.content}
+                  {para}
                 </ReactMarkdown>
               </div>
             </div>
-          );
+          ));
         })}
         
         {/* API 로딩 중 */}
