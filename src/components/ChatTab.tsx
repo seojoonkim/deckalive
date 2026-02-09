@@ -186,9 +186,8 @@ export default function ChatTab({ card }: Props) {
 
   const themeColor = getThemeColor();
   
-  // 아바타 크기 (일관성을 위해 상수로)
-  const AVATAR_SIZE = 'w-8 h-8';
-  const AVATAR_MARGIN = 'ml-10'; // 아바타 없을 때 여백 (8 + gap 2)
+  // 아바타 크기 - 카드 비율 (32x44px, 약 1:1.375)
+  const AVATAR_SIZE = 'w-8 h-11';
 
   return (
     <div className="flex flex-col h-[calc(100vh-160px)]">
@@ -226,7 +225,7 @@ export default function ChatTab({ card }: Props) {
                   <img 
                     src={card.imageUrl} 
                     alt={card.name}
-                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                    className={`${AVATAR_SIZE} rounded-md object-cover ring-2 ring-white/10 flex-shrink-0`}
                   />
                   <div className="chat-bubble-assistant px-4 py-3">
                     <TypingDots color={themeColor} />
@@ -242,7 +241,7 @@ export default function ChatTab({ card }: Props) {
                   <img 
                     src={card.imageUrl} 
                     alt={card.name}
-                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                    className={`${AVATAR_SIZE} rounded-md object-cover ring-2 ring-white/10 flex-shrink-0`}
                   />
                   <div className="chat-bubble-assistant px-4 py-3 text-gray-100 animate-bubble-in">
                     {msg.content ? (
@@ -275,7 +274,7 @@ export default function ChatTab({ card }: Props) {
                   <img 
                     src={card.imageUrl} 
                     alt={card.name}
-                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                    className={`${AVATAR_SIZE} rounded-md object-cover ring-2 ring-white/10 flex-shrink-0`}
                   />
                 ) : (
                   <div className={`${AVATAR_SIZE} flex-shrink-0`} />
@@ -305,7 +304,7 @@ export default function ChatTab({ card }: Props) {
                   <img 
                     src={card.imageUrl} 
                     alt={card.name}
-                    className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+                    className={`${AVATAR_SIZE} rounded-md object-cover ring-2 ring-white/10 flex-shrink-0`}
                   />
                 ) : (
                   <div className={`${AVATAR_SIZE} flex-shrink-0`} />
@@ -326,7 +325,7 @@ export default function ChatTab({ card }: Props) {
             <img 
               src={card.imageUrl} 
               alt={card.name}
-              className={`${AVATAR_SIZE} rounded-full object-cover ring-2 ring-white/10 flex-shrink-0`}
+              className={`${AVATAR_SIZE} rounded-md object-cover ring-2 ring-white/10 flex-shrink-0`}
             />
             <div className="chat-bubble-assistant px-4 py-3">
               <TypingDots color={themeColor} />
