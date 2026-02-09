@@ -28,6 +28,7 @@ export function CardItem({
   const cardRef = useRef<HTMLDivElement>(null);
   const [transform, setTransform] = useState('');
   const [glare, setGlare] = useState({ x: 50, y: 50, opacity: 0 });
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!cardRef.current) return;
@@ -39,57 +40,69 @@ export function CardItem({
     const centerX = rect.width / 2;
     const centerY = rect.height / 2;
     
-    const rotateX = ((y - centerY) / centerY) * -15;
-    const rotateY = ((x - centerX) / centerX) * 15;
+    const rotateX = ((y - centerY) / centerY) * -8;
+    const rotateY = ((x - centerX) / centerX) * 8;
     
-    setTransform(`perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.05, 1.05, 1.05)`);
+    setTransform(`perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px)`);
     setGlare({
       x: (x / rect.width) * 100,
       y: (y / rect.height) * 100,
-      opacity: 0.3,
+      opacity: 0.15,
     });
+  };
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
   };
 
   const handleMouseLeave = () => {
     setTransform('');
     setGlare({ x: 50, y: 50, opacity: 0 });
+    setIsHovered(false);
   };
 
   const getBorderClass = () => {
     switch (borderStyle) {
       case 'rainbow':
-        return 'border-2 animate-rainbow-border';
+        return 'ring-1 ring-white/20';
       case 'gold':
-        return 'border-2 border-yellow-500/70 shadow-[0_0_30px_rgba(255,215,0,0.3)]';
+        return 'ring-1 ring-amber-400/40';
       case 'silver':
-        return 'border-2 border-gray-400/50 shadow-[0_0_20px_rgba(192,192,192,0.2)]';
+        return 'ring-1 ring-gray-400/30';
       case 'normal':
       default:
-        return 'border border-gray-700/50';
+        return 'ring-1 ring-white/5';
     }
   };
 
-  const getRarityBadge = () => {
+  const getGlowClass = () => {
+    if (!isHovered) return '';
+    switch (borderStyle) {
+      case 'rainbow':
+        return 'shadow-[0_8px_40px_-12px_rgba(168,85,247,0.4)]';
+      case 'gold':
+        return 'shadow-[0_8px_40px_-12px_rgba(251,191,36,0.3)]';
+      case 'silver':
+        return 'shadow-[0_8px_40px_-12px_rgba(156,163,175,0.25)]';
+      default:
+        return 'shadow-[0_8px_32px_-12px_rgba(0,0,0,0.6)]';
+    }
+  };
+
+  const getRarityIndicator = () => {
     switch (borderStyle) {
       case 'rainbow':
         return (
-          <div className="absolute top-2 right-2 px-2 py-0.5 rounded text-[10px] font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-white animate-pulse">
-            ✨ LEGENDARY
-          </div>
+          <div className="absolute top-3 right-3 w-2 h-2 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 animate-pulse" />
         );
       case 'gold':
         return (
-          <div className="absolute top-2 right-2 px-2 py-0.5 rounded text-[10px] font-bold bg-gradient-to-r from-yellow-400 to-amber-600 text-black">
-            ★ ULTRA RARE
-          </div>
+          <div className="absolute top-3 right-3 w-2 h-2 rounded-full bg-amber-400/80" />
         );
       case 'silver':
         return (
-          <div className="absolute top-2 right-2 px-2 py-0.5 rounded text-[10px] font-bold bg-gradient-to-r from-gray-300 to-gray-500 text-black">
-            RARE
-          </div>
+          <div className="absolute top-3 right-3 w-1.5 h-1.5 rounded-full bg-gray-400/60" />
         );
-      case 'normal':
       default:
         return null;
     }
@@ -100,68 +113,77 @@ export function CardItem({
       <div
         ref={cardRef}
         onMouseMove={handleMouseMove}
+        onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         className={`
-          card-aspect relative overflow-hidden rounded-xl bg-gray-900/80
+          card-aspect relative overflow-hidden rounded-2xl bg-neutral-900/90
           ${getBorderClass()}
-          transition-all duration-300 ease-out
+          ${getGlowClass()}
+          transition-all duration-500 ease-out
         `}
         style={{ transform, transformStyle: 'preserve-3d' }}
       >
-        {/* Card Image */}
+        {/* Card Image - Artwork focused crop */}
         <img
           src={imageUrl}
           alt={name}
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          className="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
           loading="lazy"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = `https://placehold.co/252x352/1a1a1a/666?text=${encodeURIComponent(name)}`;
+            (e.target as HTMLImageElement).src = `https://placehold.co/252x352/0a0a0a/333?text=${encodeURIComponent(name)}`;
           }}
         />
 
-        {/* Holographic Overlay */}
+        {/* Subtle Holographic Glare */}
         <div
-          className="absolute inset-0 pointer-events-none transition-opacity duration-300"
+          className="absolute inset-0 pointer-events-none transition-opacity duration-500"
           style={{
-            background: `radial-gradient(circle at ${glare.x}% ${glare.y}%, rgba(255,255,255,${glare.opacity}) 0%, transparent 50%)`,
+            background: `radial-gradient(circle at ${glare.x}% ${glare.y}%, rgba(255,255,255,${glare.opacity}) 0%, transparent 60%)`,
           }}
         />
 
-        {/* Rainbow Shimmer for legendary cards */}
-        {borderStyle === 'rainbow' && (
-          <div className="absolute inset-0 pointer-events-none opacity-30 mix-blend-overlay">
-            <div className="absolute inset-0 bg-gradient-to-br from-pink-500 via-purple-500 to-cyan-500 animate-pulse" />
+        {/* Rainbow Shimmer - More subtle */}
+        {borderStyle === 'rainbow' && isHovered && (
+          <div className="absolute inset-0 pointer-events-none opacity-20 mix-blend-overlay">
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-500/50 via-pink-500/50 to-cyan-500/50" />
           </div>
         )}
 
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
+        {/* Bottom Gradient - Natural fade */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
 
-        {/* Game Badge */}
-        <div className={`absolute top-2 left-2 px-2.5 py-1 rounded-lg text-xs font-bold text-white ${gameColor} shadow-lg backdrop-blur-sm`}>
+        {/* Game Badge - Minimal */}
+        <div className={`
+          absolute top-3 left-3 
+          px-2 py-0.5 
+          rounded-md 
+          text-[10px] font-medium tracking-wide uppercase
+          text-white/90
+          bg-black/40 backdrop-blur-sm
+          border border-white/5
+        `}>
           {gameLabel}
         </div>
 
-        {/* Rarity Badge */}
-        {getRarityBadge()}
+        {/* Rarity Indicator - Minimal dot */}
+        {getRarityIndicator()}
 
-        {/* Card Info */}
+        {/* Card Info - Clean bottom section */}
         <div className="absolute bottom-0 left-0 right-0 p-4" style={{ transform: 'translateZ(20px)' }}>
-          <h3 className="font-bold text-white text-sm md:text-base leading-tight line-clamp-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+          <h3 className="font-medium text-white/95 text-sm leading-snug line-clamp-2 tracking-tight">
             {nameLocalized}
           </h3>
+          
           {showEnglishName && (
-            <p className="text-xs text-gray-300/80 mt-1 truncate">
+            <p className="text-[11px] text-white/40 mt-1 truncate font-light">
               {name}
             </p>
           )}
-          <div className="flex items-center gap-2 mt-2">
-            <span className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-500 drop-shadow-[0_0_10px_rgba(255,215,0,0.5)]">
+          
+          <div className="flex items-center gap-2 mt-2.5">
+            <span className="text-sm font-semibold text-amber-400/90 tracking-tight">
               {highestSale}
             </span>
-            {borderStyle === 'rainbow' && (
-              <span className="text-xs text-purple-400">🔥</span>
-            )}
           </div>
         </div>
       </div>

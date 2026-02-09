@@ -4,7 +4,7 @@ import type { Language } from '../types/card';
 
 const languages: { code: Language; flag: string; label: string }[] = [
   { code: 'ko', flag: '🇰🇷', label: '한국어' },
-  { code: 'en', flag: '🇺🇸', label: 'English' },
+  { code: 'en', flag: '🇺🇸', label: 'EN' },
   { code: 'ja', flag: '🇯🇵', label: '日本語' },
 ];
 
@@ -13,28 +13,26 @@ interface LanguageToggleProps {
   compact?: boolean;
 }
 
-export function LanguageToggle({ className = '', compact = false }: LanguageToggleProps) {
+export function LanguageToggle({ className = '' }: LanguageToggleProps) {
   const { language, setLanguage } = useLanguageStore();
 
   return (
-    <div className={`flex items-center gap-1 ${className}`}>
+    <div className={`flex items-center gap-0.5 p-0.5 rounded-lg bg-white/5 ${className}`}>
       {languages.map((lang) => (
         <button
           key={lang.code}
           onClick={() => setLanguage(lang.code)}
           className={`
-            px-2 py-1 rounded-md transition-all duration-200 font-medium
+            px-2.5 py-1.5 rounded-md transition-all duration-300 
+            text-[11px] font-medium tracking-wide
             ${language === lang.code
-              ? 'bg-purple-600 text-white shadow-lg shadow-purple-500/30'
-              : 'bg-gray-800/50 text-gray-400 hover:bg-gray-700/50 hover:text-white'
+              ? 'bg-white/10 text-white/90'
+              : 'text-white/30 hover:text-white/60'
             }
           `}
           title={lang.label}
         >
-          <span className="text-xs font-bold">{lang.flag}</span>
-          {!compact && (
-            <span className="ml-1 text-sm hidden sm:inline">{lang.label}</span>
-          )}
+          {lang.code.toUpperCase()}
         </button>
       ))}
     </div>
@@ -52,12 +50,11 @@ export function LanguageDropdown({ className = '' }: { className?: string }) {
     <div className={`relative ${className}`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors"
+        className="flex items-center gap-2 px-3 py-1.5 bg-white/5 rounded-lg hover:bg-white/10 transition-colors border border-white/5"
       >
-        <span className="text-lg">{currentLang.flag}</span>
-        <span className="text-sm text-gray-300">{currentLang.label}</span>
+        <span className="text-xs text-white/60">{currentLang.code.toUpperCase()}</span>
         <svg
-          className={`w-4 h-4 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+          className={`w-3 h-3 text-white/30 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -69,7 +66,7 @@ export function LanguageDropdown({ className = '' }: { className?: string }) {
       {isOpen && (
         <>
           <div className="fixed inset-0 z-40" onClick={() => setIsOpen(false)} />
-          <div className="absolute right-0 mt-2 w-40 bg-gray-900 border border-gray-700 rounded-lg shadow-xl z-50 overflow-hidden">
+          <div className="absolute right-0 mt-2 w-32 bg-neutral-900 border border-white/10 rounded-xl shadow-2xl z-50 overflow-hidden backdrop-blur-xl">
             {languages.map((lang) => (
               <button
                 key={lang.code}
@@ -78,19 +75,16 @@ export function LanguageDropdown({ className = '' }: { className?: string }) {
                   setIsOpen(false);
                 }}
                 className={`
-                  w-full flex items-center gap-3 px-4 py-3 text-left transition-colors
+                  w-full flex items-center justify-between px-4 py-2.5 text-left transition-colors
                   ${language === lang.code
-                    ? 'bg-purple-600/20 text-purple-400'
-                    : 'text-gray-300 hover:bg-gray-800'
+                    ? 'bg-white/5 text-white/90'
+                    : 'text-white/40 hover:bg-white/5 hover:text-white/70'
                   }
                 `}
               >
-                <span className="text-xs font-bold bg-gray-700 px-1.5 py-0.5 rounded">{lang.flag}</span>
-                <span className="text-sm">{lang.label}</span>
+                <span className="text-xs font-medium">{lang.label}</span>
                 {language === lang.code && (
-                  <svg className="w-4 h-4 ml-auto" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
+                  <div className="w-1 h-1 rounded-full bg-amber-400" />
                 )}
               </button>
             ))}
