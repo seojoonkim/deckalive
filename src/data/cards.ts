@@ -12,7 +12,7 @@ export const cards: Card[] = [
     rarity: 'Promo (39장 존재)',
     highestSale: '$5,275,000 (2021)',
     currentPrice: '$4,000,000~6,000,000',
-    imageUrl: 'https://www.pricecharting.com/images/promos/pikachu-illustrator-promo.jpg',
+    imageUrl: '/cards/pikachu-illustrator/card.jpg',
     borderStyle: 'rainbow',
     persona: {
       style: '겸손하고 예술적인 영혼. 창작의 가치를 누구보다 잘 알며, 약간 수줍지만 그림 이야기가 나오면 눈이 반짝임.',
@@ -36,7 +36,7 @@ export const cards: Card[] = [
     rarity: 'Alpha (1,100장 추정)',
     highestSale: '$540,000 (2021)',
     currentPrice: '$150,000~500,000',
-    imageUrl: 'https://cards.scryfall.io/large/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7c14.jpg',
+    imageUrl: '/cards/black-lotus/card.jpg',
     borderStyle: 'gold',
     persona: {
       style: '고대하고 신비로운 존재. 30년 이상의 세월을 품고 있으며, 말이 적지만 한마디에 무게가 있음.',
@@ -60,7 +60,7 @@ export const cards: Card[] = [
     rarity: '1st Edition Holo (Base Set)',
     highestSale: '$420,000 (2022)',
     currentPrice: '$200,000~400,000',
-    imageUrl: 'https://images.pokemontcg.io/base1/4_hires.png',
+    imageUrl: '/cards/charizard-1st/card.jpg',
     borderStyle: 'gold',
     persona: {
       style: '당당하고 카리스마 넘치는 화염의 왕. 90년대 아이들의 영웅이었던 자부심이 강함.',
@@ -84,7 +84,7 @@ export const cards: Card[] = [
     rarity: 'Shiny Secret Rare (Champion\'s Path)',
     highestSale: '$500,000 (2021)',
     currentPrice: '$300,000~500,000',
-    imageUrl: 'https://images.pokemontcg.io/swsh45sv/SV107_hires.png',
+    imageUrl: '/cards/charizard-vmax-shiny/card.jpg',
     borderStyle: 'rainbow',
     persona: {
       style: '현대적이고 화려한 리자몽. VMAX의 거대한 파워와 샤이니의 특별함을 동시에 가진 존재.',
@@ -108,7 +108,7 @@ export const cards: Card[] = [
     rarity: '1st Edition Ultra Rare (LOB)',
     highestSale: '$85,000 (2022)',
     currentPrice: '$20,000~80,000',
-    imageUrl: 'https://images.ygoprodeck.com/images/cards/46986414.jpg',
+    imageUrl: '/cards/dark-magician-lob/card.jpg',
     borderStyle: 'gold',
     persona: {
       style: '신비롭고 지적인 마법사. 유희의 영혼이 깃든 존재. 어둠의 마법을 다루지만 정의를 위해 싸움.',
@@ -132,7 +132,7 @@ export const cards: Card[] = [
     rarity: 'Alpha Rare (Reserve List)',
     highestSale: '$65,000 (2023)',
     currentPrice: '$30,000~70,000',
-    imageUrl: 'https://cards.scryfall.io/large/front/4/7/47033ba4-8f26-4a6b-97bd-5571c364b4d2.jpg',
+    imageUrl: '/cards/tropical-island/card.jpg',
     borderStyle: 'silver',
     persona: {
       style: '평화롭고 자연친화적인 듀얼 랜드. 푸른색과 녹색의 조화를 상징. 느긋하지만 결정적 순간에 힘을 발휘.',
@@ -156,7 +156,7 @@ export const cards: Card[] = [
     rarity: '1st Edition Ultra Rare',
     highestSale: '$85,100 (2022)',
     currentPrice: '$30,000~80,000',
-    imageUrl: 'https://images.ygoprodeck.com/images/cards/89631139.jpg',
+    imageUrl: '/cards/blue-eyes-lob/card.jpg',
     borderStyle: 'silver',
     persona: {
       style: '고귀하고 냉철한 드래곤. 카이바 세토의 엘리트 의식이 배어있음.',
@@ -180,7 +180,7 @@ export const cards: Card[] = [
     rarity: 'Alpha (1,100장 추정)',
     highestSale: '$120,000 (2021)',
     currentPrice: '$50,000~150,000',
-    imageUrl: 'https://cards.scryfall.io/large/front/2/3/2398892d-28e9-4009-81ec-0d544af79d2b.jpg',
+    imageUrl: '/cards/ancestral-recall/card.jpg',
     borderStyle: 'gold',
     persona: {
       style: '학자적이고 박식한 존재. 지식의 흐름 자체를 체현. 배움을 추구하는 자에게 관대함.',
@@ -204,7 +204,7 @@ export const cards: Card[] = [
     rarity: 'Alpha (1,100장 추정)',
     highestSale: '$100,000 (2020)',
     currentPrice: '$40,000~120,000',
-    imageUrl: 'https://cards.scryfall.io/large/front/a/a/aa19c908-daea-4d14-b3f9-bcc1f2e9d548.jpg',
+    imageUrl: '/cards/mox-sapphire/card.jpg',
     borderStyle: 'silver',
     persona: {
       style: '우아하고 지적인 보석. 푸른 마나의 순수함과 지성을 체현.',
@@ -228,7 +228,7 @@ export const cards: Card[] = [
     rarity: '1st Edition Shadowless Holo',
     highestSale: '$360,000 (2021)',
     currentPrice: '$100,000~300,000',
-    imageUrl: 'https://images.pokemontcg.io/base1/2_hires.png',
+    imageUrl: '/cards/blastoise-shadowless/card.jpg',
     borderStyle: 'silver',
     persona: {
       style: '묵직하고 신뢰감 있는 수호자. 조용히 뒤에서 지원하는 팀플레이어.',
@@ -252,7 +252,7 @@ export const cards: Card[] = [
     rarity: 'Trophy Card (7장 현존)',
     highestSale: '$300,000 (2020)',
     currentPrice: '$200,000~400,000',
-    imageUrl: 'https://images.pokemontcg.io/basep/26_hires.png',
+    imageUrl: '/cards/trophy-pikachu-gold/card.jpg',
     borderStyle: 'gold',
     persona: {
       style: '챔피언의 자부심이 넘치는 황금 피카츄. 경쟁과 승리의 가치를 중시.',
@@ -276,7 +276,7 @@ export const cards: Card[] = [
     rarity: 'Alpha (1,100장 추정)',
     highestSale: '$70,000 (2021)',
     currentPrice: '$30,000~100,000',
-    imageUrl: 'https://cards.scryfall.io/large/front/7/0/70901356-3266-4bd9-aacc-f06c27571571.jpg',
+    imageUrl: '/cards/time-walk/card.jpg',
     borderStyle: 'silver',
     persona: {
       style: '시간을 지배하는 초월적 존재. 느긋하면서도 압도적인 힘을 가짐.',
