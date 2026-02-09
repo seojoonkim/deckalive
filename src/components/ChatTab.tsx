@@ -289,7 +289,7 @@ export default function ChatTab({ card }: Props) {
       </div>
       
       {/* Input */}
-      <form onSubmit={handleSubmit} className="p-4 border-t border-gray-800/50 glass-dark">
+      <form onSubmit={handleSubmit} className="p-4">
         <div className="flex gap-3">
           <input
             type="text"

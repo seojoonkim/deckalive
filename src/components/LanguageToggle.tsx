@@ -3,9 +3,9 @@ import { useLanguageStore } from '../stores/language-store';
 import type { Language } from '../types/card';
 
 const languages: { code: Language; flag: string; label: string }[] = [
-  { code: 'ko', flag: '🇰🇷', label: '한국어' },
-  { code: 'en', flag: '🇺🇸', label: 'English' },
-  { code: 'ja', flag: '🇯🇵', label: '日本語' },
+  { code: 'ko', flag: 'KR', label: '한국어' },
+  { code: 'en', flag: 'US', label: 'English' },
+  { code: 'ja', flag: 'JP', label: '日本語' },
 ];
 
 interface LanguageToggleProps {
@@ -23,7 +23,7 @@ export function LanguageToggle({ className = '', compact = false }: LanguageTogg
           key={lang.code}
           onClick={() => setLanguage(lang.code)}
           className={`
-            px-2 py-1 rounded-md transition-all duration-200
+            px-2 py-1 rounded-md transition-all duration-200 font-medium
             ${language === lang.code
               ? 'bg-purple-600 text-white shadow-lg shadow-purple-500/30'
               : 'bg-gray-800/50 text-gray-400 hover:bg-gray-700/50 hover:text-white'
@@ -31,7 +31,7 @@ export function LanguageToggle({ className = '', compact = false }: LanguageTogg
           `}
           title={lang.label}
         >
-          <span className="text-base">{lang.flag}</span>
+          <span className="text-xs font-bold">{lang.flag}</span>
           {!compact && (
             <span className="ml-1 text-sm hidden sm:inline">{lang.label}</span>
           )}
@@ -85,7 +85,7 @@ export function LanguageDropdown({ className = '' }: { className?: string }) {
                   }
                 `}
               >
-                <span className="text-lg">{lang.flag}</span>
+                <span className="text-xs font-bold bg-gray-700 px-1.5 py-0.5 rounded">{lang.flag}</span>
                 <span className="text-sm">{lang.label}</span>
                 {language === lang.code && (
                   <svg className="w-4 h-4 ml-auto" fill="currentColor" viewBox="0 0 20 20">

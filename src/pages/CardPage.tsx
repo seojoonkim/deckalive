@@ -65,10 +65,10 @@ export default function CardPage() {
     setImageTransform('');
   };
 
-  const tabs: { id: TabType; label: string; icon: string }[] = [
-    { id: 'chat', label: t.tabs.chat, icon: '💬' },
-    { id: 'info', label: t.tabs.info, icon: '📋' },
-    { id: 'comments', label: t.tabs.comments, icon: '💭' },
+  const tabs: { id: TabType; label: string }[] = [
+    { id: 'chat', label: t.tabs.chat },
+    { id: 'info', label: t.tabs.info },
+    { id: 'comments', label: t.tabs.comments },
   ];
 
   const getBorderGlow = () => {
@@ -150,8 +150,7 @@ export default function CardPage() {
                     : 'text-gray-500 hover:text-gray-300'
                 }`}
               >
-                <span className="mr-1.5">{tab.icon}</span>
-                {tab.label}
+{tab.label}
                 {activeTab === tab.id && (
                   <div className="absolute bottom-0 left-2 right-2 h-0.5 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 rounded-full" />
                 )}
