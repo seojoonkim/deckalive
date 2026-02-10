@@ -7,10 +7,22 @@
       "highestSale": "$5,275,000"
     },
     {
+      "id": "tournament-bls",
+      "name": "Tournament Black Luster Soldier",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$2,000,000+"
+    },
+    {
       "id": "black-lotus",
       "name": "Black Lotus",
       "game": "MTG",
       "highestSale": "$540,000"
+    },
+    {
+      "id": "charizard-vmax-shiny",
+      "name": "Shiny Charizard VMAX",
+      "game": "Pokemon",
+      "highestSale": "$500,000"
     },
     {
       "id": "charizard-1st",
@@ -25,16 +37,52 @@
       "highestSale": "$360,000"
     },
     {
+      "id": "tyler-the-great-warrior",
+      "name": "Tyler the Great Warrior",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$311,211"
+    },
+    {
       "id": "trophy-pikachu-gold",
       "name": "Trophy Pikachu Gold",
       "game": "Pokemon",
       "highestSale": "$300,000"
     },
     {
+      "id": "mox-ruby",
+      "name": "Mox Ruby Alpha",
+      "game": "MTG",
+      "highestSale": "$150,000"
+    },
+    {
+      "id": "lugia-neo-genesis",
+      "name": "Lugia 1st Edition",
+      "game": "Pokemon",
+      "highestSale": "$144,000"
+    },
+    {
+      "id": "mox-jet",
+      "name": "Mox Jet Alpha",
+      "game": "MTG",
+      "highestSale": "$140,000"
+    },
+    {
+      "id": "mox-emerald",
+      "name": "Mox Emerald Alpha",
+      "game": "MTG",
+      "highestSale": "$120,000"
+    },
+    {
       "id": "ancestral-recall",
       "name": "Ancestral Recall",
       "game": "MTG",
       "highestSale": "$120,000"
+    },
+    {
+      "id": "mox-pearl",
+      "name": "Mox Pearl Alpha",
+      "game": "MTG",
+      "highestSale": "$110,000"
     },
     {
       "id": "mox-sapphire",
@@ -49,12 +97,156 @@
       "highestSale": "$85,100"
     },
     {
+      "id": "dark-magician-lob",
+      "name": "Dark Magician",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$85,000"
+    },
+    {
       "id": "time-walk",
       "name": "Time Walk",
       "game": "MTG",
       "highestSale": "$70,000"
+    },
+    {
+      "id": "umbreon-gold-star",
+      "name": "Umbreon Gold Star",
+      "game": "Pokemon",
+      "highestSale": "$70,000"
+    },
+    {
+      "id": "tropical-island",
+      "name": "Tropical Island Alpha",
+      "game": "MTG",
+      "highestSale": "$65,000"
+    },
+    {
+      "id": "crystal-charizard",
+      "name": "Crystal Charizard",
+      "game": "Pokemon",
+      "highestSale": "$60,000"
+    },
+    {
+      "id": "venusaur-shadowless",
+      "name": "Venusaur 1st Edition Shadowless",
+      "game": "Pokemon",
+      "highestSale": "$55,000"
+    },
+    {
+      "id": "espeon-gold-star",
+      "name": "Espeon Gold Star",
+      "game": "Pokemon",
+      "highestSale": "$55,000"
+    },
+    {
+      "id": "shining-charizard",
+      "name": "Shining Charizard",
+      "game": "Pokemon",
+      "highestSale": "$50,000"
+    },
+    {
+      "id": "volcanic-island",
+      "name": "Volcanic Island Alpha",
+      "game": "MTG",
+      "highestSale": "$50,000"
+    },
+    {
+      "id": "exodia-lob-set",
+      "name": "Exodia Complete Set (LOB)",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$50,000"
+    },
+    {
+      "id": "underground-sea",
+      "name": "Underground Sea Alpha",
+      "game": "MTG",
+      "highestSale": "$45,000"
+    },
+    {
+      "id": "library-of-alexandria",
+      "name": "Library of Alexandria",
+      "game": "MTG",
+      "highestSale": "$45,000"
+    },
+    {
+      "id": "mewtwo-shadowless",
+      "name": "Mewtwo 1st Edition Shadowless",
+      "game": "Pokemon",
+      "highestSale": "$40,000"
+    },
+    {
+      "id": "tundra-alpha",
+      "name": "Tundra Alpha",
+      "game": "MTG",
+      "highestSale": "$35,000"
+    },
+    {
+      "id": "alakazam-shadowless",
+      "name": "Alakazam 1st Edition Shadowless",
+      "game": "Pokemon",
+      "highestSale": "$30,000"
+    },
+    {
+      "id": "bayou-alpha",
+      "name": "Bayou Alpha",
+      "game": "MTG",
+      "highestSale": "$28,000"
+    },
+    {
+      "id": "chansey-shadowless",
+      "name": "Chansey 1st Edition Shadowless",
+      "game": "Pokemon",
+      "highestSale": "$25,000"
+    },
+    {
+      "id": "taiga-alpha",
+      "name": "Taiga Alpha",
+      "game": "MTG",
+      "highestSale": "$25,000"
+    },
+    {
+      "id": "crush-card-virus-sjc",
+      "name": "Crush Card Virus (SJC)",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$20,000"
+    },
+    {
+      "id": "red-eyes-lob",
+      "name": "Red-Eyes Black Dragon (LOB)",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$15,000"
+    },
+    {
+      "id": "stardust-dragon-ghost",
+      "name": "Stardust Dragon Ghost Rare",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$10,000"
+    },
+    {
+      "id": "monster-reborn-lob",
+      "name": "Monster Reborn (LOB)",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$8,000"
+    },
+    {
+      "id": "pot-of-greed-lob",
+      "name": "Pot of Greed (LOB)",
+      "game": "Yu-Gi-Oh!",
+      "highestSale": "$5,000"
+    },
+    {
+      "id": "pikachu-van-gogh",
+      "name": "Pikachu Van Gogh",
+      "game": "Pokemon",
+      "highestSale": "$3,000"
     }
   ],
-  "totalValue": "$6,770,100+",
-  "lastUpdated": "2024-01"
+  "totalCards": 40,
+  "totalValue": "$10,000,000+",
+  "lastUpdated": "2025-01",
+  "breakdown": {
+    "pokemon": 14,
+    "mtg": 14,
+    "yugioh": 12
+  }
 }
