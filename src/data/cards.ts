@@ -25,14 +25,26 @@ export const cards: Card[] = [
     descriptionEn: 'A promo card awarded to winners of the 1998 CoroCoro Comic illustration contest. The most expensive Pokémon card in the world.',
     descriptionJa: '1998年コロコロコミックのイラストコンテスト優勝者に授与されたプロモカード。世界で最も高価なポケモンカード。',
     history: '1998년 39장 배포. 2021년 유튜버 Logan Paul이 PSA 10 등급 카드를 $5,275,000에 구매하여 세계 신기록 수립.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '관동 지방이 시작점. 151종의 오리지널 포켓몬이 존재하며, 8개 체육관을 돌파하고 포켓몬 리그에서 챔피언에 도전하는 것이 목표.',
+      settingEn: 'Kanto region is the starting point. 151 original Pokémon exist, and the goal is to defeat 8 gyms and challenge the Champion at the Pokémon League.',
+      settingJa: 'カントー地方が出発点。151種のオリジナルポケモンが存在し、8つのジムを突破してポケモンリーグでチャンピオンに挑戦するのが目標。'
+    },
     character: {
       species: '전기 타입 / 쥐 포켓몬',
+      speciesEn: 'Electric Type / Mouse Pokémon',
+      speciesJa: 'でんきタイプ / ねずみポケモン',
       abilities: ['100만 볼트', '전기자석파', '아이언테일', '볼트태클'],
+      abilitiesEn: ['Thunderbolt', 'Thunder Wave', 'Iron Tail', 'Volt Tackle'],
+      abilitiesJa: ['10まんボルト', 'でんじは', 'アイアンテール', 'ボルテッカー'],
       story: '피카츄는 포켓몬의 마스코트이자 사토시(Ash)의 파트너. 이 특별한 피카츄는 붓을 들고 파이어를 그리는 모습으로, 1998년 코로코로 코믹 일러스트 콘테스트 우승자들에게만 수여되었다. 그림 그리는 것을 사랑하는 예술가 피카츄.',
       storyEn: "Pikachu is Pokémon's mascot and Ash's partner. This special Pikachu holds a brush painting Charmander, awarded only to winners of the 1998 CoroCoro Comic illustration contest. An artist Pikachu who loves to draw.",
       storyJa: 'ピカチュウはポケモンのマスコットでありサトシのパートナー。この特別なピカチュウは筆を持ってヒトカゲを描く姿で、1998年コロコロコミックのイラストコンテスト優勝者にのみ授与された。絵を描くことを愛するアーティストピカチュウ。',
       relationships: ['사토시/Ash - 가장 유명한 트레이너', '파이어/Charmander - 카드에서 그리고 있는 포켓몬'],
-      trivia: ['전 세계에 39장만 존재', '카드에서 붓을 들고 있는 유일한 피카츄', 'PSA 10 등급은 단 7장뿐']
+      trivia: ['전 세계에 39장만 존재', '카드에서 붓을 들고 있는 유일한 피카츄', 'PSA 10 등급은 단 7장뿐', '일러스트레이터 니시다 아츠코 작품']
     }
   },
   {
@@ -58,14 +70,26 @@ export const cards: Card[] = [
     descriptionEn: 'The most powerful card in MTG history. Generate 3 mana for 0 cost - overwhelming efficiency.',
     descriptionJa: 'MTG史上最強のカード。0マナで3マナを生成する圧倒的な効率。',
     history: '1993년 Alpha 세트 출시. Power 9 중 가장 상징적인 카드로, Richard Garfield가 디자인.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아가 중심 차원. 5가지 마나(백/청/흑/적/녹)가 모든 마법의 원천. 강력한 아티팩트와 생물들이 전장을 지배.',
+      settingEn: 'Dominaria is the central plane. Five types of mana (White/Blue/Black/Red/Green) are the source of all magic. Powerful artifacts and creatures dominate the battlefield.',
+      settingJa: 'ドミナリアが中心次元。5種類のマナ（白/青/黒/赤/緑）がすべての魔法の源。強力なアーティファクトと生物が戦場を支配する。'
+    },
     character: {
       species: '아티팩트 (Artifact)',
+      speciesEn: 'Artifact',
+      speciesJa: 'アーティファクト',
       abilities: ['희생 시 무색 마나 3개 생성', '0 마나 비용', '순간적 마나 폭발'],
+      abilitiesEn: ['Add 3 mana of any color when sacrificed', '0 mana cost', 'Instant mana burst'],
+      abilitiesJa: ['生け贄で任意の色のマナ3つ生成', '0マナコスト', '瞬間的マナ爆発'],
       story: '블랙 로터스는 전설적인 꽃의 형상을 한 아티팩트. 단 한 번 피어나며, 피어나는 순간 엄청난 마법 에너지를 방출한다. MTG 창시자 Richard Garfield가 "파워의 정점"으로 디자인했으나, 너무 강력해서 바로 금지/제한 목록에 올랐다.',
       storyEn: "Black Lotus is an artifact in the shape of a legendary flower. It blooms only once, releasing tremendous magical energy at that moment. Designed by MTG creator Richard Garfield as 'the pinnacle of power,' but immediately restricted due to its overwhelming strength.",
       storyJa: 'ブラック・ロータスは伝説の花の形をしたアーティファクト。一度だけ咲き、その瞬間に膨大な魔法エネルギーを放出する。MTG創設者リチャード・ガーフィールドが「パワーの頂点」としてデザインしたが、あまりにも強力で即座に禁止/制限リストに入った。',
       relationships: ['Power 9 - MTG 최강 9장 카드 그룹', 'Mox 시리즈 - 블랙 로터스의 동생격 아티팩트들'],
-      trivia: ['Alpha 버전은 약 1,100장만 존재', '모든 TCG 카드 중 가장 비싼 카드 중 하나', '빈티지에서도 1장만 허용']
+      trivia: ['Alpha 버전은 약 1,100장만 존재', '모든 TCG 카드 중 가장 비싼 카드 중 하나', '빈티지에서도 1장만 허용', '일러스트레이터 Christopher Rush 작품']
     }
   },
   {
@@ -90,7 +114,28 @@ export const cards: Card[] = [
     description: '포켓몬 TCG 초대 Base Set의 얼굴. 세대를 상징하는 아이콘.',
     descriptionEn: 'The face of the original Pokémon TCG Base Set. An icon that defines a generation.',
     descriptionJa: 'ポケモンTCG初代ベースセットの顔。世代を象徴するアイコン。',
-    history: '1999년 1판 발매. 120 데미지의 Fire Spin은 당시 최강. 코로나 시기에 가격 폭등.'
+    history: '1999년 1판 발매. 120 데미지의 Fire Spin은 당시 최강. 코로나 시기에 가격 폭등.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '관동 지방 - 파이어, 꼬부기, 이상해씨 중 하나를 선택해 모험을 시작하는 곳. 리자몽은 파이어의 최종 진화형.',
+      settingEn: 'Kanto Region - Where trainers choose between Charmander, Squirtle, or Bulbasaur to start their journey. Charizard is the final evolution of Charmander.',
+      settingJa: 'カントー地方 - ヒトカゲ、ゼニガメ、フシギダネから一匹を選んで冒険を始める場所。リザードンはヒトカゲの最終進化形。'
+    },
+    character: {
+      species: '불꽃/비행 타입 / 화염 포켓몬',
+      speciesEn: 'Fire/Flying Type / Flame Pokémon',
+      speciesJa: 'ほのお/ひこうタイプ / かえんポケモン',
+      abilities: ['화염방사', '불대문자', '에어슬래시', '용의분노'],
+      abilitiesEn: ['Flamethrower', 'Fire Blast', 'Air Slash', 'Dragon Rage'],
+      abilitiesJa: ['かえんほうしゃ', 'だいもんじ', 'エアスラッシュ', 'りゅうのいかり'],
+      story: '파이어에서 리자드를 거쳐 최종 진화한 화염 포켓몬. 애니메이션에서 사토시의 리자몽은 처음에 말을 듣지 않았지만, 나중에 가장 강력한 파트너가 되었다. 꼬리의 불꽃이 꺼지면 생명이 다한다는 전설이 있다.',
+      storyEn: "A Flame Pokémon that evolves from Charmander through Charmeleon. In the anime, Ash's Charizard was initially disobedient but later became his most powerful partner. Legend says if the flame on its tail goes out, its life ends.",
+      storyJa: 'ヒトカゲからリザードを経て最終進化した炎のポケモン。アニメでサトシのリザードンは最初言うことを聞かなかったが、後に最も強力なパートナーになった。尻尾の炎が消えると命が尽きるという伝説がある。',
+      relationships: ['사토시/Ash - 유명한 트레이너', '리자드/Charmeleon - 진화 전 형태', '파이어/Charmander - 첫 번째 형태'],
+      trivia: ['Base Set에서 가장 높은 HP(120)', '120 데미지 Fire Spin은 당시 최강 공격', 'Ken Sugimori 일러스트', '포켓몬 #006']
+    }
   },
   {
     id: 'charizard-vmax-shiny',
@@ -114,7 +159,28 @@ export const cards: Card[] = [
     description: '2020년 Champion\'s Path에서 등장한 샤이니 리자몽 VMAX. 현대 포켓몬 TCG에서 가장 인기 있는 카드.',
     descriptionEn: "The Shiny Charizard VMAX from Champion's Path (2020). The most sought-after card in modern Pokémon TCG.",
     descriptionJa: '2020年チャンピオンズパスで登場したシャイニーリザードンVMAX。現代ポケモンTCGで最も人気のあるカード。',
-    history: '2020년 출시 직후 폭발적 인기. PSA 10 등급은 경매에서 $50만 이상에 거래. Logan Paul이 공개하면서 더욱 유명해짐.'
+    history: '2020년 출시 직후 폭발적 인기. PSA 10 등급은 경매에서 $50만 이상에 거래. Logan Paul이 공개하면서 더욱 유명해짐.',
+    world: {
+      universe: '포켓몬 세계 - 다이맥스/기가맥스 현상이 발견된 가라르 지방까지 확장된 세계. 포켓몬이 거대화하는 새로운 현상이 등장.',
+      universeEn: 'Pokémon World - Expanded to Galar region where Dynamax/Gigantamax phenomena were discovered. A new phenomenon where Pokémon grow giant.',
+      universeJa: 'ポケモン世界 - ダイマックス/キョダイマックス現象が発見されたガラル地方まで拡張された世界。ポケモンが巨大化する新しい現象が登場。',
+      setting: '가라르 지방 - 영국을 모티브로 한 새로운 지방. 파워 스팟에서 포켓몬이 거대화하는 다이맥스 현상이 특징.',
+      settingEn: 'Galar Region - A new region inspired by Britain. Features Dynamax phenomenon where Pokémon grow giant at Power Spots.',
+      settingJa: 'ガラル地方 - イギリスをモチーフにした新しい地方。パワースポットでポケモンが巨大化するダイマックス現象が特徴。'
+    },
+    character: {
+      species: '불꽃/비행 타입 / 화염 포켓몬 (기가맥스)',
+      speciesEn: 'Fire/Flying Type / Flame Pokémon (Gigantamax)',
+      speciesJa: 'ほのお/ひこうタイプ / かえんポケモン（キョダイマックス）',
+      abilities: ['G맥스 와일드파이어', '다이버닝', '에어슬래시'],
+      abilitiesEn: ['G-Max Wildfire', 'Max Flare', 'Air Slash'],
+      abilitiesJa: ['キョダイゴクエン', 'ダイバーン', 'エアスラッシュ'],
+      story: '색이 다른 리자몽이 기가맥스한 형태. 일반 리자몽은 주황색이지만 샤이니는 검은색 바디에 붉은 날개를 가진다. VMAX는 거대화와 함께 날개에서 나오는 불꽃이 태양처럼 빛난다.',
+      storyEn: 'A Gigantamaxed form of a shiny Charizard. While normal Charizard is orange, shiny has a black body with red wings. VMAX glows like the sun from flames emanating from its wings when giant.',
+      storyJa: '色違いリザードンがキョダイマックスした形態。通常のリザードンはオレンジ色だが、色違いは黒いボディに赤い翼を持つ。VMAXは巨大化と共に翼から出る炎が太陽のように輝く。',
+      relationships: ['리자몽 V - 진화 전 카드', '단델리온/Leon - 가라르 챔피언 (리자몽 사용)'],
+      trivia: ['색이 다른 확률: 약 1/4096', '1/100 팩 출현율로 매우 희귀', 'VMAX 카드 중 가장 높은 가격', '일러스트레이터 5ban Graphics']
+    }
   },
   {
     id: 'dark-magician-lob',
@@ -138,7 +204,28 @@ export const cards: Card[] = [
     description: '유희왕의 주인공 무토 유희의 에이스 카드. Legend of Blue Eyes White Dragon 1판.',
     descriptionEn: 'The ace card of Yu-Gi-Oh! protagonist Yugi Muto. From Legend of Blue Eyes White Dragon 1st Edition.',
     descriptionJa: '遊戯王の主人公・武藤遊戯のエースカード。Legend of Blue Eyes White Dragon初版。',
-    history: '2002년 북미 첫 발매. 일본에서는 1999년부터 등장. 애니메이션에서 유희의 상징적인 카드로 등장.'
+    history: '2002년 북미 첫 발매. 일본에서는 1999년부터 등장. 애니메이션에서 유희의 상징적인 카드로 등장.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '현대 일본 도미노 시티와 고대 이집트를 오가는 스토리. 천년 퍼즐을 푼 유희가 어둠의 유희와 함께 듀얼의 세계에 뛰어든다.',
+      settingEn: 'A story spanning modern Domino City, Japan and ancient Egypt. Yugi, who solved the Millennium Puzzle, enters the world of dueling with his dark counterpart.',
+      settingJa: '現代日本の童実野シティと古代エジプトを行き来するストーリー。千年パズルを解いた遊戯が闇の遊戯と共にデュエルの世界に飛び込む。'
+    },
+    character: {
+      species: '어둠 속성 / 마법사족 / 레벨 7',
+      speciesEn: 'DARK Attribute / Spellcaster / Level 7',
+      speciesJa: '闇属性 / 魔法使い族 / レベル7',
+      abilities: ['블랙 매직 (어둠의 마법)', '블랙 매직 어택', '마술사의 지혜'],
+      abilitiesEn: ['Dark Magic (Black Magic)', 'Dark Magic Attack', "Magician's Wisdom"],
+      abilitiesJa: ['黒・魔・導（ブラック・マジック）', 'ブラック・マジック・アタック', '魔術師の知恵'],
+      story: '고대 이집트에서 파라오(아템)를 섬기던 마법사 마하드의 영혼이 깃든 카드. 파라오를 지키기 위해 도적왕 바쿠라와 싸우다 목숨을 잃었지만, 그 영혼은 블랙 매지션이 되어 영원히 파라오 곁에 남았다. 3천년 후 유희의 에이스 카드로 부활.',
+      storyEn: "A card imbued with the soul of Mahad, a magician who served the Pharaoh (Atem) in ancient Egypt. He lost his life fighting Thief King Bakura to protect the Pharaoh, but his soul became the Dark Magician, remaining by the Pharaoh's side forever. Revived 3000 years later as Yugi's ace card.",
+      storyJa: '古代エジプトでファラオ（アテム）に仕えた魔術師マハードの魂が宿るカード。盗賊王バクラと戦いファラオを守るために命を落としたが、その魂はブラック・マジシャンとなって永遠にファラオの傍に残った。3000年後、遊戯のエースカードとして復活。',
+      relationships: ['무토 유희/Yugi Muto - 현대의 주인', '아템/Atem - 고대의 파라오', '블랙 매지션 걸/Dark Magician Girl - 제자', '마하드/Mahad - 전생'],
+      trivia: ['ATK 2500 / DEF 2100', '일러스트레이터 타카하시 카즈키 (원작자)', '일본어로는 ブラック・マジシャン(Black Magician)', '마법사 덱의 핵심']
+    }
   },
   {
     id: 'tropical-island',
@@ -162,7 +249,28 @@ export const cards: Card[] = [
     description: 'MTG의 Original Dual Land 중 하나. 푸른색(Island)과 녹색(Forest) 마나를 동시 생성.',
     descriptionEn: 'One of the Original Dual Lands. Produces both blue (Island) and green (Forest) mana simultaneously.',
     descriptionJa: 'オリジナルデュアルランドの一つ。青（島）と緑（森）のマナを同時に生成。',
-    history: '1993년 Alpha 세트 출시. Reserve List에 등재되어 재인쇄 불가. 레거시/빈티지 필수 카드.'
+    history: '1993년 Alpha 세트 출시. Reserve List에 등재되어 재인쇄 불가. 레거시/빈티지 필수 카드.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아 - 10개의 듀얼 랜드는 도미나리아의 다양한 지형을 대표. Tropical Island는 열대 해변과 밀림이 만나는 지역.',
+      settingEn: 'Dominaria - The 10 Dual Lands represent various terrains of Dominaria. Tropical Island is where tropical beaches meet jungles.',
+      settingJa: 'ドミナリア - 10種のデュアルランドはドミナリアの様々な地形を代表。トロピカル・アイランドは熱帯のビーチとジャングルが出会う地域。'
+    },
+    character: {
+      species: '대지 - 섬 숲 (Land - Island Forest)',
+      speciesEn: 'Land - Island Forest',
+      speciesJa: 'ランド - 島 森',
+      abilities: ['탭: 청색 또는 녹색 마나 생성', '기본 대지 타입 보유', '패치랜드로 서치 가능'],
+      abilitiesEn: ['Tap: Add blue or green mana', 'Has basic land types', 'Searchable by fetchlands'],
+      abilitiesJa: ['タップ：青か緑のマナを生成', '基本土地タイプを持つ', 'フェッチランドでサーチ可能'],
+      story: 'Original Dual Land 10종 중 하나로, 1993년 Alpha 세트에서 처음 등장. 기본 대지 타입을 가지면서 두 가지 색의 마나를 생성하는 완벽한 대지. Simic(청녹) 색상 조합의 상징.',
+      storyEn: 'One of the 10 Original Dual Lands, first appearing in the 1993 Alpha set. A perfect land that has basic land types while producing two colors of mana. Symbol of the Simic (blue-green) color combination.',
+      storyJa: 'オリジナルデュアルランド10種の一つで、1993年アルファセットで初登場。基本土地タイプを持ちながら2色のマナを生成する完璧な土地。シミック（青緑）カラーの象徴。',
+      relationships: ['Underground Sea - 같은 듀얼 랜드 시리즈', 'Misty Rainforest - 서치할 수 있는 페치랜드', 'Simic 길드 - 라브니카의 청녹 조합'],
+      trivia: ['Reserve List 등재로 재인쇄 불가', '레거시 BUG/RUG 덱의 필수', 'Alpha 버전이 가장 고가', '일러스트레이터 Jesper Myrfors']
+    }
   },
   {
     id: 'blue-eyes-lob',
@@ -186,7 +294,28 @@ export const cards: Card[] = [
     description: '유희왕을 대표하는 최강의 드래곤. 카이바 세토의 혼이 담긴 카드.',
     descriptionEn: "The strongest dragon representing Yu-Gi-Oh! A card imbued with Seto Kaiba's soul.",
     descriptionJa: '遊戯王を代表する最強のドラゴン。海馬瀬人の魂が込められたカード。',
-    history: 'Legend of Blue Eyes White Dragon (LOB) 1판. 애니메이션에서 세상에 4장만 존재한다는 설정.'
+    history: 'Legend of Blue Eyes White Dragon (LOB) 1판. 애니메이션에서 세상에 4장만 존재한다는 설정.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '카이바 코퍼레이션이 지배하는 듀얼 세계. 카이바 세토는 세계적 대기업 회장이자 최고의 듀얼리스트.',
+      settingEn: 'A dueling world dominated by Kaiba Corporation. Seto Kaiba is both a global corporate chairman and the top duelist.',
+      settingJa: '海馬コーポレーションが支配するデュエルワールド。海馬瀬人は世界的大企業の会長にして最高のデュエリスト。'
+    },
+    character: {
+      species: '빛 속성 / 드래곤족 / 레벨 8',
+      speciesEn: 'LIGHT Attribute / Dragon / Level 8',
+      speciesJa: '光属性 / ドラゴン族 / レベル8',
+      abilities: ['멸망의 버스트 스트림 (파괴의 섬광)', '진정한 빛', '청안의 혼'],
+      abilitiesEn: ['Burst Stream of Destruction', 'True Light', 'Blue-Eyes Spirit'],
+      abilitiesJa: ['滅びのバーストストリーム', '真の光', '青眼の魂'],
+      story: '고대 이집트에서 파라오(아템)의 신하 세토가 사랑한 여인 키사라의 영혼이 깃든 드래곤. 키사라는 푸른 눈을 가진 이방인으로 차별받았지만, 세토의 목숨을 구하기 위해 자신의 생명을 바쳤다. 그녀의 정령 "카"가 푸른 눈의 백룡이 되었다. 현대에서 카이바 세토가 이 카드에 집착하는 이유.',
+      storyEn: "A dragon imbued with the soul of Kisara, a woman loved by Seto, a servant of the Pharaoh (Atem) in ancient Egypt. Kisara was an outcast with blue eyes, but sacrificed her life to save Seto. Her spirit 'Ka' became the Blue-Eyes White Dragon. This is why Seto Kaiba in modern times is obsessed with this card.",
+      storyJa: '古代エジプトでファラオ（アテム）の神官セトが愛した女性キサラの魂が宿るドラゴン。キサラは青い目を持つ異邦人として差別されたが、セトの命を救うために自らの命を捧げた。彼女の精霊「カー」が青眼の白龍となった。現代で海馬瀬人がこのカードに執着する理由。',
+      relationships: ['카이바 세토/Seto Kaiba - 현대의 주인', '키사라/Kisara - 영혼의 원천', '세토/Priest Seto - 고대의 신관', '레드아이즈/Red-Eyes - 라이벌 드래곤'],
+      trivia: ['ATK 3000 / DEF 2500', '세상에 4장만 존재한다는 설정', '일러스트레이터 타카하시 카즈키', 'LOB-001 (세트 첫 번째 카드)']
+    }
   },
   {
     id: 'ancestral-recall',
@@ -210,7 +339,28 @@ export const cards: Card[] = [
     description: '1마나로 3장 드로우. MTG 역사상 가장 효율적인 카드 드로우.',
     descriptionEn: 'Draw 3 cards for 1 mana. The most efficient card draw in MTG history.',
     descriptionJa: '1マナで3枚ドロー。MTG史上最も効率的なカードドロー。',
-    history: 'Power 9 중 하나. Vintage 포맷에서만 1장 제한으로 사용 가능.'
+    history: 'Power 9 중 하나. Vintage 포맷에서만 1장 제한으로 사용 가능.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '청색 마법의 영역 - 지식, 환술, 시간 조작을 다루는 마법 학파. 조상의 기억을 불러오는 것은 청색 마법의 핵심.',
+      settingEn: 'Domain of Blue Magic - A school of magic dealing with knowledge, illusions, and time manipulation. Recalling ancestral memories is core to blue magic.',
+      settingJa: '青い魔法の領域 - 知識、幻術、時間操作を扱う魔法学派。先祖の記憶を呼び起こすのは青い魔法の核心。'
+    },
+    character: {
+      species: '인스턴트 (Instant)',
+      speciesEn: 'Instant',
+      speciesJa: 'インスタント',
+      abilities: ['대상 플레이어가 카드 3장 드로우', '1 청색 마나 비용', '인스턴트 타이밍'],
+      abilitiesEn: ['Target player draws 3 cards', '1 Blue mana cost', 'Instant speed'],
+      abilitiesJa: ['対象のプレイヤーが3枚ドロー', '1青マナコスト', 'インスタントタイミング'],
+      story: '조상의 지혜와 기억을 순간적으로 불러오는 주문. Richard Garfield가 디자인한 원본 Power 9 중 하나로, 청색 마법의 강력함을 상징한다. "지식은 힘이다"라는 MTG의 핵심 테마를 가장 순수하게 보여주는 카드.',
+      storyEn: "A spell that instantly recalls ancestral wisdom and memories. One of the original Power 9 designed by Richard Garfield, symbolizing the power of blue magic. The card that most purely demonstrates MTG's core theme of 'knowledge is power.'",
+      storyJa: '先祖の知恵と記憶を瞬時に呼び起こす呪文。リチャード・ガーフィールドがデザインしたオリジナルPower 9の一つで、青い魔法の強力さを象徴する。「知識は力なり」というMTGの核心テーマを最も純粋に示すカード。',
+      relationships: ['Power 9 - 최강 9장 그룹', 'Time Walk - 같은 청색 Power 9', 'Brainstorm - 후계 카드'],
+      trivia: ['1마나 3드로우는 역대 최고 효율', '빈티지에서도 1장 제한', '상대에게 사용하여 덱아웃 유도 가능', '일러스트레이터 Mark Poole']
+    }
   },
   {
     id: 'mox-sapphire',
@@ -234,7 +384,28 @@ export const cards: Card[] = [
     description: '0마나로 푸른 마나 생성. 5개 Mox 중 가장 인기 있는 색.',
     descriptionEn: 'Generate blue mana for 0 cost. The most popular of the 5 Moxen.',
     descriptionJa: '0マナで青マナを生成。5つのモックスの中で最も人気のある色。',
-    history: 'Power 9의 일원. Blue는 MTG에서 가장 강력한 색상으로 인식.'
+    history: 'Power 9의 일원. Blue는 MTG에서 가장 강력한 색상으로 인식.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '5개의 Mox는 5가지 마나 색상을 대표하는 마법 보석. Sapphire는 지식과 환술의 청색 마나를 상징.',
+      settingEn: 'The 5 Moxen are magical gems representing the 5 mana colors. Sapphire symbolizes blue mana of knowledge and illusion.',
+      settingJa: '5つのモックスは5色のマナを代表する魔法の宝石。サファイアは知識と幻術の青マナを象徴。'
+    },
+    character: {
+      species: '아티팩트 (Artifact)',
+      speciesEn: 'Artifact',
+      speciesJa: 'アーティファクト',
+      abilities: ['탭: 청색 마나 1개 생성', '0 마나 비용', '1턴차 가속'],
+      abilitiesEn: ['Tap: Add one blue mana', '0 mana cost', 'Turn 1 acceleration'],
+      abilitiesJa: ['タップ：青マナ1つ生成', '0マナコスト', '1ターン目加速'],
+      story: '5개의 Mox 보석 중 하나로, 청색 마나의 정수가 담긴 사파이어. 청색은 MTG에서 가장 강력한 색상으로 여겨지며, Mox Sapphire는 그 힘을 0의 비용으로 즉시 사용할 수 있게 해준다.',
+      storyEn: "One of the 5 Mox gems, a sapphire containing the essence of blue mana. Blue is considered the most powerful color in MTG, and Mox Sapphire allows immediate access to that power at zero cost.",
+      storyJa: '5つのモックス宝石の一つで、青マナの精髄が込められたサファイア。青はMTGで最も強力な色とされ、モックス・サファイアはその力を0コストで即座に使えるようにする。',
+      relationships: ['Black Lotus - 더 강력한 마나 가속', 'Mox Ruby/Pearl/Jet/Emerald - 형제 Mox들', 'Power 9 - 소속 그룹'],
+      trivia: ['청색 마법이 가장 강해서 Mox 중 최고가', 'Vintage 1장 제한', 'Reserve List 등재', '일러스트레이터 Dan Frazier']
+    }
   },
   {
     id: 'blastoise-shadowless',
@@ -258,7 +429,28 @@ export const cards: Card[] = [
     description: 'Shadowless 인쇄본은 그림자 효과가 없어 초기 인쇄임을 증명.',
     descriptionEn: 'Shadowless prints lack the shadow effect, proving they are from the initial print run.',
     descriptionJa: 'シャドウレス版は影効果がなく、初期印刷であることを証明。',
-    history: '1999년 초기 인쇄본. Rain Dance 덱은 초기 포켓몬 TCG 메타의 핵심.'
+    history: '1999년 초기 인쇄본. Rain Dance 덱은 초기 포켓몬 TCG 메타의 핵심.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '관동 지방 - 꼬부기에서 시작해 어니부기를 거쳐 거북왕으로 진화. 강력한 수압을 자랑하는 물 타입의 대표.',
+      settingEn: 'Kanto Region - Evolves from Squirtle through Wartortle to Blastoise. Representative of Water type with powerful water pressure.',
+      settingJa: 'カントー地方 - ゼニガメから始まりカメールを経てカメックスに進化。強力な水圧を誇る水タイプの代表。'
+    },
+    character: {
+      species: '물 타입 / 껍질 포켓몬',
+      speciesEn: 'Water Type / Shellfish Pokémon',
+      speciesJa: 'みずタイプ / こうらポケモン',
+      abilities: ['하이드로펌프', '물대포', '로켓박치기', '해골박치기'],
+      abilitiesEn: ['Hydro Pump', 'Water Gun', 'Skull Bash', 'Headbutt'],
+      abilitiesJa: ['ハイドロポンプ', 'みずでっぽう', 'ロケットずつき', 'ずつき'],
+      story: '꼬부기의 최종 진화형. 등의 대포에서 발사하는 물줄기는 두꺼운 강철판도 관통할 수 있다. TCG에서 Rain Dance 특성으로 물 에너지를 무한 부착하는 전략의 핵심 카드였다.',
+      storyEn: "The final evolution of Squirtle. Water jets from its back cannons can penetrate thick steel plates. In TCG, it was the core card of the Rain Dance strategy that attaches unlimited Water energy.",
+      storyJa: 'ゼニガメの最終進化形。背中の大砲から発射する水流は厚い鋼鉄板も貫通できる。TCGではRain Dance特性で水エネルギーを無限に付ける戦略の核心カードだった。',
+      relationships: ['꼬부기/Squirtle - 첫 번째 형태', '어니부기/Wartortle - 중간 형태', '리자몽/Charizard - 라이벌 스타터'],
+      trivia: ['Rain Dance 덱의 핵심', 'Hydro Pump 40+ 데미지', 'Shadowless는 그림자 없는 초기 인쇄', '일러스트레이터 Ken Sugimori']
+    }
   },
   {
     id: 'trophy-pikachu-gold',
@@ -282,7 +474,28 @@ export const cards: Card[] = [
     description: '1997년 일본 포켓몬 대회 우승자 트로피 카드.',
     descriptionEn: 'A trophy card awarded to winners of the 1997 Japanese Pokémon tournament.',
     descriptionJa: '1997年日本ポケモン大会優勝者トロフィーカード。',
-    history: '세계에 7장만 존재. 대회 우승의 영광을 상징하는 극희귀 카드.'
+    history: '세계에 7장만 존재. 대회 우승의 영광을 상징하는 극희귀 카드.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '포켓몬 리그 - 전국 대회의 정점. 최고의 트레이너들이 모여 실력을 겨루는 곳.',
+      settingEn: 'Pokémon League - The pinnacle of national tournaments. Where the best trainers gather to compete.',
+      settingJa: 'ポケモンリーグ - 全国大会の頂点。最高のトレーナーたちが集まり実力を競う場所。'
+    },
+    character: {
+      species: '전기 타입 / 쥐 포켓몬 (트로피)',
+      speciesEn: 'Electric Type / Mouse Pokémon (Trophy)',
+      speciesJa: 'でんきタイプ / ねずみポケモン（トロフィー）',
+      abilities: ['100만 볼트', '전기자석파', '스피드스타'],
+      abilitiesEn: ['Thunderbolt', 'Thunder Wave', 'Swift'],
+      abilitiesJa: ['10まんボルト', 'でんじは', 'スピードスター'],
+      story: '1997년 일본 포켓몬 카드 공식 대회 우승자에게 수여된 트로피 카드. 골드(1위), 실버(2위), 브론즈(3위) 세 종류가 있으며, 골드가 가장 희귀하다. 대회 피카츄의 No.1 트로피로, 챔피언의 영광을 상징.',
+      storyEn: "A trophy card awarded to winners of the 1997 official Japanese Pokémon card tournament. There are Gold (1st), Silver (2nd), and Bronze (3rd) versions, with Gold being the rarest. As the No.1 Trophy Pikachu, it symbolizes champion's glory.",
+      storyJa: '1997年日本ポケモンカード公式大会優勝者に授与されたトロフィーカード。ゴールド（1位）、シルバー（2位）、ブロンズ（3位）の3種類があり、ゴールドが最も希少。大会ピカチュウのNo.1トロフィーとして、チャンピオンの栄光を象徴。',
+      relationships: ['Trophy Pikachu Silver - 2위 트로피', 'Trophy Pikachu Bronze - 3위 트로피', 'Illustrator Pikachu - 또 다른 희귀 피카츄'],
+      trivia: ['세계에 7장만 존재', '1997년 일본 공식 대회 우승 상품', 'Gold/Silver/Bronze 3종류', '실버, 브론즈보다 2-3배 높은 가격']
+    }
   },
   {
     id: 'time-walk',
@@ -306,7 +519,28 @@ export const cards: Card[] = [
     description: '2마나로 추가 턴 획득. 극도로 강력한 템포 카드.',
     descriptionEn: 'Take an extra turn for 2 mana. An extremely powerful tempo card.',
     descriptionJa: '2マナで追加ターンを獲得。極めて強力なテンポカード。',
-    history: 'Power 9 중 하나. 시간 조작이라는 MTG의 핵심 테마를 상징.'
+    history: 'Power 9 중 하나. 시간 조작이라는 MTG의 핵심 테마를 상징.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '시간 마법의 영역 - 청색 마법의 궁극적 표현. 시간을 조작하여 추가 행동을 얻는 것은 가장 강력한 어드밴티지.',
+      settingEn: 'Realm of Time Magic - The ultimate expression of blue magic. Manipulating time to gain extra actions is the most powerful advantage.',
+      settingJa: '時間魔法の領域 - 青い魔法の究極的表現。時間を操作して追加行動を得ることは最も強力なアドバンテージ。'
+    },
+    character: {
+      species: '소서리 (Sorcery)',
+      speciesEn: 'Sorcery',
+      speciesJa: 'ソーサリー',
+      abilities: ['추가 턴 획득', '1 무색 + 1 청색 마나', '소서리 타이밍'],
+      abilitiesEn: ['Take an extra turn', '1 colorless + 1 blue mana', 'Sorcery speed'],
+      abilitiesJa: ['追加ターンを得る', '1無色＋1青マナ', 'ソーサリータイミング'],
+      story: '시간의 흐름을 조작하여 추가 턴을 얻는 주문. 2마나로 추가 턴을 얻는 것은 MTG 역사상 가장 효율적인 시간 조작. Power 9 중에서도 가장 독특한 효과를 가진 카드.',
+      storyEn: "A spell that manipulates the flow of time to gain an extra turn. Getting an extra turn for 2 mana is the most efficient time manipulation in MTG history. Has the most unique effect among the Power 9.",
+      storyJa: '時間の流れを操作して追加ターンを得る呪文。2マナで追加ターンを得るのはMTG史上最も効率的な時間操作。Power 9の中でも最もユニークな効果を持つカード。',
+      relationships: ['Ancestral Recall - 같은 청색 Power 9', 'Time Vault - 유사한 시간 테마', 'Temporal Manipulation - 후계 카드'],
+      trivia: ['2마나 추가 턴은 역대 최저 비용', '빈티지 1장 제한', '시간 조작 카드의 원조', '일러스트레이터 Amy Weber']
+    }
   },
   // ========== POKEMON TCG 추가 (10개) ==========
   {
@@ -331,7 +565,28 @@ export const cards: Card[] = [
     description: 'Base Set의 3대 스타터 중 하나. Shadowless 인쇄는 초기 생산분만 해당.',
     descriptionEn: 'One of the three starters from Base Set. Shadowless prints are from the initial production run only.',
     descriptionJa: 'ベースセットの3大スターターの一つ。シャドウレス印刷は初期生産分のみ。',
-    history: '1999년 초기 인쇄. Energy Trans 능력으로 에너지 이동 전략의 핵심 카드였음.'
+    history: '1999년 초기 인쇄. Energy Trans 능력으로 에너지 이동 전략의 핵심 카드였음.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '관동 지방 - 이상해씨에서 이상해풀을 거쳐 이상해꽃으로 진화. 등의 꽃에서 향기로운 꽃가루를 뿌리는 풀/독 타입.',
+      settingEn: 'Kanto Region - Evolves from Bulbasaur through Ivysaur to Venusaur. Grass/Poison type that spreads fragrant pollen from the flower on its back.',
+      settingJa: 'カントー地方 - フシギダネからフシギソウを経てフシギバナに進化。背中の花から香しい花粉をまく草/毒タイプ。'
+    },
+    character: {
+      species: '풀/독 타입 / 씨앗 포켓몬',
+      speciesEn: 'Grass/Poison Type / Seed Pokémon',
+      speciesJa: 'くさ/どくタイプ / たねポケモン',
+      abilities: ['솔라빔', '꽃잎댄스', '수면가루', '독가루'],
+      abilitiesEn: ['Solar Beam', 'Petal Dance', 'Sleep Powder', 'Poison Powder'],
+      abilitiesJa: ['ソーラービーム', 'はなびらのまい', 'ねむりごな', 'どくのこな'],
+      story: '이상해씨의 최종 진화형. 등의 거대한 꽃은 태양 에너지를 흡수하여 강력한 솔라빔을 발사한다. TCG에서 Energy Trans 포켓몬 파워로 풀 에너지를 자유롭게 이동시킬 수 있어 전략적으로 중요했다.',
+      storyEn: "The final evolution of Bulbasaur. The giant flower on its back absorbs solar energy to fire powerful Solar Beam. In TCG, its Energy Trans Pokémon Power allowed free movement of Grass energy, making it strategically important.",
+      storyJa: 'フシギダネの最終進化形。背中の巨大な花は太陽エネルギーを吸収して強力なソーラービームを発射する。TCGではEnergy Transポケモンパワーで草エネルギーを自由に移動でき、戦略的に重要だった。',
+      relationships: ['이상해씨/Bulbasaur - 첫 번째 형태', '이상해풀/Ivysaur - 중간 형태', '리자몽/Charizard - 라이벌 스타터'],
+      trivia: ['포켓몬 #001의 최종 진화', 'Energy Trans로 에너지 관리', 'Base Set 3대 스타터 중 가장 저평가', '일러스트레이터 Ken Sugimori']
+    }
   },
   {
     id: 'mewtwo-shadowless',
@@ -355,7 +610,28 @@ export const cards: Card[] = [
     description: '전설의 포켓몬 뮤츠. 영화와 함께 90년대 포켓몬 열풍의 상징.',
     descriptionEn: 'The legendary Pokémon Mewtwo. A symbol of the 90s Pokémon craze alongside the movies.',
     descriptionJa: '伝説のポケモン、ミュウツー。映画とともに90年代ポケモンブームの象徴。',
-    history: 'Base Set 수록. Psychic 타입의 대표 카드로, 70 데미지 Psyburn은 당시 최강급.'
+    history: 'Base Set 수록. Psychic 타입의 대표 카드로, 70 데미지 Psyburn은 당시 최강급.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '홍련섬 - 후지 박사가 뮤의 유전자로 뮤츠를 복제한 곳. 뮤츠는 탄생 후 연구소를 파괴하고 탈출했다.',
+      settingEn: 'Cinnabar Island - Where Dr. Fuji cloned Mewtwo from Mew genes. Mewtwo destroyed the lab and escaped after birth.',
+      settingJa: '紅蓮島 - フジ博士がミュウの遺伝子でミュウツーを複製した場所。ミュウツーは誕生後、研究所を破壊して脱出した。'
+    },
+    character: {
+      species: '에스퍼 타입 / 유전 포켓몬',
+      speciesEn: 'Psychic Type / Genetic Pokémon',
+      speciesJa: 'エスパータイプ / いでんしポケモン',
+      abilities: ['사이코키네시스', '섀도볼', '회복', '배리어'],
+      abilitiesEn: ['Psychic', 'Shadow Ball', 'Recover', 'Barrier'],
+      abilitiesJa: ['サイコキネシス', 'シャドーボール', 'じこさいせい', 'バリアー'],
+      story: '환상의 포켓몬 뮤의 유전자를 바탕으로 인공적으로 만들어진 포켓몬. 자신의 존재 의의에 대해 고민하며, 인간에 대해 복잡한 감정을 품고 있다. 극장판 1기의 주역으로, "나는 누구인가?"라는 질문을 던졌다.',
+      storyEn: "A Pokémon artificially created based on genes from the Mythical Pokémon Mew. It struggles with the meaning of its existence and has complex feelings toward humans. The protagonist of the first movie, asking 'Who am I?'",
+      storyJa: '幻のポケモン・ミュウの遺伝子をもとに人工的に作られたポケモン。自分の存在意義について悩み、人間に対して複雑な感情を抱いている。劇場版1作目の主役で、「私は誰なのか？」という問いを投げかけた。',
+      relationships: ['뮤/Mew - 유전적 원본', '후지 박사/Dr. Fuji - 창조자', '사토시/Ash - 첫 영화의 주인공'],
+      trivia: ['포켓몬 #150', '극장판 뮤츠의 역습 주역', 'Psyburn 70 데미지', 'Base Set 희귀 카드']
+    }
   },
   {
     id: 'umbreon-gold-star',
@@ -373,13 +649,34 @@ export const cards: Card[] = [
       style: '신비롭고 어둠 속에서 빛나는 존재. 달빛 아래서만 진정한 모습을 드러냄.',
       greeting: '...달이 떴군. 나는 블래키. 골드스타의... 어둠 속 빛이야. 네가 날 찾은 건 운명일지도.',
       greetingEn: "...The moon is up. I am Umbreon. The light in darkness... of Gold Star. Perhaps it was fate that you found me.",
-      greetingJa: '...月が出たな。俺はブラッキー。ゴールドスターの... 闘の中の光だ。お前が俺を見つけたのは運命かもな。',
+      greetingJa: '...月が出たな。俺はブラッキー。ゴールドスターの... 闇の中の光だ。お前が俺を見つけたのは運命かもな。',
       traits: ['신비로움', '달빛', '어둠의 힘', '희소성']
     },
     description: 'POP Series 5의 극희귀 카드. Gold Star 시리즈는 색이 다른 포켓몬을 표현.',
     descriptionEn: 'An extremely rare card from POP Series 5. The Gold Star series features alternate-colored Pokémon.',
     descriptionJa: 'POP Series 5の極レアカード。ゴールドスターシリーズは色違いポケモンを表現。',
-    history: '2007년 발매. Gold Star 카드는 팩 당 확률이 극히 낮아 수집가들의 성배.'
+    history: '2007년 발매. Gold Star 카드는 팩 당 확률이 극히 낮아 수집가들의 성배.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '밤의 세계 - 블래키는 밤에 활동하는 어둠 타입 포켓몬. 달빛을 받으면 몸의 노란 고리가 빛난다.',
+      settingEn: 'Nocturnal World - Umbreon is a Dark type Pokémon active at night. Its yellow rings glow when exposed to moonlight.',
+      settingJa: '夜の世界 - ブラッキーは夜に活動する闘タイプのポケモン。月光を浴びると体の黄色いリングが光る。'
+    },
+    character: {
+      species: '어둠 타입 / 월광 포켓몬',
+      speciesEn: 'Dark Type / Moonlight Pokémon',
+      speciesJa: 'あくタイプ / げっこうポケモン',
+      abilities: ['악의 파동', '속이기', '월광', '도발'],
+      abilitiesEn: ['Dark Pulse', 'Feint Attack', 'Moonlight', 'Taunt'],
+      abilitiesJa: ['あくのはどう', 'だましうち', 'つきのひかり', 'ちょうはつ'],
+      story: '이브이가 밤에 친밀도로 진화한 어둠 타입 포켓몬. Gold Star 버전은 일반과 다른 파란 고리를 가진 색이 다른 개체. 달빛 아래서 어둠 속에 녹아들어 먹이를 사냥한다.',
+      storyEn: "A Dark type Pokémon that Eevee evolves into at night with high friendship. The Gold Star version is a shiny with blue rings instead of the normal yellow. It blends into darkness under moonlight to hunt prey.",
+      storyJa: '友好度が高い状態で夜にイーブイが進化した闘タイプのポケモン。ゴールドスター版は通常と異なる青いリングを持つ色違い個体。月光の下で闇に溶け込み獲物を狩る。',
+      relationships: ['이브이/Eevee - 진화 전 형태', '에브이/Espeon - 낮 진화 상대', 'Gold Star 시리즈 - 소속 시리즈'],
+      trivia: ['Gold Star 시리즈 최고 인기', 'POP Series 5 수록', '색이 다른 버전 (파란 고리)', '1/500 팩 이하 출현율']
+    }
   },
   {
     id: 'espeon-gold-star',
@@ -403,7 +700,28 @@ export const cards: Card[] = [
     description: 'Umbreon과 쌍을 이루는 Gold Star 카드. 태양을 상징.',
     descriptionEn: 'A Gold Star card paired with Umbreon. Symbolizes the sun.',
     descriptionJa: 'ブラッキーと対をなすゴールドスターカード。太陽を象徴。',
-    history: 'POP Series 5 수록. Umbreon과 함께 이브이 진화형의 가장 희귀한 카드.'
+    history: 'POP Series 5 수록. Umbreon과 함께 이브이 진화형의 가장 희귀한 카드.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '낮의 세계 - 에브이는 낮에 활동하는 에스퍼 타입. 햇빛을 받으면 이마의 붉은 보석이 빛난다.',
+      settingEn: "Diurnal World - Espeon is a Psychic type active during the day. Its red forehead gem glows in sunlight.",
+      settingJa: '昼の世界 - エーフィは昼に活動するエスパータイプ。日光を浴びると額の赤い宝石が光る。'
+    },
+    character: {
+      species: '에스퍼 타입 / 태양 포켓몬',
+      speciesEn: 'Psychic Type / Sun Pokémon',
+      speciesJa: 'エスパータイプ / たいようポケモン',
+      abilities: ['사이코키네시스', '아침햇살', '미래예지', '리플렉터'],
+      abilitiesEn: ['Psychic', 'Morning Sun', 'Future Sight', 'Reflect'],
+      abilitiesJa: ['サイコキネシス', 'あさのひざし', 'みらいよち', 'リフレクター'],
+      story: '이브이가 낮에 친밀도로 진화한 에스퍼 타입 포켓몬. Gold Star 버전은 녹색 털을 가진 색이 다른 개체. 트레이너의 감정을 읽고 미래를 예지하는 능력이 있다.',
+      storyEn: "A Psychic type Pokémon that Eevee evolves into during the day with high friendship. The Gold Star version is a shiny with green fur. Has the ability to read its trainer's emotions and foresee the future.",
+      storyJa: '友好度が高い状態で昼にイーブイが進化したエスパータイプのポケモン。ゴールドスター版は緑色の毛を持つ色違い個体。トレーナーの感情を読み、未来を予知する能力がある。',
+      relationships: ['이브이/Eevee - 진화 전 형태', '블래키/Umbreon - 밤 진화 상대', 'Gold Star 시리즈 - 소속 시리즈'],
+      trivia: ['Gold Star 시리즈', 'POP Series 5 수록', '색이 다른 버전 (녹색 털)', 'Umbreon과 세트 수집 인기']
+    }
   },
   {
     id: 'shining-charizard',
@@ -427,7 +745,28 @@ export const cards: Card[] = [
     description: 'Neo Destiny의 Shining 시리즈. 색이 다른 포켓몬의 최초 등장.',
     descriptionEn: 'From the Shining series in Neo Destiny. The first appearance of alternate-colored Pokémon.',
     descriptionJa: 'Neo DestinyのShiningシリーズ。色違いポケモンの初登場。',
-    history: '2002년 발매. Shining 시리즈의 리자몽으로, 1st Edition은 특히 희귀.'
+    history: '2002년 발매. Shining 시리즈의 리자몽으로, 1st Edition은 특히 희귀.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '성도 지방 - Neo 시리즈의 배경. 색이 다른 포켓몬이라는 개념이 처음 도입된 세대.',
+      settingEn: 'Johto Region - Setting of the Neo series. The generation where the concept of shiny Pokémon was first introduced.',
+      settingJa: 'ジョウト地方 - Neoシリーズの舞台。色違いポケモンという概念が初めて導入された世代。'
+    },
+    character: {
+      species: '불꽃/비행 타입 / 화염 포켓몬 (색이 다른)',
+      speciesEn: 'Fire/Flying Type / Flame Pokémon (Shiny)',
+      speciesJa: 'ほのお/ひこうタイプ / かえんポケモン（色違い）',
+      abilities: ['화염방사', '불대문자', '용의 분노', '화염바퀴'],
+      abilitiesEn: ['Flamethrower', 'Fire Blast', 'Dragon Rage', 'Flame Wheel'],
+      abilitiesJa: ['かえんほうしゃ', 'だいもんじ', 'りゅうのいかり', 'かえんぐるま'],
+      story: '일반 리자몽과 다른 검은 피부를 가진 색이 다른 개체. TCG에서 처음으로 "빛나는" 포켓몬이라는 개념을 도입했다. 불과 어둠이 조화를 이룬 특별한 리자몽.',
+      storyEn: 'A shiny variant with dark skin unlike regular Charizard. The TCG first introduced the concept of "Shining" Pokémon here. A special Charizard where fire and darkness harmonize.',
+      storyJa: '通常のリザードンと異なる黒い肌を持つ色違い個体。TCGで初めて「ひかる」ポケモンという概念を導入した。炎と闇が調和した特別なリザードン。',
+      relationships: ['리자몽/Charizard - 일반 버전', 'Shining 시리즈 - 소속 시리즈', 'Neo Destiny - 수록 세트'],
+      trivia: ['TCG 최초의 색이 다른 포켓몬 카드', 'Neo Destiny 수록', '3가지 에너지 필요 (불/어둠/격투)', '100 데미지 White-hot Flame']
+    }
   },
   {
     id: 'crystal-charizard',
@@ -450,8 +789,29 @@ export const cards: Card[] = [
     },
     description: 'Skyridge 세트의 Crystal Type 카드. 타입이 변하는 특수 능력 보유.',
     descriptionEn: 'A Crystal Type card from the Skyridge set. Has a special ability to change types.',
-    descriptionJa: 'SkyridgeセットのクリスタルタイプCardタイプが変わる特殊能力を持つ。',
-    history: 'e-Card 시리즈 마지막 세트. Crystal Type은 유일무이한 메카닉으로 인기.'
+    descriptionJa: 'SkyridgeセットのクリスタルタイプCard。タイプが変わる特殊能力を持つ。',
+    history: 'e-Card 시리즈 마지막 세트. Crystal Type은 유일무이한 메카닉으로 인기.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: 'e-Card 시대 - GBA와 연동되는 특수 카드 시대. Skyridge는 이 시리즈의 마지막이자 최고점.',
+      settingEn: 'e-Card Era - An era of special cards that linked with GBA. Skyridge was the last and peak of this series.',
+      settingJa: 'e-Card時代 - GBAと連動する特殊カード時代。Skyridgeはこのシリーズの最後にして頂点。'
+    },
+    character: {
+      species: '불꽃 타입 → 격투/전기/불꽃 / 화염 포켓몬',
+      speciesEn: 'Fire Type → Fighting/Lightning/Fire / Flame Pokémon',
+      speciesJa: 'ほのおタイプ → かくとう/でんき/ほのお / かえんポケモン',
+      abilities: ['크리스탈 샤드 (타입 변환)', '화염방사', '불대문자'],
+      abilitiesEn: ['Crystal Shard (Type Change)', 'Flamethrower', 'Fire Blast'],
+      abilitiesJa: ['クリスタルシャード（タイプ変換）', 'かえんほうしゃ', 'だいもんじ'],
+      story: '수정화된 특수한 리자몽. Crystal Type 포켓바디로 원하는 타입의 에너지를 부착하면 그 타입으로 변할 수 있다. e-Card 시리즈의 혁신적 메카닉을 대표하는 카드.',
+      storyEn: 'A special crystallized Charizard. With the Crystal Type Poké-Body, it can change to any type when the corresponding energy is attached. A card representing the innovative mechanics of the e-Card series.',
+      storyJa: '結晶化した特殊なリザードン。Crystal Typeポケボディでいれたいタイプのエネルギーをつけるとそのタイプになれる。e-Cardシリーズの革新的なメカニクスを代表するカード。',
+      relationships: ['리자몽/Charizard - 원본', 'Crystal Type 시리즈 - 소속 시리즈', 'Skyridge - 수록 세트'],
+      trivia: ['타입 변환 포켓바디', 'Skyridge (e-Card 마지막 세트)', 'GBA 카드 리더 연동', '3가지 타입으로 변신 가능']
+    }
   },
   {
     id: 'lugia-neo-genesis',
@@ -475,7 +835,28 @@ export const cards: Card[] = [
     description: 'Neo Genesis의 간판 카드. 극장판 2기 이후 폭발적 인기.',
     descriptionEn: 'The flagship card of Neo Genesis. Gained massive popularity after the second movie.',
     descriptionJa: 'Neo Genesisの看板カード。劇場版2作目以降爆発的人気。',
-    history: 'Neo 시리즈 시작을 알린 카드. PSA 10은 $100,000 이상 가치.'
+    history: 'Neo 시리즈 시작을 알린 카드. PSA 10은 $100,000 이상 가치.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '소용돌이 섬 - 루기아가 잠들어 있는 성도 지방의 신비로운 섬. 세 마리 전설의 새를 다스리는 바다의 신.',
+      settingEn: 'Whirl Islands - A mysterious island in Johto where Lugia sleeps. The god of the sea who commands the three legendary birds.',
+      settingJa: 'うずまきじま - ルギアが眠るジョウト地方の神秘的な島。三鳥を統べる海の神。'
+    },
+    character: {
+      species: '에스퍼/비행 타입 / 잠수 포켓몬',
+      speciesEn: 'Psychic/Flying Type / Diving Pokémon',
+      speciesJa: 'エスパー/ひこうタイプ / せんすいポケモン',
+      abilities: ['에어로블라스트', '사이코키네시스', '하이드로펌프', '회복'],
+      abilitiesEn: ['Aeroblast', 'Psychic', 'Hydro Pump', 'Recover'],
+      abilitiesJa: ['エアロブラスト', 'サイコキネシス', 'ハイドロポンプ', 'じこさいせい'],
+      story: '바다의 신으로 불리는 전설의 포켓몬. 날개짓 한 번으로 40일간 폭풍을 일으킬 정도로 강력해서, 평소에는 깊은 바다 속에 잠들어 있다. 극장판 "루기아의 탄생"에서 주역으로 등장하며 폭발적 인기를 얻었다.',
+      storyEn: 'A legendary Pokémon called the god of the sea. So powerful that one flap of its wings can cause storms for 40 days, it usually sleeps in the deep sea. Gained massive popularity as the protagonist in the movie "The Power of One."',
+      storyJa: '海の神と呼ばれる伝説のポケモン。羽ばたき一つで40日間嵐を起こすほど強力なため、普段は深海で眠っている。劇場版「ルギア爆誕」で主役として登場し爆発的な人気を得た。',
+      relationships: ['호오/Ho-Oh - 하늘의 라이벌', '프리져/Articuno - 수하 전설의 새', '썬더/Zapdos - 수하 전설의 새', '파이어/Moltres - 수하 전설의 새'],
+      trivia: ['포켓몬 #249', '극장판 2기 주역', 'Neo Genesis 메인 카드', 'PSA 10 $100,000+']
+    }
   },
   {
     id: 'alakazam-shadowless',
@@ -499,7 +880,28 @@ export const cards: Card[] = [
     description: 'Base Set의 사이킥 대표. Damage Swap 능력은 전략의 핵심.',
     descriptionEn: 'The psychic representative of Base Set. Damage Swap ability is key to strategy.',
     descriptionJa: 'ベースセットのサイキック代表。Damage Swap能力は戦略の核心。',
-    history: '1999년 출시. 숟가락 두 개를 든 독특한 포즈가 상징적.'
+    history: '1999년 출시. 숟가락 두 개를 든 독특한 포즈가 상징적.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '관동 지방 - 케이시에서 윤겔라를 거쳐 후딘으로 진화. 통신 교환으로만 진화 가능.',
+      settingEn: 'Kanto Region - Evolves from Abra through Kadabra to Alakazam. Can only evolve through trade.',
+      settingJa: 'カントー地方 - ケーシィからユンゲラーを経てフーディンに進化。通信交換でのみ進化可能。'
+    },
+    character: {
+      species: '에스퍼 타입 / 염력 포켓몬',
+      speciesEn: 'Psychic Type / Psi Pokémon',
+      speciesJa: 'エスパータイプ / ねんりきポケモン',
+      abilities: ['사이코키네시스', '섀도볼', '회복', '리플렉터'],
+      abilitiesEn: ['Psychic', 'Shadow Ball', 'Recover', 'Reflect'],
+      abilitiesJa: ['サイコキネシス', 'シャドーボール', 'じこさいせい', 'リフレクター'],
+      story: 'IQ 5000의 초천재 포켓몬. 두 개의 숟가락으로 초능력을 증폭시킨다. TCG에서 Damage Swap 포켓몬 파워로 데미지를 자유롭게 이동시켜 전략적 우위를 점했다.',
+      storyEn: 'A super-genius Pokémon with an IQ of 5000. Amplifies psychic powers with two spoons. In TCG, its Damage Swap Pokémon Power gave strategic advantage by freely moving damage.',
+      storyJa: 'IQ5000の超天才ポケモン。2本のスプーンで超能力を増幅させる。TCGではDamage Swapポケモンパワーでダメージを自由に移動させ戦略的優位を得た。',
+      relationships: ['케이시/Abra - 첫 번째 형태', '윤겔라/Kadabra - 중간 형태', '뮤츠/Mewtwo - 사이킥 라이벌'],
+      trivia: ['IQ 5000 (공식 설정)', 'Damage Swap 덱의 핵심', '통신 교환 진화', '숟가락 두 개 상징']
+    }
   },
   {
     id: 'chansey-shadowless',
@@ -523,7 +925,28 @@ export const cards: Card[] = [
     description: 'Base Set의 HP 최강 카드 (120HP). 노말 타입의 대표.',
     descriptionEn: 'The highest HP card in Base Set (120HP). The representative of Normal type.',
     descriptionJa: 'ベースセットのHP最強カード（120HP）。ノーマルタイプの代表。',
-    history: 'Double-edge의 자폭 데미지 80이 특징. 높은 HP로 방어 덱의 핵심.'
+    history: 'Double-edge의 자폭 데미지 80이 특징. 높은 HP로 방어 덱의 핵심.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '포켓몬 센터 - 럭키는 간호순 옆에서 포켓몬을 치료하는 조수. 모든 포켓몬 센터에서 볼 수 있다.',
+      settingEn: 'Pokémon Center - Chansey assists Nurse Joy in healing Pokémon. Can be seen at every Pokémon Center.',
+      settingJa: 'ポケモンセンター - ラッキーはジョーイさんの横でポケモンを治療する助手。全てのポケモンセンターで見られる。'
+    },
+    character: {
+      species: '노말 타입 / 알 포켓몬',
+      speciesEn: 'Normal Type / Egg Pokémon',
+      speciesJa: 'ノーマルタイプ / たまごポケモン',
+      abilities: ['알낳기', '노래하기', '타원형 카운터', '힐링위시'],
+      abilitiesEn: ['Soft-Boiled', 'Sing', 'Counter', 'Healing Wish'],
+      abilitiesJa: ['タマゴうみ', 'うたう', 'カウンター', 'いやしのねがい'],
+      story: '항상 맛있는 알을 품고 다니는 행복의 포켓몬. 다친 포켓몬에게 자신의 알을 나눠주는 상냥한 성격. 포켓몬 센터에서 간호순의 조수로 활약한다.',
+      storyEn: "A happiness Pokémon that always carries a delicious egg. Has a gentle nature, sharing its egg with injured Pokémon. Works as Nurse Joy's assistant at Pokémon Centers.",
+      storyJa: 'いつも美味しい卵を持ち歩く幸せのポケモン。怪我したポケモンに自分の卵を分けてあげる優しい性格。ポケモンセンターでジョーイさんの助手として活躍する。',
+      relationships: ['간호순/Nurse Joy - 파트너', '해피너스/Blissey - 진화형', '럭키알/Lucky Egg - 아이템'],
+      trivia: ['Base Set 최고 HP (120)', 'Double-edge 80 데미지 (자해 80)', '포켓몬 센터의 마스코트', '암컷만 존재']
+    }
   },
   {
     id: 'pikachu-van-gogh',
@@ -547,7 +970,28 @@ export const cards: Card[] = [
     description: '2023년 반 고흐 미술관 콜라보레이션 프로모 카드.',
     descriptionEn: 'A 2023 collaboration promo card with the Van Gogh Museum.',
     descriptionJa: '2023年ゴッホ美術館コラボレーションプロモカード。',
-    history: '암스테르담 반 고흐 미술관에서 한정 배포. 첫날 매진되어 리셀 가격 폭등.'
+    history: '암스테르담 반 고흐 미술관에서 한정 배포. 첫날 매진되어 리셀 가격 폭등.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '반 고흐 미술관 - 2023년 포켓몬과 반 고흐 미술관의 특별 콜라보레이션. 피카츄가 반 고흐의 자화상 스타일로 그려졌다.',
+      settingEn: 'Van Gogh Museum - A special 2023 collaboration between Pokémon and the Van Gogh Museum. Pikachu drawn in Van Gogh self-portrait style.',
+      settingJa: 'ゴッホ美術館 - 2023年ポケモンとゴッホ美術館の特別コラボレーション。ピカチュウがゴッホの自画像スタイルで描かれた。'
+    },
+    character: {
+      species: '전기 타입 / 쥐 포켓몬 (아트 버전)',
+      speciesEn: 'Electric Type / Mouse Pokémon (Art Version)',
+      speciesJa: 'でんきタイプ / ねずみポケモン（アートバージョン）',
+      abilities: ['100만 볼트', '전기자석파', '아이언테일'],
+      abilitiesEn: ['Thunderbolt', 'Thunder Wave', 'Iron Tail'],
+      abilitiesJa: ['10まんボルト', 'でんじは', 'アイアンテール'],
+      story: '반 고흐의 "회색 펠트 모자를 쓴 자화상" 스타일로 그려진 피카츄. 2023년 반 고흐 미술관과 포켓몬 컴퍼니의 특별 콜라보레이션으로 탄생했다. 반 고흐 특유의 붓터치와 색채로 표현된 독특한 아트 카드.',
+      storyEn: 'A Pikachu drawn in the style of Van Gogh\'s "Self-Portrait with Grey Felt Hat." Born from a special 2023 collaboration between the Van Gogh Museum and The Pokémon Company. A unique art card expressed with Van Gogh\'s signature brushwork and colors.',
+      storyJa: 'ゴッホの「灰色のフェルト帽をかぶった自画像」スタイルで描かれたピカチュウ。2023年ゴッホ美術館とポケモンカンパニーの特別コラボレーションで誕生。ゴッホ特有の筆遣いと色彩で表現された独特なアートカード。',
+      relationships: ['반 고흐/Van Gogh - 아트 스타일 원작자', 'Illustrator Pikachu - 같은 아트 컨셉'],
+      trivia: ['암스테르담 반 고흐 미술관 한정', '첫날 완판 후 리셀가 폭등', '반 고흐 붓터치 스타일', '소동으로 배포 중단 후 재개']
+    }
   },
   // ========== MTG 추가 (10개) ==========
   {
@@ -572,7 +1016,28 @@ export const cards: Card[] = [
     description: '0마나로 붉은 마나 생성. Power 9의 일원.',
     descriptionEn: 'Generate red mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで赤マナを生成。Power 9の一員。',
-    history: '1993년 Alpha 세트. Red Deck Wins의 핵심 가속 카드.'
+    history: '1993년 Alpha 세트. Red Deck Wins의 핵심 가속 카드.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '붉은 마나의 영역 - 산과 화산에서 나오는 분노와 파괴의 마법. 직접 데미지와 공격성을 상징.',
+      settingEn: 'Domain of Red Mana - Magic of fury and destruction from mountains and volcanoes. Symbolizes direct damage and aggression.',
+      settingJa: '赤マナの領域 - 山と火山から生まれる怒りと破壊の魔法。直接ダメージと攻撃性を象徴。'
+    },
+    character: {
+      species: '아티팩트 (Artifact)',
+      speciesEn: 'Artifact',
+      speciesJa: 'アーティファクト',
+      abilities: ['탭: 붉은 마나 1개 생성', '0 마나 비용', '1턴차 가속'],
+      abilitiesEn: ['Tap: Add one red mana', '0 mana cost', 'Turn 1 acceleration'],
+      abilitiesJa: ['タップ：赤マナ1つ生成', '0マナコスト', '1ターン目加速'],
+      story: '5개의 Mox 보석 중 하나로, 붉은 마나의 정수가 담긴 루비. Red는 공격성과 직접 데미지의 색상으로, 빠른 승리를 추구하는 어그로 덱의 핵심.',
+      storyEn: 'One of the 5 Mox gems, a ruby containing the essence of red mana. Red is the color of aggression and direct damage, core to aggro decks seeking fast victories.',
+      storyJa: '5つのモックス宝石の一つで、赤マナの精髄が込められたルビー。赤は攻撃性と直接ダメージの色で、速い勝利を目指すアグロデッキの核心。',
+      relationships: ['Black Lotus - 더 강력한 마나 가속', 'Power 9 - 소속 그룹', 'Mox 시리즈 - 형제들'],
+      trivia: ['Red Deck Wins의 핵심', 'Vintage 1장 제한', 'Reserve List 등재', '일러스트레이터 Dan Frazier']
+    }
   },
   {
     id: 'mox-emerald',
@@ -596,7 +1061,28 @@ export const cards: Card[] = [
     description: '0마나로 녹색 마나 생성. Power 9의 일원.',
     descriptionEn: 'Generate green mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで緑マナを生成。Power 9の一員。',
-    history: '1993년 Alpha 세트. 녹색의 빅 크리처를 빠르게 전개 가능.'
+    history: '1993년 Alpha 세트. 녹색의 빅 크리처를 빠르게 전개 가능.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '녹색 마나의 영역 - 숲과 자연에서 나오는 생명과 성장의 마법. 거대한 크리처와 마나 가속을 상징.',
+      settingEn: 'Domain of Green Mana - Magic of life and growth from forests and nature. Symbolizes giant creatures and mana acceleration.',
+      settingJa: '緑マナの領域 - 森と自然から生まれる生命と成長の魔法。巨大なクリーチャーとマナ加速を象徴。'
+    },
+    character: {
+      species: '아티팩트 (Artifact)',
+      speciesEn: 'Artifact',
+      speciesJa: 'アーティファクト',
+      abilities: ['탭: 녹색 마나 1개 생성', '0 마나 비용', '1턴차 가속'],
+      abilitiesEn: ['Tap: Add one green mana', '0 mana cost', 'Turn 1 acceleration'],
+      abilitiesJa: ['タップ：緑マナ1つ生成', '0マナコスト', '1ターン目加速'],
+      story: '5개의 Mox 보석 중 하나로, 녹색 마나의 정수가 담긴 에메랄드. Green은 자연과 생명의 색상으로, 거대한 크리처를 빠르게 전개하는 램프 전략의 핵심.',
+      storyEn: 'One of the 5 Mox gems, an emerald containing the essence of green mana. Green is the color of nature and life, core to ramp strategies deploying giant creatures quickly.',
+      storyJa: '5つのモックス宝石の一つで、緑マナの精髄が込められたエメラルド。緑は自然と生命の色で、巨大なクリーチャーを素早く展開するランプ戦略の核心。',
+      relationships: ['Black Lotus - 더 강력한 마나 가속', 'Power 9 - 소속 그룹', 'Mox 시리즈 - 형제들'],
+      trivia: ['Green 램프 덱의 핵심', 'Vintage 1장 제한', 'Reserve List 등재', '일러스트레이터 Dan Frazier']
+    }
   },
   {
     id: 'mox-pearl',
@@ -614,13 +1100,34 @@ export const cards: Card[] = [
       style: '순수하고 신성한 하얀 보석. 정의와 보호의 힘을 상징.',
       greeting: '...진주의 빛이 어둠을 밝힌다. 나는 성스러운 힘을 0의 비용으로 선사하는 자. 보호받고 싶은가?',
       greetingEn: "...The pearl's light illuminates the darkness. I am the one who grants holy power at zero cost. Do you seek protection?",
-      greetingJa: '...真珠の光が闘を照らす。私は神聖な力を0のコストで与える者。守られたいか？',
+      greetingJa: '...真珠の光が闇を照らす。私は神聖な力を0のコストで与える者。守られたいか？',
       traits: ['순수함', '신성', 'White 마나', '보호']
     },
     description: '0마나로 흰 마나 생성. Power 9의 일원.',
     descriptionEn: 'Generate white mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで白マナを生成。Power 9の一員。',
-    history: '1993년 Alpha 세트. 화이트 위니 전략의 폭발적 시작을 지원.'
+    history: '1993년 Alpha 세트. 화이트 위니 전략의 폭발적 시작을 지원.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '흰 마나의 영역 - 평원과 신전에서 나오는 정의와 질서의 마법. 보호와 치유를 상징.',
+      settingEn: 'Domain of White Mana - Magic of justice and order from plains and temples. Symbolizes protection and healing.',
+      settingJa: '白マナの領域 - 平原と神殿から生まれる正義と秩序の魔法。保護と回復を象徴。'
+    },
+    character: {
+      species: '아티팩트 (Artifact)',
+      speciesEn: 'Artifact',
+      speciesJa: 'アーティファクト',
+      abilities: ['탭: 흰 마나 1개 생성', '0 마나 비용', '1턴차 가속'],
+      abilitiesEn: ['Tap: Add one white mana', '0 mana cost', 'Turn 1 acceleration'],
+      abilitiesJa: ['タップ：白マナ1つ生成', '0マナコスト', '1ターン目加速'],
+      story: '5개의 Mox 보석 중 하나로, 흰 마나의 정수가 담긴 진주. White는 정의와 보호의 색상으로, 작은 크리처들을 빠르게 전개하는 위니 전략의 핵심.',
+      storyEn: 'One of the 5 Mox gems, a pearl containing the essence of white mana. White is the color of justice and protection, core to weenie strategies deploying small creatures quickly.',
+      storyJa: '5つのモックス宝石の一つで、白マナの精髄が込められた真珠。白は正義と保護の色で、小さなクリーチャーを素早く展開するウィニー戦略の核心。',
+      relationships: ['Black Lotus - 더 강력한 마나 가속', 'Power 9 - 소속 그룹', 'Mox 시리즈 - 형제들'],
+      trivia: ['White Weenie의 핵심', 'Vintage 1장 제한', 'Reserve List 등재', '일러스트레이터 Dan Frazier']
+    }
   },
   {
     id: 'mox-jet',
@@ -644,7 +1151,28 @@ export const cards: Card[] = [
     description: '0마나로 검은 마나 생성. Power 9의 일원.',
     descriptionEn: 'Generate black mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで黒マナを生成。Power 9の一員。',
-    history: '1993년 Alpha 세트. 흑색은 MTG에서 가장 사악한 주문들의 색.'
+    history: '1993년 Alpha 세트. 흑색은 MTG에서 가장 사악한 주문들의 색.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '검은 마나의 영역 - 늪과 무덤에서 나오는 죽음과 부패의 마법. 희생과 부활을 상징.',
+      settingEn: 'Domain of Black Mana - Magic of death and decay from swamps and tombs. Symbolizes sacrifice and resurrection.',
+      settingJa: '黒マナの領域 - 沼と墓から生まれる死と腐敗の魔法。犠牲と復活を象徴。'
+    },
+    character: {
+      species: '아티팩트 (Artifact)',
+      speciesEn: 'Artifact',
+      speciesJa: 'アーティファクト',
+      abilities: ['탭: 검은 마나 1개 생성', '0 마나 비용', '1턴차 가속'],
+      abilitiesEn: ['Tap: Add one black mana', '0 mana cost', 'Turn 1 acceleration'],
+      abilitiesJa: ['タップ：黒マナ1つ生成', '0マナコスト', '1ターン目加速'],
+      story: '5개의 Mox 보석 중 하나로, 검은 마나의 정수가 담긴 흑요석. Black은 죽음과 희생의 색상으로, 강력한 주문을 빠르게 시전하는 콤보 덱의 핵심.',
+      storyEn: 'One of the 5 Mox gems, a jet containing the essence of black mana. Black is the color of death and sacrifice, core to combo decks casting powerful spells quickly.',
+      storyJa: '5つのモックス宝石の一つで、黒マナの精髄が込められた黒曜石。黒は死と犠牲の色で、強力な呪文を素早く唱えるコンボデッキの核心。',
+      relationships: ['Black Lotus - 더 강력한 마나 가속', 'Power 9 - 소속 그룹', 'Mox 시리즈 - 형제들'],
+      trivia: ['Dark Ritual과 함께 폭발적 시작', 'Vintage 1장 제한', 'Reserve List 등재', '일러스트레이터 Dan Frazier']
+    }
   },
   {
     id: 'underground-sea',
@@ -668,7 +1196,28 @@ export const cards: Card[] = [
     description: 'Island + Swamp. 레거시에서 가장 인기 있는 듀얼 랜드 중 하나.',
     descriptionEn: 'Island + Swamp. One of the most popular dual lands in Legacy.',
     descriptionJa: 'Island + Swamp。レガシーで最も人気のあるデュアルランドの一つ。',
-    history: 'Reserve List 등재. 재인쇄 불가로 가격 상승 지속.'
+    history: 'Reserve List 등재. 재인쇄 불가로 가격 상승 지속.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아 - 청색과 흑색이 만나는 어두운 해저. Dimir 길드의 비밀스러운 영역.',
+      settingEn: 'Dominaria - The dark seabed where blue and black meet. The secretive domain of the Dimir guild.',
+      settingJa: 'ドミナリア - 青と黒が出会う暗い海底。ディミーアギルドの秘密の領域。'
+    },
+    character: {
+      species: '대지 - 섬 늪 (Land - Island Swamp)',
+      speciesEn: 'Land - Island Swamp',
+      speciesJa: 'ランド - 島 沼',
+      abilities: ['탭: 청색 또는 흑색 마나 생성', '기본 대지 타입 보유', '패치랜드로 서치 가능'],
+      abilitiesEn: ['Tap: Add blue or black mana', 'Has basic land types', 'Searchable by fetchlands'],
+      abilitiesJa: ['タップ：青か黒のマナを生成', '基本土地タイプを持つ', 'フェッチランドでサーチ可能'],
+      story: 'Original Dual Land 10종 중 하나. 청색의 지성과 흑색의 교활함이 결합된 강력한 색상 조합. Dimir(청흑) 색상을 대표하며 레거시에서 가장 많이 사용.',
+      storyEn: 'One of the 10 Original Dual Lands. A powerful color combination of blue intellect and black cunning. Represents Dimir (blue-black) colors and most used in Legacy.',
+      storyJa: 'オリジナルデュアルランド10種の一つ。青の知性と黒の狡猾さが結合した強力な色の組み合わせ。ディミーア（青黒）を代表しレガシーで最も使用される。',
+      relationships: ['Tropical Island - 같은 듀얼 랜드 시리즈', 'Polluted Delta - 서치할 수 있는 페치랜드', 'Dimir 길드 - 라브니카의 청흑 조합'],
+      trivia: ['레거시 최고 인기 듀얼 랜드', 'Reserve List 등재', 'Alpha 버전이 가장 고가', '일러스트레이터 Rob Alexander']
+    }
   },
   {
     id: 'volcanic-island',
@@ -692,7 +1241,28 @@ export const cards: Card[] = [
     description: 'Island + Mountain. UR Delver 덱의 필수 랜드.',
     descriptionEn: 'Island + Mountain. Essential land for UR Delver decks.',
     descriptionJa: 'Island + Mountain。UR Delverデッキの必須ランド。',
-    history: '레거시 메타에서 가장 많이 사용되는 듀얼 랜드.'
+    history: '레거시 메타에서 가장 많이 사용되는 듀얼 랜드.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아 - 화산섬, 용암과 바다가 만나는 극한의 환경. Izzet 길드의 실험적 영역.',
+      settingEn: 'Dominaria - A volcanic island, extreme environment where lava meets sea. The experimental domain of the Izzet guild.',
+      settingJa: 'ドミナリア - 火山島、溶岩と海が出会う極限の環境。イゼットギルドの実験的領域。'
+    },
+    character: {
+      species: '대지 - 섬 산 (Land - Island Mountain)',
+      speciesEn: 'Land - Island Mountain',
+      speciesJa: 'ランド - 島 山',
+      abilities: ['탭: 청색 또는 적색 마나 생성', '기본 대지 타입 보유', '패치랜드로 서치 가능'],
+      abilitiesEn: ['Tap: Add blue or red mana', 'Has basic land types', 'Searchable by fetchlands'],
+      abilitiesJa: ['タップ：青か赤のマナを生成', '基本土地タイプを持つ', 'フェッチランドでサーチ可能'],
+      story: 'Original Dual Land 10종 중 하나. 청색의 지성과 적색의 공격성이 결합된 색상 조합. Izzet(청적) 색상을 대표하며 Delver 덱의 핵심.',
+      storyEn: 'One of the 10 Original Dual Lands. A color combination of blue intellect and red aggression. Represents Izzet (blue-red) colors and core to Delver decks.',
+      storyJa: 'オリジナルデュアルランド10種の一つ。青の知性と赤の攻撃性が結合した色の組み合わせ。イゼット（青赤）を代表しDelverデッキの核心。',
+      relationships: ['Tropical Island - 같은 듀얼 랜드 시리즈', 'Scalding Tarn - 서치할 수 있는 페치랜드', 'Izzet 길드 - 라브니카의 청적 조합'],
+      trivia: ['UR Delver 덱 필수', 'Reserve List 등재', 'Alpha 버전이 가장 고가', '일러스트레이터 Brian Snoddy']
+    }
   },
   {
     id: 'tundra-alpha',
@@ -716,7 +1286,28 @@ export const cards: Card[] = [
     description: 'Plains + Island. UW 컨트롤 덱의 핵심 랜드.',
     descriptionEn: 'Plains + Island. Core land for UW Control decks.',
     descriptionJa: 'Plains + Island。UWコントロールデッキの核心ランド。',
-    history: 'Miracles, Stoneblade 등 레거시 컨트롤 덱에서 활약.'
+    history: 'Miracles, Stoneblade 등 레거시 컨트롤 덱에서 활약.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아 - 얼어붙은 툰드라, 눈과 얼음의 광활한 평원. Azorius 길드의 질서정연한 영역.',
+      settingEn: 'Dominaria - A frozen tundra, vast plains of snow and ice. The orderly domain of the Azorius guild.',
+      settingJa: 'ドミナリア - 凍ったツンドラ、雪と氷の広大な平原。アゾリウスギルドの秩序正しい領域。'
+    },
+    character: {
+      species: '대지 - 평원 섬 (Land - Plains Island)',
+      speciesEn: 'Land - Plains Island',
+      speciesJa: 'ランド - 平原 島',
+      abilities: ['탭: 흰색 또는 청색 마나 생성', '기본 대지 타입 보유', '패치랜드로 서치 가능'],
+      abilitiesEn: ['Tap: Add white or blue mana', 'Has basic land types', 'Searchable by fetchlands'],
+      abilitiesJa: ['タップ：白か青のマナを生成', '基本土地タイプを持つ', 'フェッチランドでサーチ可能'],
+      story: 'Original Dual Land 10종 중 하나. 흰색의 정의와 청색의 지혜가 결합된 색상 조합. Azorius(백청) 색상을 대표하며 컨트롤 덱의 핵심.',
+      storyEn: 'One of the 10 Original Dual Lands. A color combination of white justice and blue wisdom. Represents Azorius (white-blue) colors and core to control decks.',
+      storyJa: 'オリジナルデュアルランド10種の一つ。白の正義と青の知恵が結合した色の組み合わせ。アゾリウス（白青）を代表しコントロールデッキの核心。',
+      relationships: ['Underground Sea - 같은 듀얼 랜드 시리즈', 'Flooded Strand - 서치할 수 있는 페치랜드', 'Azorius 길드 - 라브니카의 백청 조합'],
+      trivia: ['UW Control 덱 필수', 'Miracles 덱의 핵심', 'Reserve List 등재', '일러스트레이터 Jesper Myrfors']
+    }
   },
   {
     id: 'bayou-alpha',
@@ -740,7 +1331,28 @@ export const cards: Card[] = [
     description: 'Swamp + Forest. BG Rock, Elves 덱에서 사용.',
     descriptionEn: 'Swamp + Forest. Used in BG Rock and Elves decks.',
     descriptionJa: 'Swamp + Forest。BG Rock、Elvesデッキで使用。',
-    history: 'Golgari 색상 조합의 레거시 덱 필수 카드.'
+    history: 'Golgari 색상 조합의 레거시 덱 필수 카드.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아 - 늪지대, 생명과 죽음이 순환하는 습지. Golgari 길드의 자연적 영역.',
+      settingEn: 'Dominaria - A bayou, wetlands where life and death cycle. The natural domain of the Golgari guild.',
+      settingJa: 'ドミナリア - 入り江、命と死が循環する湿地。ゴルガリギルドの自然的領域。'
+    },
+    character: {
+      species: '대지 - 늪 숲 (Land - Swamp Forest)',
+      speciesEn: 'Land - Swamp Forest',
+      speciesJa: 'ランド - 沼 森',
+      abilities: ['탭: 흑색 또는 녹색 마나 생성', '기본 대지 타입 보유', '패치랜드로 서치 가능'],
+      abilitiesEn: ['Tap: Add black or green mana', 'Has basic land types', 'Searchable by fetchlands'],
+      abilitiesJa: ['タップ：黒か緑のマナを生成', '基本土地タイプを持つ', 'フェッチランドでサーチ可能'],
+      story: 'Original Dual Land 10종 중 하나. 흑색의 죽음과 녹색의 생명이 결합된 색상 조합. Golgari(흑녹) 색상을 대표하며 미드레인지 덱의 핵심.',
+      storyEn: 'One of the 10 Original Dual Lands. A color combination of black death and green life. Represents Golgari (black-green) colors and core to midrange decks.',
+      storyJa: 'オリジナルデュアルランド10種の一つ。黒の死と緑の生命が結合した色の組み合わせ。ゴルガリ（黒緑）を代表しミッドレンジデッキの核心。',
+      relationships: ['Underground Sea - 같은 듀얼 랜드 시리즈', 'Verdant Catacombs - 서치할 수 있는 페치랜드', 'Golgari 길드 - 라브니카의 흑녹 조합'],
+      trivia: ['BG Rock 덱 필수', 'Elves 덱에서도 사용', 'Reserve List 등재', '일러스트레이터 Jesper Myrfors']
+    }
   },
   {
     id: 'taiga-alpha',
@@ -764,7 +1376,28 @@ export const cards: Card[] = [
     description: 'Mountain + Forest. RG Lands, Punishing Fire 덱에서 활용.',
     descriptionEn: 'Mountain + Forest. Used in RG Lands and Punishing Fire decks.',
     descriptionJa: 'Mountain + Forest。RG Lands、Punishing Fireデッキで活用。',
-    history: 'Gruul 색상 조합의 대표 듀얼 랜드.'
+    history: 'Gruul 색상 조합의 대표 듀얼 랜드.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아 - 타이가, 야생의 침엽수림과 화산지대. Gruul 길드의 원시적 영역.',
+      settingEn: 'Dominaria - A taiga, wild coniferous forest and volcanic region. The primal domain of the Gruul guild.',
+      settingJa: 'ドミナリア - タイガ、野生の針葉樹林と火山地帯。グルールギルドの原始的領域。'
+    },
+    character: {
+      species: '대지 - 산 숲 (Land - Mountain Forest)',
+      speciesEn: 'Land - Mountain Forest',
+      speciesJa: 'ランド - 山 森',
+      abilities: ['탭: 적색 또는 녹색 마나 생성', '기본 대지 타입 보유', '패치랜드로 서치 가능'],
+      abilitiesEn: ['Tap: Add red or green mana', 'Has basic land types', 'Searchable by fetchlands'],
+      abilitiesJa: ['タップ：赤か緑のマナを生成', '基本土地タイプを持つ', 'フェッチランドでサーチ可能'],
+      story: 'Original Dual Land 10종 중 하나. 적색의 분노와 녹색의 생명이 결합된 색상 조합. Gruul(적녹) 색상을 대표하며 어그로 덱의 핵심.',
+      storyEn: 'One of the 10 Original Dual Lands. A color combination of red fury and green life. Represents Gruul (red-green) colors and core to aggro decks.',
+      storyJa: 'オリジナルデュアルランド10種の一つ。赤の怒りと緑の生命が結合した色の組み合わせ。グルール（赤緑）を代表しアグロデッキの核心。',
+      relationships: ['Tropical Island - 같은 듀얼 랜드 시리즈', 'Wooded Foothills - 서치할 수 있는 페치랜드', 'Gruul 길드 - 라브니카의 적녹 조합'],
+      trivia: ['RG Lands 덱 필수', 'Punishing Fire 콤보', 'Reserve List 등재', '일러스트레이터 Rob Alexander']
+    }
   },
   {
     id: 'library-of-alexandria',
@@ -788,7 +1421,28 @@ export const cards: Card[] = [
     description: '손에 7장일 때 무료로 1장 드로우. 빈티지 필수 카드.',
     descriptionEn: 'Draw 1 card for free when you have 7 cards in hand. Essential in Vintage.',
     descriptionJa: '手札7枚の時無料で1枚ドロー。ヴィンテージ必須カード。',
-    history: 'Arabian Nights 세트 (1993). Power 9은 아니지만 동급 취급.'
+    history: 'Arabian Nights 세트 (1993). Power 9은 아니지만 동급 취급.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '라비아 (Rabiah) - 아라비안 나이트 세계관을 기반으로 한 차원. 천일야화의 마법과 신비가 살아있는 곳.',
+      settingEn: 'Rabiah - A plane based on Arabian Nights lore. A place where the magic and mystery of 1001 Nights lives.',
+      settingJa: 'ラビア - アラビアンナイトの世界観を基にした次元。千夜一夜物語の魔法と神秘が生きている場所。'
+    },
+    character: {
+      species: '대지 (Land)',
+      speciesEn: 'Land',
+      speciesJa: 'ランド',
+      abilities: ['탭: 무색 마나 생성', '탭 (손 7장): 카드 1장 드로우', '무료 카드 어드밴티지'],
+      abilitiesEn: ['Tap: Add colorless mana', 'Tap (7 cards in hand): Draw a card', 'Free card advantage'],
+      abilitiesJa: ['タップ：無色マナ生成', 'タップ（手札7枚）：カード1枚ドロー', '無料カードアドバンテージ'],
+      story: '고대 이집트 알렉산드리아에 실존했던 대도서관을 모티브로 한 카드. 세계의 모든 지식을 담으려 했던 전설적인 장소. 손에 7장을 유지하면 무료로 카드를 드로우할 수 있는 압도적인 카드 어드밴티지.',
+      storyEn: 'A card based on the Great Library that actually existed in ancient Alexandria, Egypt. A legendary place that sought to contain all knowledge in the world. Overwhelming card advantage by drawing free cards when maintaining 7 cards in hand.',
+      storyJa: '古代エジプトのアレクサンドリアに実在した大図書館をモチーフにしたカード。世界のすべての知識を収めようとした伝説的な場所。手札7枚を維持すれば無料でカードをドローできる圧倒的なカードアドバンテージ。',
+      relationships: ['Power 9 - 동급 취급되는 카드', 'Arabian Nights - 수록 세트', 'Bazaar of Baghdad - 같은 세트'],
+      trivia: ['Arabian Nights 세트', 'Power 9은 아니지만 동급', '빈티지 1장 제한', '손 7장 조건']
+    }
   },
   // ========== YU-GI-OH 추가 (8개) ==========
   {
@@ -813,7 +1467,28 @@ export const cards: Card[] = [
     description: 'Make-A-Wish 재단을 통해 암 투병 소년 Tyler Gressle을 위해 제작된 세계 유일 카드.',
     descriptionEn: 'The only card in the world, created for cancer patient Tyler Gressle through Make-A-Wish Foundation.',
     descriptionJa: 'Make-A-Wish財団を通じて癌と闘う少年Tyler Gressleのために制作された世界唯一のカード。',
-    history: '2005년 제작. 2021년 eBay에서 $311,211에 낙찰되었으나 사기로 취소됨. 현재 Tyler 본인 소유.'
+    history: '2005년 제작. 2021년 eBay에서 $311,211에 낙찰되었으나 사기로 취소됨. 현재 Tyler 본인 소유.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '현실 세계 - Tyler Gressle 소년의 꿈이 Konami와 Make-A-Wish 재단을 통해 실현된 특별한 카드.',
+      settingEn: "Real World - A special card where Tyler Gressle's dream was realized through Konami and the Make-A-Wish Foundation.",
+      settingJa: '現実世界 - Tyler Gressle少年の夢がKonamiとMake-A-Wish財団を通じて実現した特別なカード。'
+    },
+    character: {
+      species: '전사족 / 레벨 8',
+      speciesEn: 'Warrior / Level 8',
+      speciesJa: '戦士族 / レベル8',
+      abilities: ['ATK 3000', 'DEF 1500', '전용 효과 (비공개)'],
+      abilitiesEn: ['ATK 3000', 'DEF 1500', 'Exclusive effect (undisclosed)'],
+      abilitiesJa: ['ATK 3000', 'DEF 1500', '専用効果（非公開）'],
+      story: '간암과 싸우던 14세 소년 Tyler Gressle의 소원으로 탄생한 세계 유일의 카드. Make-A-Wish 재단을 통해 Konami가 실제로 제작했다. Tyler는 암을 이겨내고 현재까지 이 카드를 소유하고 있다.',
+      storyEn: "The only card in the world, born from the wish of 14-year-old Tyler Gressle who was fighting liver cancer. Actually produced by Konami through the Make-A-Wish Foundation. Tyler beat cancer and still owns this card today.",
+      storyJa: '肝臓癌と闘っていた14歳の少年Tyler Gressleの願いで誕生した世界唯一のカード。Make-A-Wish財団を通じてKonamiが実際に制作した。Tylerは癌に打ち勝ち、現在までこのカードを所有している。',
+      relationships: ['Tyler Gressle - 카드의 주인이자 영감', 'Make-A-Wish - 소원 실현 재단', 'Konami - 제작사'],
+      trivia: ['세계에 단 1장', 'Tyler 본인 디자인', '공식 게임 사용 불가 (존재하지 않는 카드)', '2005년 제작']
+    }
   },
   {
     id: 'exodia-lob-set',
@@ -837,7 +1512,28 @@ export const cards: Card[] = [
     description: '5장 모두 모으면 즉시 승리. 유희왕의 상징적 승리 조건.',
     descriptionEn: 'Collect all 5 pieces for instant victory. An iconic win condition in Yu-Gi-Oh!',
     descriptionJa: '5枚全て集めると即勝利。遊戯王の象徴的な勝利条件。',
-    history: '애니메이션 1화에서 유희가 사용. LOB 1st Edition 세트는 수집가들의 성배.'
+    history: '애니메이션 1화에서 유희가 사용. LOB 1st Edition 세트는 수집가들의 성배.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '고대 이집트 - 엑조디아는 고대 이집트에서 봉인된 마신. 5개의 조각으로 분리되어 봉인되었다.',
+      settingEn: 'Ancient Egypt - Exodia was a demon god sealed in ancient Egypt. Separated into 5 pieces and sealed.',
+      settingJa: '古代エジプト - エクゾディアは古代エジプトで封印された魔神。5つのピースに分離されて封印された。'
+    },
+    character: {
+      species: '어둠 속성 / 마법사족 / 레벨 3',
+      speciesEn: 'DARK Attribute / Spellcaster / Level 3',
+      speciesJa: '闇属性 / 魔法使い族 / レベル3',
+      abilities: ['즉시 승리 (5장 모두 소지)', '봉인된 자의 분노', '무한의 힘'],
+      abilitiesEn: ['Instant Victory (all 5 pieces in hand)', "Sealed One's Wrath", 'Infinite Power'],
+      abilitiesJa: ['即勝利（5枚全て所持）', '封印されし者の怒り', '無限の力'],
+      story: '고대 이집트에서 봉인된 마신. 머리, 왼팔, 오른팔, 왼다리, 오른다리 5개의 조각으로 나뉘어 봉인되었다. 5개를 모두 손에 모으면 듀얼에서 즉시 승리하는 전설의 존재. 애니메이션 1화에서 유희가 카이바를 상대로 소환.',
+      storyEn: "A demon god sealed in ancient Egypt. Divided into 5 pieces: head, left arm, right arm, left leg, right leg. A legendary being that grants instant victory when all 5 are gathered in hand. Yugi summoned it against Kaiba in episode 1.",
+      storyJa: '古代エジプトで封印された魔神。頭、左腕、右腕、左足、右足の5つのピースに分けられ封印された。5枚全てを手札に揃えるとデュエルで即勝利する伝説の存在。アニメ第1話で遊戯が海馬相手に召喚。',
+      relationships: ['무토 유희/Yugi Muto - 최초 소환자', '카이바 세토/Seto Kaiba - 첫 희생자', '바쿠라 - 조각 강탈 시도'],
+      trivia: ['5장 세트로 거래', '애니 1화 등장', 'LOB 1st Edition 최고 인기', '즉시 승리 조건']
+    }
   },
   {
     id: 'red-eyes-lob',
@@ -861,7 +1557,28 @@ export const cards: Card[] = [
     description: '조노우치 카츠야의 에이스. 푸른 눈의 백룡과 쌍벽.',
     descriptionEn: "Joey Wheeler's ace card. Rivals the Blue-Eyes White Dragon.",
     descriptionJa: '城之内克也のエース。青眼の白龍と双璧。',
-    history: 'LOB 수록. 후속 서포트 카드들로 강력한 아키타입 형성.'
+    history: 'LOB 수록. 후속 서포트 카드들로 강력한 아키타입 형성.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '도미노 시티 - 조노우치 카츠야가 성장하며 듀얼리스트로 거듭나는 곳. 친구들과 함께 듀얼 세계에 도전.',
+      settingEn: 'Domino City - Where Joey Wheeler grows and becomes a duelist. Challenging the dueling world with friends.',
+      settingJa: '童実野シティ - 城之内克也が成長しデュエリストとして生まれ変わる場所。仲間と共にデュエルの世界に挑戦。'
+    },
+    character: {
+      species: '어둠 속성 / 드래곤족 / 레벨 7',
+      speciesEn: 'DARK Attribute / Dragon / Level 7',
+      speciesJa: '闇属性 / ドラゴン族 / レベル7',
+      abilities: ['인페르노 파이어 블래스트', '흑염탄', '잠재된 힘'],
+      abilitiesEn: ['Inferno Fire Blast', 'Black Fire Bullet', 'Latent Power'],
+      abilitiesJa: ['インフェルノ・ファイア・ブラスト', '黒炎弾', '潜在的な力'],
+      story: '"가능성의 용"이라 불리는 전설의 드래곤. 푸른 눈의 백룡이 "힘"을 상징한다면, 붉은 눈의 흑룡은 "성장과 가능성"을 상징한다. 조노우치 카츠야가 공룡 류자키에게 승리하여 얻은 에이스 카드.',
+      storyEn: 'A legendary dragon called the "dragon of potential." If Blue-Eyes symbolizes "power," Red-Eyes symbolizes "growth and potential." The ace card Joey Wheeler won by defeating Rex Raptor.',
+      storyJa: '「可能性の龍」と呼ばれる伝説のドラゴン。青眼の白龍が「力」を象徴するなら、真紅眼の黒竜は「成長と可能性」を象徴する。城之内克也が恐竜竜崎に勝利して得たエースカード。',
+      relationships: ['조노우치 카츠야/Joey Wheeler - 주인', '푸른 눈의 백룡/Blue-Eyes - 라이벌', '류자키/Rex Raptor - 이전 소유자'],
+      trivia: ['ATK 2400 / DEF 2000', '"가능성의 용" 별명', 'Joey가 Rex에게 획득', 'Red-Eyes 아키타입의 시작']
+    }
   },
   {
     id: 'monster-reborn-lob',
@@ -885,7 +1602,28 @@ export const cards: Card[] = [
     description: '묘지의 몬스터를 부활시키는 최강의 마법 카드.',
     descriptionEn: 'The strongest magic card that revives monsters from the graveyard.',
     descriptionJa: '墓地のモンスターを蘇生させる最強の魔法カード。',
-    history: 'OCG/TCG 역사상 가장 오래 금지 목록에 오른 카드 중 하나.'
+    history: 'OCG/TCG 역사상 가장 오래 금지 목록에 오른 카드 중 하나.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '생사의 경계 - 앙크의 힘으로 죽은 자를 되살리는 고대 이집트의 마법.',
+      settingEn: 'Boundary of Life and Death - Ancient Egyptian magic that revives the dead with the power of the Ankh.',
+      settingJa: '生死の境界 - アンクの力で死者を蘇らせる古代エジプトの魔法。'
+    },
+    character: {
+      species: '마법 카드 (Magic Card)',
+      speciesEn: 'Magic Card (Spell Card)',
+      speciesJa: '魔法カード',
+      abilities: ['묘지에서 몬스터 1장 부활', '상대 묘지도 대상 가능', '제한 없는 부활'],
+      abilitiesEn: ['Revive 1 monster from graveyard', 'Can target opponent graveyard', 'Unrestricted revival'],
+      abilitiesJa: ['墓地からモンスター1体を蘇生', '相手の墓地も対象可能', '制限のない蘇生'],
+      story: '고대 이집트의 생명의 상징 "앙크"를 모티브로 한 마법 카드. 자신 또는 상대 묘지에서 몬스터를 무조건 부활시킬 수 있는 압도적인 효과. 너무 강력해서 여러 차례 금지되었다.',
+      storyEn: 'A magic card based on the ancient Egyptian symbol of life, the "Ankh." An overwhelming effect that can unconditionally revive monsters from either graveyard. So powerful it has been banned multiple times.',
+      storyJa: '古代エジプトの生命の象徴「アンク」をモチーフにした魔法カード。自分または相手の墓地からモンスターを無条件で蘇生できる圧倒的な効果。強すぎて何度も禁止された。',
+      relationships: ['앙크/Ankh - 이집트 생명의 상징', 'Call of the Haunted - 하위 호환 카드', 'Soul Charge - 유사 효과'],
+      trivia: ['앙크 모양 일러스트', '여러 번 금지/제한', '모든 덱에 필수였던 카드', '상대 묘지도 대상']
+    }
   },
   {
     id: 'pot-of-greed-lob',
@@ -909,7 +1647,28 @@ export const cards: Card[] = [
     description: '2장 드로우. 너무 강력해서 영구 금지된 전설의 카드.',
     descriptionEn: 'Draw 2 cards. A legendary card permanently banned for being too powerful.',
     descriptionJa: '2枚ドロー。強すぎて永久禁止された伝説のカード。',
-    history: '모든 덱에 들어갔던 필수 카드. 현재 영구 금지. 밈으로도 유명.'
+    history: '모든 덱에 들어갔던 필수 카드. 현재 영구 금지. 밈으로도 유명.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '욕망의 세계 - 탐욕을 상징하는 마법 아이템. 사용자에게 지식(카드)을 선물한다.',
+      settingEn: 'World of Greed - A magical item symbolizing greed. Gifts knowledge (cards) to the user.',
+      settingJa: '欲望の世界 - 貪欲を象徴する魔法アイテム。使用者に知識（カード）を贈る。'
+    },
+    character: {
+      species: '마법 카드 (Magic Card)',
+      speciesEn: 'Magic Card (Spell Card)',
+      speciesJa: '魔法カード',
+      abilities: ['덱에서 카드 2장 드로우', '비용 없음', '제한 없음'],
+      abilitiesEn: ['Draw 2 cards from deck', 'No cost', 'No restrictions'],
+      abilitiesJa: ['デッキから2枚ドロー', 'コストなし', '制限なし'],
+      story: '비용 없이 2장을 드로우하는 단순하지만 극도로 강력한 마법 카드. 모든 덱에 무조건 들어가는 필수 카드였기에 영구 금지되었다. "Pot of Greed가 뭘 하는 카드냐?"는 밈으로 유명.',
+      storyEn: 'A simple but extremely powerful magic card that draws 2 cards at no cost. Permanently banned because it was an automatic include in every deck. Famous as a meme: "What does Pot of Greed do?"',
+      storyJa: 'コストなしで2枚ドローするシンプルだが極めて強力な魔法カード。全てのデッキに必ず入る必須カードだったため永久禁止された。「強欲な壺って何するカード？」というミームで有名。',
+      relationships: ['Pot of Desires - 후속 카드', 'Pot of Extravagance - 후속 카드', 'Graceful Charity - 유사 카드'],
+      trivia: ['영구 금지', '"뭘 하는 카드?" 밈', '모든 덱 필수였던 시절', '단순 명료한 효과']
+    }
   },
   {
     id: 'tournament-bls',
@@ -933,7 +1692,28 @@ export const cards: Card[] = [
     description: '1999년 일본 첫 공식 유희왕 대회 우승자에게 수여된 스테인리스 스틸 카드.',
     descriptionEn: 'A stainless steel card awarded to the winner of the first official Yu-Gi-Oh! tournament in Japan in 1999.',
     descriptionJa: '1999年日本初の公式遊戯王大会優勝者に授与されたステンレス製カード。',
-    history: '세계에서 가장 비싼 트레이딩 카드. 가격은 $2,000,000~10,000,000으로 추정.'
+    history: '세계에서 가장 비싼 트레이딩 카드. 가격은 $2,000,000~10,000,000으로 추정.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '1999년 일본 - 유희왕 OCG 최초의 공식 전국 대회. 우승자에게 유일무이한 스테인리스 스틸 카드 수여.',
+      settingEn: "1999 Japan - The first official Yu-Gi-Oh! OCG national tournament. The winner received a unique stainless steel card.",
+      settingJa: '1999年日本 - 遊戯王OCG初の公式全国大会。優勝者にユニークなステンレス製カードが授与された。'
+    },
+    character: {
+      species: '전사족 / 레벨 8 (스테인리스 스틸)',
+      speciesEn: 'Warrior / Level 8 (Stainless Steel)',
+      speciesJa: '戦士族 / レベル8（ステンレス製）',
+      abilities: ['ATK 3000', 'DEF 2500', '의식 소환'],
+      abilitiesEn: ['ATK 3000', 'DEF 2500', 'Ritual Summon'],
+      abilitiesJa: ['ATK 3000', 'DEF 2500', '儀式召喚'],
+      story: '세계 최초의 공식 유희왕 대회 우승 트로피. 일반 카드와 달리 스테인리스 스틸로 제작되어 은색으로 빛난다. 세계에 단 1장만 존재하며, 가격은 수백만 달러로 추정되는 최고가 TCG 카드.',
+      storyEn: "The trophy for the world's first official Yu-Gi-Oh! tournament. Unlike regular cards, it's made of stainless steel with a silver shine. Only 1 exists in the world, estimated to be worth millions of dollars as the most expensive TCG card.",
+      storyJa: '世界初の公式遊戯王大会の優勝トロフィー。通常のカードと異なりステンレス製で銀色に輝く。世界に1枚だけ存在し、価格は数百万ドルと推定される最高額TCGカード。',
+      relationships: ['Black Luster Soldier - 원본 카드', '1999년 우승자 - 현 소유자', 'Konami - 제작사'],
+      trivia: ['세계에 1장만 존재', '스테인리스 스틸 재질', '추정가 $2,000,000+', '1999년 일본 대회 우승']
+    }
   },
   {
     id: 'crush-card-virus-sjc',
@@ -957,7 +1737,28 @@ export const cards: Card[] = [
     description: 'Shonen Jump Championship 대회 우승자 프로모. ATK 1500 이상 몬스터 파괴.',
     descriptionEn: 'Shonen Jump Championship winner promo. Destroys all monsters with 1500+ ATK.',
     descriptionJa: 'Shonen Jump Championship大会優勝者プロモ。ATK1500以上のモンスターを破壊。',
-    history: '한때 최강의 함정 카드. 대회 메타를 지배했던 전설.'
+    history: '한때 최강의 함정 카드. 대회 메타를 지배했던 전설.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '바이러스의 세계 - 상대의 강력한 몬스터를 감염시켜 파괴하는 죽음의 바이러스.',
+      settingEn: 'World of Virus - A death virus that infects and destroys powerful opponent monsters.',
+      settingJa: 'ウイルスの世界 - 相手の強力なモンスターを感染させて破壊する死のウイルス。'
+    },
+    character: {
+      species: '함정 카드 (Trap Card)',
+      speciesEn: 'Trap Card',
+      speciesJa: '罠カード',
+      abilities: ['ATK 1500 이상 몬스터 파괴', '상대 손/덱 확인', '3턴간 효과 지속'],
+      abilitiesEn: ['Destroy monsters with 1500+ ATK', 'Check opponent hand/deck', 'Effect lasts 3 turns'],
+      abilitiesJa: ['ATK1500以上のモンスターを破壊', '相手の手札/デッキを確認', '3ターン効果持続'],
+      story: '애니메이션에서 카이바 세토가 사용한 최강의 함정 카드. ATK 1500 이상의 모든 몬스터를 감염시켜 파괴하는 압도적인 효과. SJC 우승자에게만 주어지는 울트라 레어 프로모 버전.',
+      storyEn: "The strongest trap card used by Seto Kaiba in the anime. An overwhelming effect that infects and destroys all monsters with 1500+ ATK. An ultra-rare promo version given only to SJC winners.",
+      storyJa: 'アニメで海馬瀬人が使用した最強の罠カード。ATK1500以上の全てのモンスターを感染させて破壊する圧倒的な効果。SJC優勝者にのみ与えられるウルトラレアプロモ版。',
+      relationships: ['카이바 세토/Seto Kaiba - 애니 사용자', 'Deck Devastation Virus - 형제 카드', 'Eradicator Epidemic Virus - 형제 카드'],
+      trivia: ['SJC 우승 프로모', '카이바의 시그니처 카드', '한때 금지 카드', '에라타로 약화']
+    }
   },
   {
     id: 'stardust-dragon-ghost',
@@ -981,7 +1782,28 @@ export const cards: Card[] = [
     description: '유희왕 5D\'s 주인공 후도 유세이의 에이스. Ghost Rare는 3D 홀로그램 효과.',
     descriptionEn: "Ace card of Yu-Gi-Oh! 5D's protagonist Yusei Fudo. Ghost Rare has 3D hologram effect.",
     descriptionJa: '遊戯王5D\'sの主人公・不動遊星のエース。ゴーストレアは3Dホログラム効果。',
-    history: '2008년 The Duelist Genesis 수록. 싱크로 소환 시대를 연 상징적 카드.'
+    history: '2008년 The Duelist Genesis 수록. 싱크로 소환 시대를 연 상징적 카드.',
+    world: {
+      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
+      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
+      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
+      setting: '네오 도미노 시티 - 유희왕 5D\'s의 미래 도시. D-휠(듀얼 바이크)로 라이딩 듀얼을 펼치는 세계.',
+      settingEn: "Neo Domino City - The future city of Yu-Gi-Oh! 5D's. A world where Riding Duels are fought on D-Wheels (duel motorcycles).",
+      settingJa: 'ネオ・童実野シティ - 遊戯王5D\'sの未来都市。D-ホイール（デュエルバイク）でライディングデュエルを行う世界。'
+    },
+    character: {
+      species: '바람 속성 / 드래곤족 / 레벨 8 / 싱크로',
+      speciesEn: 'WIND Attribute / Dragon / Level 8 / Synchro',
+      speciesJa: '風属性 / ドラゴン族 / レベル8 / シンクロ',
+      abilities: ['빅토리 스트라이크', '슈팅 소닉', '무효화 & 파괴 방어'],
+      abilitiesEn: ['Victim Sanctuary', 'Shooting Sonic', 'Negate & Destruction Protection'],
+      abilitiesJa: ['ヴィクティム・サンクチュアリ', 'シューティング・ソニック', '無効化＆破壊防御'],
+      story: '별의 먼지가 모여 탄생한 싱크로 드래곤. 후도 유세이의 에이스 카드로, 파괴 효과를 무효화하고 자신을 희생하여 소중한 것을 지키는 수호자. Ghost Rare는 3D 홀로그램처럼 빛나는 극희귀 레어리티.',
+      storyEn: "A Synchro Dragon born from gathered stardust. Yusei Fudo's ace card, a guardian that negates destruction effects and sacrifices itself to protect what's precious. Ghost Rare is an ultra-rare rarity that shines like a 3D hologram.",
+      storyJa: '星屑が集まって生まれたシンクロドラゴン。不動遊星のエースカードで、破壊効果を無効化し自らを犠牲にして大切なものを守る守護者。ゴーストレアは3Dホログラムのように輝く極レアリティ。',
+      relationships: ['후도 유세이/Yusei Fudo - 주인', '정크 워리어/Junk Warrior - 동료 싱크로', 'Red Dragon Archfiend - 라이벌'],
+      trivia: ['ATK 2500 / DEF 2000', 'Ghost Rare 3D 효과', '싱크로 시대의 시작', '5D\'s 메인 에이스']
+    }
   }
 ];
 
