@@ -9,14 +9,8 @@ export interface CardPersona {
   traits: string[];
 }
 
-export interface WorldContext {
-  universe: string;        // 세계관 요약
-  universeEn?: string;
-  universeJa?: string;
-  setting: string;         // 배경 설정
-  settingEn?: string;
-  settingJa?: string;
-}
+// WorldContext는 이제 worlds.ts의 GameWorld로 게임별 공용 사용
+// 개별 카드는 character 정보만 가짐
 
 export interface CharacterInfo {
   species?: string;        // 종족/타입
@@ -45,8 +39,7 @@ export interface Card {
   descriptionEn?: string;
   descriptionJa?: string;
   history: string;
-  // 새로 추가
-  world?: WorldContext;
+  // 캐릭터 정보 (세계관은 game 필드로 worlds.ts에서 참조)
   character?: CharacterInfo;
 }
 

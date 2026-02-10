@@ -25,14 +25,6 @@ export const cards: Card[] = [
     descriptionEn: 'A promo card awarded to winners of the 1998 CoroCoro Comic illustration contest. The most expensive Pokémon card in the world.',
     descriptionJa: '1998年コロコロコミックのイラストコンテスト優勝者に授与されたプロモカード。世界で最も高価なポケモンカード。',
     history: '1998년 39장 배포. 2021년 유튜버 Logan Paul이 PSA 10 등급 카드를 $5,275,000에 구매하여 세계 신기록 수립.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレーナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '관동 지방이 시작점. 151종의 오리지널 포켓몬이 존재하며, 8개 체육관을 돌파하고 포켓몬 리그에서 챔피언에 도전하는 것이 목표.',
-      settingEn: 'Kanto region is the starting point. 151 original Pokémon exist, and the goal is to defeat 8 gyms and challenge the Champion at the Pokémon League.',
-      settingJa: 'カントー地方が出発点。151種のオリジナルポケモンが存在し、8つのジムを突破してポケモンリーグでチャンピオンに挑戦するのが目標。'
-    },
     character: {
       species: '전기 타입 / 쥐 포켓몬',
       abilities: ['100만 볼트', '전기자석파', '아이언테일', '볼트태클'],
@@ -66,14 +58,6 @@ export const cards: Card[] = [
     descriptionEn: 'The most powerful card in MTG history. Generate 3 mana for 0 cost - overwhelming efficiency.',
     descriptionJa: 'MTG史上最強のカード。0マナで3マナを生成する圧倒的な効率。',
     history: '1993년 Alpha 세트 출시. Power 9 중 가장 상징적인 카드로, Richard Garfield가 디자인.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아가 중심 차원. 5가지 마나(백/청/흑/적/녹)가 모든 마법의 원천. 강력한 아티팩트와 생물들이 전장을 지배.',
-      settingEn: 'Dominaria is the central plane. Five types of mana (White/Blue/Black/Red/Green) are the source of all magic. Powerful artifacts and creatures dominate the battlefield.',
-      settingJa: 'ドミナリアが中心次元。5種類のマナ（白/青/黒/赤/緑）がすべての魔法の源。強力なアーティファクトと生物が戦場を支配する。'
-    },
     character: {
       species: '아티팩트 (Artifact)',
       abilities: ['희생 시 무색 마나 3개 생성', '0 마나 비용', '순간적 마나 폭발'],
