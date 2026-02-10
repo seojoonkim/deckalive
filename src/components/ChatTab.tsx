@@ -69,20 +69,22 @@ export default function ChatTab({ card }: Props) {
     }
   };
   
-  // 첫 방문 시 인사말 추가
+  // 첫 방문 시 인사말 추가 (언어 변경 시에도 리셋)
+  const { clearMessages } = useChatStore();
+  
   useEffect(() => {
-    if (messages.length === 0) {
-      const greetingId = `greeting-${Date.now()}`;
-      addMessage(card.id, {
-        id: greetingId,
-        role: 'assistant',
-        content: getGreeting(),
-        timestamp: Date.now()
-      });
-      // 첫 인사말은 바로 완료 상태로
-      setCompletedMessages(prev => new Set(prev).add(greetingId));
-    }
-  }, [card.id]);
+    // 언어 변경 시 채팅 클리어하고 새 인사말
+    clearMessages(card.id);
+    const greetingId = `greeting-${Date.now()}`;
+    addMessage(card.id, {
+      id: greetingId,
+      role: 'assistant',
+      content: getGreeting(),
+      timestamp: Date.now()
+    });
+    // 첫 인사말은 바로 완료 상태로
+    setCompletedMessages(prev => new Set(prev).add(greetingId));
+  }, [card.id, language]);
 
   const handleTypingComplete = (messageId: string) => {
     setCompletedMessages(prev => new Set(prev).add(messageId));
