@@ -9,6 +9,25 @@ export interface CardPersona {
   traits: string[];
 }
 
+export interface WorldContext {
+  universe: string;        // 세계관 요약
+  universeEn?: string;
+  universeJa?: string;
+  setting: string;         // 배경 설정
+  settingEn?: string;
+  settingJa?: string;
+}
+
+export interface CharacterInfo {
+  species?: string;        // 종족/타입
+  abilities?: string[];    // 능력/기술
+  story: string;           // 캐릭터 스토리
+  storyEn?: string;
+  storyJa?: string;
+  relationships?: string[]; // 관계 (라이벌, 트레이너 등)
+  trivia?: string[];       // 재미있는 사실
+}
+
 export interface Card {
   id: string;
   name: string;
@@ -26,6 +45,9 @@ export interface Card {
   descriptionEn?: string;
   descriptionJa?: string;
   history: string;
+  // 새로 추가
+  world?: WorldContext;
+  character?: CharacterInfo;
 }
 
 export interface ChatMessage {

@@ -24,7 +24,24 @@ export const cards: Card[] = [
     description: '1998년 CoroCoro Comic 일러스트 콘테스트 우승자에게 수여된 프로모 카드. 세계에서 가장 비싼 포켓몬 카드.',
     descriptionEn: 'A promo card awarded to winners of the 1998 CoroCoro Comic illustration contest. The most expensive Pokémon card in the world.',
     descriptionJa: '1998年コロコロコミックのイラストコンテスト優勝者に授与されたプロモカード。世界で最も高価なポケモンカード。',
-    history: '1998년 39장 배포. 2021년 유튜버 Logan Paul이 PSA 10 등급 카드를 $5,275,000에 구매하여 세계 신기록 수립.'
+    history: '1998년 39장 배포. 2021년 유튜버 Logan Paul이 PSA 10 등급 카드를 $5,275,000에 구매하여 세계 신기록 수립.',
+    world: {
+      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
+      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
+      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレーナーはポケモンと絆を結び、バトルし、共に冒険する。',
+      setting: '관동 지방이 시작점. 151종의 오리지널 포켓몬이 존재하며, 8개 체육관을 돌파하고 포켓몬 리그에서 챔피언에 도전하는 것이 목표.',
+      settingEn: 'Kanto region is the starting point. 151 original Pokémon exist, and the goal is to defeat 8 gyms and challenge the Champion at the Pokémon League.',
+      settingJa: 'カントー地方が出発点。151種のオリジナルポケモンが存在し、8つのジムを突破してポケモンリーグでチャンピオンに挑戦するのが目標。'
+    },
+    character: {
+      species: '전기 타입 / 쥐 포켓몬',
+      abilities: ['100만 볼트', '전기자석파', '아이언테일', '볼트태클'],
+      story: '피카츄는 포켓몬의 마스코트이자 사토시(Ash)의 파트너. 이 특별한 피카츄는 붓을 들고 파이어를 그리는 모습으로, 1998년 코로코로 코믹 일러스트 콘테스트 우승자들에게만 수여되었다. 그림 그리는 것을 사랑하는 예술가 피카츄.',
+      storyEn: "Pikachu is Pokémon's mascot and Ash's partner. This special Pikachu holds a brush painting Charmander, awarded only to winners of the 1998 CoroCoro Comic illustration contest. An artist Pikachu who loves to draw.",
+      storyJa: 'ピカチュウはポケモンのマスコットでありサトシのパートナー。この特別なピカチュウは筆を持ってヒトカゲを描く姿で、1998年コロコロコミックのイラストコンテスト優勝者にのみ授与された。絵を描くことを愛するアーティストピカチュウ。',
+      relationships: ['사토시/Ash - 가장 유명한 트레이너', '파이어/Charmander - 카드에서 그리고 있는 포켓몬'],
+      trivia: ['전 세계에 39장만 존재', '카드에서 붓을 들고 있는 유일한 피카츄', 'PSA 10 등급은 단 7장뿐']
+    }
   },
   {
     id: 'black-lotus',
@@ -48,7 +65,24 @@ export const cards: Card[] = [
     description: 'MTG 역사상 가장 강력한 카드. 0마나로 3마나를 생성하는 압도적 효율.',
     descriptionEn: 'The most powerful card in MTG history. Generate 3 mana for 0 cost - overwhelming efficiency.',
     descriptionJa: 'MTG史上最強のカード。0マナで3マナを生成する圧倒的な効率。',
-    history: '1993년 Alpha 세트 출시. Power 9 중 가장 상징적인 카드로, Richard Garfield가 디자인.'
+    history: '1993년 Alpha 세트 출시. Power 9 중 가장 상징적인 카드로, Richard Garfield가 디자인.',
+    world: {
+      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
+      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
+      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
+      setting: '도미나리아가 중심 차원. 5가지 마나(백/청/흑/적/녹)가 모든 마법의 원천. 강력한 아티팩트와 생물들이 전장을 지배.',
+      settingEn: 'Dominaria is the central plane. Five types of mana (White/Blue/Black/Red/Green) are the source of all magic. Powerful artifacts and creatures dominate the battlefield.',
+      settingJa: 'ドミナリアが中心次元。5種類のマナ（白/青/黒/赤/緑）がすべての魔法の源。強力なアーティファクトと生物が戦場を支配する。'
+    },
+    character: {
+      species: '아티팩트 (Artifact)',
+      abilities: ['희생 시 무색 마나 3개 생성', '0 마나 비용', '순간적 마나 폭발'],
+      story: '블랙 로터스는 전설적인 꽃의 형상을 한 아티팩트. 단 한 번 피어나며, 피어나는 순간 엄청난 마법 에너지를 방출한다. MTG 창시자 Richard Garfield가 "파워의 정점"으로 디자인했으나, 너무 강력해서 바로 금지/제한 목록에 올랐다.',
+      storyEn: "Black Lotus is an artifact in the shape of a legendary flower. It blooms only once, releasing tremendous magical energy at that moment. Designed by MTG creator Richard Garfield as 'the pinnacle of power,' but immediately restricted due to its overwhelming strength.",
+      storyJa: 'ブラック・ロータスは伝説の花の形をしたアーティファクト。一度だけ咲き、その瞬間に膨大な魔法エネルギーを放出する。MTG創設者リチャード・ガーフィールドが「パワーの頂点」としてデザインしたが、あまりにも強力で即座に禁止/制限リストに入った。',
+      relationships: ['Power 9 - MTG 최강 9장 카드 그룹', 'Mox 시리즈 - 블랙 로터스의 동생격 아티팩트들'],
+      trivia: ['Alpha 버전은 약 1,100장만 존재', '모든 TCG 카드 중 가장 비싼 카드 중 하나', '빈티지에서도 1장만 허용']
+    }
   },
   {
     id: 'charizard-1st',
