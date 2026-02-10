@@ -194,7 +194,7 @@ export default function ChatTab({ card }: Props) {
   return (
     <div className="flex flex-col h-[calc(100vh-160px)]">
       {/* Messages */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-1">
+      <div className="flex-1 overflow-y-auto p-4 pt-6 space-y-1">
         {messages.flatMap((msg, msgIndex) => {
           const isUser = msg.role === 'user';
           const isAnimating = msg.id === animatingMessageId;
