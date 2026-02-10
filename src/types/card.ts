@@ -9,15 +9,8 @@ export interface CardPersona {
   traits: string[];
 }
 
-// 카드별 세계관 정보 (다국어 지원)
-export interface WorldInfo {
-  universe: string;        // 게임 세계관 (한국어)
-  universeEn?: string;     // 게임 세계관 (영어)
-  universeJa?: string;     // 게임 세계관 (일본어)
-  setting: string;         // 배경 설정 (한국어)
-  settingEn?: string;      // 배경 설정 (영어)
-  settingJa?: string;      // 배경 설정 (일본어)
-}
+// 세계관은 worlds.ts에서 게임별로 공용 관리
+// 카드는 character 정보만 가짐
 
 export interface CharacterInfo {
   species?: string;        // 종족/타입 (한국어)
@@ -50,8 +43,6 @@ export interface Card {
   descriptionEn?: string;
   descriptionJa?: string;
   history: string;
-  // 세계관 정보 (카드별 커스텀)
-  world?: WorldInfo;
   // 캐릭터 정보 (세계관은 game 필드로 worlds.ts에서 참조)
   character?: CharacterInfo;
 }

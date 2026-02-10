@@ -25,14 +25,6 @@ export const cards: Card[] = [
     descriptionEn: 'A promo card awarded to winners of the 1998 CoroCoro Comic illustration contest. The most expensive Pokémon card in the world.',
     descriptionJa: '1998年コロコロコミックのイラストコンテスト優勝者に授与されたプロモカード。世界で最も高価なポケモンカード。',
     history: '1998년 39장 배포. 2021년 유튜버 Logan Paul이 PSA 10 등급 카드를 $5,275,000에 구매하여 세계 신기록 수립.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '관동 지방이 시작점. 151종의 오리지널 포켓몬이 존재하며, 8개 체육관을 돌파하고 포켓몬 리그에서 챔피언에 도전하는 것이 목표.',
-      settingEn: 'Kanto region is the starting point. 151 original Pokémon exist, and the goal is to defeat 8 gyms and challenge the Champion at the Pokémon League.',
-      settingJa: 'カントー地方が出発点。151種のオリジナルポケモンが存在し、8つのジムを突破してポケモンリーグでチャンピオンに挑戦するのが目標。'
-    },
     character: {
       species: '전기 타입 / 쥐 포켓몬',
       speciesEn: 'Electric Type / Mouse Pokémon',
@@ -70,14 +62,6 @@ export const cards: Card[] = [
     descriptionEn: 'The most powerful card in MTG history. Generate 3 mana for 0 cost - overwhelming efficiency.',
     descriptionJa: 'MTG史上最強のカード。0マナで3マナを生成する圧倒的な効率。',
     history: '1993년 Alpha 세트 출시. Power 9 중 가장 상징적인 카드로, Richard Garfield가 디자인.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아가 중심 차원. 5가지 마나(백/청/흑/적/녹)가 모든 마법의 원천. 강력한 아티팩트와 생물들이 전장을 지배.',
-      settingEn: 'Dominaria is the central plane. Five types of mana (White/Blue/Black/Red/Green) are the source of all magic. Powerful artifacts and creatures dominate the battlefield.',
-      settingJa: 'ドミナリアが中心次元。5種類のマナ（白/青/黒/赤/緑）がすべての魔法の源。強力なアーティファクトと生物が戦場を支配する。'
-    },
     character: {
       species: '아티팩트 (Artifact)',
       speciesEn: 'Artifact',
@@ -115,14 +99,6 @@ export const cards: Card[] = [
     descriptionEn: 'The face of the original Pokémon TCG Base Set. An icon that defines a generation.',
     descriptionJa: 'ポケモンTCG初代ベースセットの顔。世代を象徴するアイコン。',
     history: '1999년 1판 발매. 120 데미지의 Fire Spin은 당시 최강. 코로나 시기에 가격 폭등.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '관동 지방 - 파이어, 꼬부기, 이상해씨 중 하나를 선택해 모험을 시작하는 곳. 리자몽은 파이어의 최종 진화형.',
-      settingEn: 'Kanto Region - Where trainers choose between Charmander, Squirtle, or Bulbasaur to start their journey. Charizard is the final evolution of Charmander.',
-      settingJa: 'カントー地方 - ヒトカゲ、ゼニガメ、フシギダネから一匹を選んで冒険を始める場所。リザードンはヒトカゲの最終進化形。'
-    },
     character: {
       species: '불꽃/비행 타입 / 화염 포켓몬',
       speciesEn: 'Fire/Flying Type / Flame Pokémon',
@@ -160,14 +136,6 @@ export const cards: Card[] = [
     descriptionEn: "The Shiny Charizard VMAX from Champion's Path (2020). The most sought-after card in modern Pokémon TCG.",
     descriptionJa: '2020年チャンピオンズパスで登場したシャイニーリザードンVMAX。現代ポケモンTCGで最も人気のあるカード。',
     history: '2020년 출시 직후 폭발적 인기. PSA 10 등급은 경매에서 $50만 이상에 거래. Logan Paul이 공개하면서 더욱 유명해짐.',
-    world: {
-      universe: '포켓몬 세계 - 다이맥스/기가맥스 현상이 발견된 가라르 지방까지 확장된 세계. 포켓몬이 거대화하는 새로운 현상이 등장.',
-      universeEn: 'Pokémon World - Expanded to Galar region where Dynamax/Gigantamax phenomena were discovered. A new phenomenon where Pokémon grow giant.',
-      universeJa: 'ポケモン世界 - ダイマックス/キョダイマックス現象が発見されたガラル地方まで拡張された世界。ポケモンが巨大化する新しい現象が登場。',
-      setting: '가라르 지방 - 영국을 모티브로 한 새로운 지방. 파워 스팟에서 포켓몬이 거대화하는 다이맥스 현상이 특징.',
-      settingEn: 'Galar Region - A new region inspired by Britain. Features Dynamax phenomenon where Pokémon grow giant at Power Spots.',
-      settingJa: 'ガラル地方 - イギリスをモチーフにした新しい地方。パワースポットでポケモンが巨大化するダイマックス現象が特徴。'
-    },
     character: {
       species: '불꽃/비행 타입 / 화염 포켓몬 (기가맥스)',
       speciesEn: 'Fire/Flying Type / Flame Pokémon (Gigantamax)',
@@ -205,14 +173,6 @@ export const cards: Card[] = [
     descriptionEn: 'The ace card of Yu-Gi-Oh! protagonist Yugi Muto. From Legend of Blue Eyes White Dragon 1st Edition.',
     descriptionJa: '遊戯王の主人公・武藤遊戯のエースカード。Legend of Blue Eyes White Dragon初版。',
     history: '2002년 북미 첫 발매. 일본에서는 1999년부터 등장. 애니메이션에서 유희의 상징적인 카드로 등장.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '현대 일본 도미노 시티와 고대 이집트를 오가는 스토리. 천년 퍼즐을 푼 유희가 어둠의 유희와 함께 듀얼의 세계에 뛰어든다.',
-      settingEn: 'A story spanning modern Domino City, Japan and ancient Egypt. Yugi, who solved the Millennium Puzzle, enters the world of dueling with his dark counterpart.',
-      settingJa: '現代日本の童実野シティと古代エジプトを行き来するストーリー。千年パズルを解いた遊戯が闇の遊戯と共にデュエルの世界に飛び込む。'
-    },
     character: {
       species: '어둠 속성 / 마법사족 / 레벨 7',
       speciesEn: 'DARK Attribute / Spellcaster / Level 7',
@@ -250,14 +210,6 @@ export const cards: Card[] = [
     descriptionEn: 'One of the Original Dual Lands. Produces both blue (Island) and green (Forest) mana simultaneously.',
     descriptionJa: 'オリジナルデュアルランドの一つ。青（島）と緑（森）のマナを同時に生成。',
     history: '1993년 Alpha 세트 출시. Reserve List에 등재되어 재인쇄 불가. 레거시/빈티지 필수 카드.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아 - 10개의 듀얼 랜드는 도미나리아의 다양한 지형을 대표. Tropical Island는 열대 해변과 밀림이 만나는 지역.',
-      settingEn: 'Dominaria - The 10 Dual Lands represent various terrains of Dominaria. Tropical Island is where tropical beaches meet jungles.',
-      settingJa: 'ドミナリア - 10種のデュアルランドはドミナリアの様々な地形を代表。トロピカル・アイランドは熱帯のビーチとジャングルが出会う地域。'
-    },
     character: {
       species: '대지 - 섬 숲 (Land - Island Forest)',
       speciesEn: 'Land - Island Forest',
@@ -295,14 +247,6 @@ export const cards: Card[] = [
     descriptionEn: "The strongest dragon representing Yu-Gi-Oh! A card imbued with Seto Kaiba's soul.",
     descriptionJa: '遊戯王を代表する最強のドラゴン。海馬瀬人の魂が込められたカード。',
     history: 'Legend of Blue Eyes White Dragon (LOB) 1판. 애니메이션에서 세상에 4장만 존재한다는 설정.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '카이바 코퍼레이션이 지배하는 듀얼 세계. 카이바 세토는 세계적 대기업 회장이자 최고의 듀얼리스트.',
-      settingEn: 'A dueling world dominated by Kaiba Corporation. Seto Kaiba is both a global corporate chairman and the top duelist.',
-      settingJa: '海馬コーポレーションが支配するデュエルワールド。海馬瀬人は世界的大企業の会長にして最高のデュエリスト。'
-    },
     character: {
       species: '빛 속성 / 드래곤족 / 레벨 8',
       speciesEn: 'LIGHT Attribute / Dragon / Level 8',
@@ -340,14 +284,6 @@ export const cards: Card[] = [
     descriptionEn: 'Draw 3 cards for 1 mana. The most efficient card draw in MTG history.',
     descriptionJa: '1マナで3枚ドロー。MTG史上最も効率的なカードドロー。',
     history: 'Power 9 중 하나. Vintage 포맷에서만 1장 제한으로 사용 가능.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '청색 마법의 영역 - 지식, 환술, 시간 조작을 다루는 마법 학파. 조상의 기억을 불러오는 것은 청색 마법의 핵심.',
-      settingEn: 'Domain of Blue Magic - A school of magic dealing with knowledge, illusions, and time manipulation. Recalling ancestral memories is core to blue magic.',
-      settingJa: '青い魔法の領域 - 知識、幻術、時間操作を扱う魔法学派。先祖の記憶を呼び起こすのは青い魔法の核心。'
-    },
     character: {
       species: '인스턴트 (Instant)',
       speciesEn: 'Instant',
@@ -385,14 +321,6 @@ export const cards: Card[] = [
     descriptionEn: 'Generate blue mana for 0 cost. The most popular of the 5 Moxen.',
     descriptionJa: '0マナで青マナを生成。5つのモックスの中で最も人気のある色。',
     history: 'Power 9의 일원. Blue는 MTG에서 가장 강력한 색상으로 인식.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '5개의 Mox는 5가지 마나 색상을 대표하는 마법 보석. Sapphire는 지식과 환술의 청색 마나를 상징.',
-      settingEn: 'The 5 Moxen are magical gems representing the 5 mana colors. Sapphire symbolizes blue mana of knowledge and illusion.',
-      settingJa: '5つのモックスは5色のマナを代表する魔法の宝石。サファイアは知識と幻術の青マナを象徴。'
-    },
     character: {
       species: '아티팩트 (Artifact)',
       speciesEn: 'Artifact',
@@ -430,14 +358,6 @@ export const cards: Card[] = [
     descriptionEn: 'Shadowless prints lack the shadow effect, proving they are from the initial print run.',
     descriptionJa: 'シャドウレス版は影効果がなく、初期印刷であることを証明。',
     history: '1999년 초기 인쇄본. Rain Dance 덱은 초기 포켓몬 TCG 메타의 핵심.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '관동 지방 - 꼬부기에서 시작해 어니부기를 거쳐 거북왕으로 진화. 강력한 수압을 자랑하는 물 타입의 대표.',
-      settingEn: 'Kanto Region - Evolves from Squirtle through Wartortle to Blastoise. Representative of Water type with powerful water pressure.',
-      settingJa: 'カントー地方 - ゼニガメから始まりカメールを経てカメックスに進化。強力な水圧を誇る水タイプの代表。'
-    },
     character: {
       species: '물 타입 / 껍질 포켓몬',
       speciesEn: 'Water Type / Shellfish Pokémon',
@@ -475,14 +395,6 @@ export const cards: Card[] = [
     descriptionEn: 'A trophy card awarded to winners of the 1997 Japanese Pokémon tournament.',
     descriptionJa: '1997年日本ポケモン大会優勝者トロフィーカード。',
     history: '세계에 7장만 존재. 대회 우승의 영광을 상징하는 극희귀 카드.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '포켓몬 리그 - 전국 대회의 정점. 최고의 트레이너들이 모여 실력을 겨루는 곳.',
-      settingEn: 'Pokémon League - The pinnacle of national tournaments. Where the best trainers gather to compete.',
-      settingJa: 'ポケモンリーグ - 全国大会の頂点。最高のトレーナーたちが集まり実力を競う場所。'
-    },
     character: {
       species: '전기 타입 / 쥐 포켓몬 (트로피)',
       speciesEn: 'Electric Type / Mouse Pokémon (Trophy)',
@@ -520,14 +432,6 @@ export const cards: Card[] = [
     descriptionEn: 'Take an extra turn for 2 mana. An extremely powerful tempo card.',
     descriptionJa: '2マナで追加ターンを獲得。極めて強力なテンポカード。',
     history: 'Power 9 중 하나. 시간 조작이라는 MTG의 핵심 테마를 상징.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '시간 마법의 영역 - 청색 마법의 궁극적 표현. 시간을 조작하여 추가 행동을 얻는 것은 가장 강력한 어드밴티지.',
-      settingEn: 'Realm of Time Magic - The ultimate expression of blue magic. Manipulating time to gain extra actions is the most powerful advantage.',
-      settingJa: '時間魔法の領域 - 青い魔法の究極的表現。時間を操作して追加行動を得ることは最も強力なアドバンテージ。'
-    },
     character: {
       species: '소서리 (Sorcery)',
       speciesEn: 'Sorcery',
@@ -566,14 +470,6 @@ export const cards: Card[] = [
     descriptionEn: 'One of the three starters from Base Set. Shadowless prints are from the initial production run only.',
     descriptionJa: 'ベースセットの3大スターターの一つ。シャドウレス印刷は初期生産分のみ。',
     history: '1999년 초기 인쇄. Energy Trans 능력으로 에너지 이동 전략의 핵심 카드였음.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '관동 지방 - 이상해씨에서 이상해풀을 거쳐 이상해꽃으로 진화. 등의 꽃에서 향기로운 꽃가루를 뿌리는 풀/독 타입.',
-      settingEn: 'Kanto Region - Evolves from Bulbasaur through Ivysaur to Venusaur. Grass/Poison type that spreads fragrant pollen from the flower on its back.',
-      settingJa: 'カントー地方 - フシギダネからフシギソウを経てフシギバナに進化。背中の花から香しい花粉をまく草/毒タイプ。'
-    },
     character: {
       species: '풀/독 타입 / 씨앗 포켓몬',
       speciesEn: 'Grass/Poison Type / Seed Pokémon',
@@ -611,14 +507,6 @@ export const cards: Card[] = [
     descriptionEn: 'The legendary Pokémon Mewtwo. A symbol of the 90s Pokémon craze alongside the movies.',
     descriptionJa: '伝説のポケモン、ミュウツー。映画とともに90年代ポケモンブームの象徴。',
     history: 'Base Set 수록. Psychic 타입의 대표 카드로, 70 데미지 Psyburn은 당시 최강급.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '홍련섬 - 후지 박사가 뮤의 유전자로 뮤츠를 복제한 곳. 뮤츠는 탄생 후 연구소를 파괴하고 탈출했다.',
-      settingEn: 'Cinnabar Island - Where Dr. Fuji cloned Mewtwo from Mew genes. Mewtwo destroyed the lab and escaped after birth.',
-      settingJa: '紅蓮島 - フジ博士がミュウの遺伝子でミュウツーを複製した場所。ミュウツーは誕生後、研究所を破壊して脱出した。'
-    },
     character: {
       species: '에스퍼 타입 / 유전 포켓몬',
       speciesEn: 'Psychic Type / Genetic Pokémon',
@@ -656,14 +544,6 @@ export const cards: Card[] = [
     descriptionEn: 'An extremely rare card from POP Series 5. The Gold Star series features alternate-colored Pokémon.',
     descriptionJa: 'POP Series 5の極レアカード。ゴールドスターシリーズは色違いポケモンを表現。',
     history: '2007년 발매. Gold Star 카드는 팩 당 확률이 극히 낮아 수집가들의 성배.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '밤의 세계 - 블래키는 밤에 활동하는 어둠 타입 포켓몬. 달빛을 받으면 몸의 노란 고리가 빛난다.',
-      settingEn: 'Nocturnal World - Umbreon is a Dark type Pokémon active at night. Its yellow rings glow when exposed to moonlight.',
-      settingJa: '夜の世界 - ブラッキーは夜に活動する闘タイプのポケモン。月光を浴びると体の黄色いリングが光る。'
-    },
     character: {
       species: '어둠 타입 / 월광 포켓몬',
       speciesEn: 'Dark Type / Moonlight Pokémon',
@@ -701,14 +581,6 @@ export const cards: Card[] = [
     descriptionEn: 'A Gold Star card paired with Umbreon. Symbolizes the sun.',
     descriptionJa: 'ブラッキーと対をなすゴールドスターカード。太陽を象徴。',
     history: 'POP Series 5 수록. Umbreon과 함께 이브이 진화형의 가장 희귀한 카드.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '낮의 세계 - 에브이는 낮에 활동하는 에스퍼 타입. 햇빛을 받으면 이마의 붉은 보석이 빛난다.',
-      settingEn: "Diurnal World - Espeon is a Psychic type active during the day. Its red forehead gem glows in sunlight.",
-      settingJa: '昼の世界 - エーフィは昼に活動するエスパータイプ。日光を浴びると額の赤い宝石が光る。'
-    },
     character: {
       species: '에스퍼 타입 / 태양 포켓몬',
       speciesEn: 'Psychic Type / Sun Pokémon',
@@ -746,14 +618,6 @@ export const cards: Card[] = [
     descriptionEn: 'From the Shining series in Neo Destiny. The first appearance of alternate-colored Pokémon.',
     descriptionJa: 'Neo DestinyのShiningシリーズ。色違いポケモンの初登場。',
     history: '2002년 발매. Shining 시리즈의 리자몽으로, 1st Edition은 특히 희귀.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '성도 지방 - Neo 시리즈의 배경. 색이 다른 포켓몬이라는 개념이 처음 도입된 세대.',
-      settingEn: 'Johto Region - Setting of the Neo series. The generation where the concept of shiny Pokémon was first introduced.',
-      settingJa: 'ジョウト地方 - Neoシリーズの舞台。色違いポケモンという概念が初めて導入された世代。'
-    },
     character: {
       species: '불꽃/비행 타입 / 화염 포켓몬 (색이 다른)',
       speciesEn: 'Fire/Flying Type / Flame Pokémon (Shiny)',
@@ -791,14 +655,6 @@ export const cards: Card[] = [
     descriptionEn: 'A Crystal Type card from the Skyridge set. Has a special ability to change types.',
     descriptionJa: 'SkyridgeセットのクリスタルタイプCard。タイプが変わる特殊能力を持つ。',
     history: 'e-Card 시리즈 마지막 세트. Crystal Type은 유일무이한 메카닉으로 인기.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: 'e-Card 시대 - GBA와 연동되는 특수 카드 시대. Skyridge는 이 시리즈의 마지막이자 최고점.',
-      settingEn: 'e-Card Era - An era of special cards that linked with GBA. Skyridge was the last and peak of this series.',
-      settingJa: 'e-Card時代 - GBAと連動する特殊カード時代。Skyridgeはこのシリーズの最後にして頂点。'
-    },
     character: {
       species: '불꽃 타입 → 격투/전기/불꽃 / 화염 포켓몬',
       speciesEn: 'Fire Type → Fighting/Lightning/Fire / Flame Pokémon',
@@ -836,14 +692,6 @@ export const cards: Card[] = [
     descriptionEn: 'The flagship card of Neo Genesis. Gained massive popularity after the second movie.',
     descriptionJa: 'Neo Genesisの看板カード。劇場版2作目以降爆発的人気。',
     history: 'Neo 시리즈 시작을 알린 카드. PSA 10은 $100,000 이상 가치.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '소용돌이 섬 - 루기아가 잠들어 있는 성도 지방의 신비로운 섬. 세 마리 전설의 새를 다스리는 바다의 신.',
-      settingEn: 'Whirl Islands - A mysterious island in Johto where Lugia sleeps. The god of the sea who commands the three legendary birds.',
-      settingJa: 'うずまきじま - ルギアが眠るジョウト地方の神秘的な島。三鳥を統べる海の神。'
-    },
     character: {
       species: '에스퍼/비행 타입 / 잠수 포켓몬',
       speciesEn: 'Psychic/Flying Type / Diving Pokémon',
@@ -881,14 +729,6 @@ export const cards: Card[] = [
     descriptionEn: 'The psychic representative of Base Set. Damage Swap ability is key to strategy.',
     descriptionJa: 'ベースセットのサイキック代表。Damage Swap能力は戦略の核心。',
     history: '1999년 출시. 숟가락 두 개를 든 독특한 포즈가 상징적.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '관동 지방 - 케이시에서 윤겔라를 거쳐 후딘으로 진화. 통신 교환으로만 진화 가능.',
-      settingEn: 'Kanto Region - Evolves from Abra through Kadabra to Alakazam. Can only evolve through trade.',
-      settingJa: 'カントー地方 - ケーシィからユンゲラーを経てフーディンに進化。通信交換でのみ進化可能。'
-    },
     character: {
       species: '에스퍼 타입 / 염력 포켓몬',
       speciesEn: 'Psychic Type / Psi Pokémon',
@@ -926,14 +766,6 @@ export const cards: Card[] = [
     descriptionEn: 'The highest HP card in Base Set (120HP). The representative of Normal type.',
     descriptionJa: 'ベースセットのHP最強カード（120HP）。ノーマルタイプの代表。',
     history: 'Double-edge의 자폭 데미지 80이 특징. 높은 HP로 방어 덱의 핵심.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '포켓몬 센터 - 럭키는 간호순 옆에서 포켓몬을 치료하는 조수. 모든 포켓몬 센터에서 볼 수 있다.',
-      settingEn: 'Pokémon Center - Chansey assists Nurse Joy in healing Pokémon. Can be seen at every Pokémon Center.',
-      settingJa: 'ポケモンセンター - ラッキーはジョーイさんの横でポケモンを治療する助手。全てのポケモンセンターで見られる。'
-    },
     character: {
       species: '노말 타입 / 알 포켓몬',
       speciesEn: 'Normal Type / Egg Pokémon',
@@ -971,14 +803,6 @@ export const cards: Card[] = [
     descriptionEn: 'A 2023 collaboration promo card with the Van Gogh Museum.',
     descriptionJa: '2023年ゴッホ美術館コラボレーションプロモカード。',
     history: '암스테르담 반 고흐 미술관에서 한정 배포. 첫날 매진되어 리셀 가격 폭등.',
-    world: {
-      universe: '포켓몬 세계 - 인간과 신비한 생물 포켓몬이 공존하는 세계. 트레이너들은 포켓몬과 유대를 맺고, 배틀하며, 함께 모험한다.',
-      universeEn: 'Pokémon World - A world where humans coexist with mysterious creatures called Pokémon. Trainers bond with Pokémon, battle, and adventure together.',
-      universeJa: 'ポケモン世界 - 人間と不思議な生き物ポケモンが共存する世界。トレイナーはポケモンと絆を結び、バトルし、共に冒険する。',
-      setting: '반 고흐 미술관 - 2023년 포켓몬과 반 고흐 미술관의 특별 콜라보레이션. 피카츄가 반 고흐의 자화상 스타일로 그려졌다.',
-      settingEn: 'Van Gogh Museum - A special 2023 collaboration between Pokémon and the Van Gogh Museum. Pikachu drawn in Van Gogh self-portrait style.',
-      settingJa: 'ゴッホ美術館 - 2023年ポケモンとゴッホ美術館の特別コラボレーション。ピカチュウがゴッホの自画像スタイルで描かれた。'
-    },
     character: {
       species: '전기 타입 / 쥐 포켓몬 (아트 버전)',
       speciesEn: 'Electric Type / Mouse Pokémon (Art Version)',
@@ -1017,14 +841,6 @@ export const cards: Card[] = [
     descriptionEn: 'Generate red mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで赤マナを生成。Power 9の一員。',
     history: '1993년 Alpha 세트. Red Deck Wins의 핵심 가속 카드.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '붉은 마나의 영역 - 산과 화산에서 나오는 분노와 파괴의 마법. 직접 데미지와 공격성을 상징.',
-      settingEn: 'Domain of Red Mana - Magic of fury and destruction from mountains and volcanoes. Symbolizes direct damage and aggression.',
-      settingJa: '赤マナの領域 - 山と火山から生まれる怒りと破壊の魔法。直接ダメージと攻撃性を象徴。'
-    },
     character: {
       species: '아티팩트 (Artifact)',
       speciesEn: 'Artifact',
@@ -1062,14 +878,6 @@ export const cards: Card[] = [
     descriptionEn: 'Generate green mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで緑マナを生成。Power 9の一員。',
     history: '1993년 Alpha 세트. 녹색의 빅 크리처를 빠르게 전개 가능.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '녹색 마나의 영역 - 숲과 자연에서 나오는 생명과 성장의 마법. 거대한 크리처와 마나 가속을 상징.',
-      settingEn: 'Domain of Green Mana - Magic of life and growth from forests and nature. Symbolizes giant creatures and mana acceleration.',
-      settingJa: '緑マナの領域 - 森と自然から生まれる生命と成長の魔法。巨大なクリーチャーとマナ加速を象徴。'
-    },
     character: {
       species: '아티팩트 (Artifact)',
       speciesEn: 'Artifact',
@@ -1107,14 +915,6 @@ export const cards: Card[] = [
     descriptionEn: 'Generate white mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで白マナを生成。Power 9の一員。',
     history: '1993년 Alpha 세트. 화이트 위니 전략의 폭발적 시작을 지원.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '흰 마나의 영역 - 평원과 신전에서 나오는 정의와 질서의 마법. 보호와 치유를 상징.',
-      settingEn: 'Domain of White Mana - Magic of justice and order from plains and temples. Symbolizes protection and healing.',
-      settingJa: '白マナの領域 - 平原と神殿から生まれる正義と秩序の魔法。保護と回復を象徴。'
-    },
     character: {
       species: '아티팩트 (Artifact)',
       speciesEn: 'Artifact',
@@ -1152,14 +952,6 @@ export const cards: Card[] = [
     descriptionEn: 'Generate black mana for 0 cost. A member of the Power 9.',
     descriptionJa: '0マナで黒マナを生成。Power 9の一員。',
     history: '1993년 Alpha 세트. 흑색은 MTG에서 가장 사악한 주문들의 색.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '검은 마나의 영역 - 늪과 무덤에서 나오는 죽음과 부패의 마법. 희생과 부활을 상징.',
-      settingEn: 'Domain of Black Mana - Magic of death and decay from swamps and tombs. Symbolizes sacrifice and resurrection.',
-      settingJa: '黒マナの領域 - 沼と墓から生まれる死と腐敗の魔法。犠牲と復活を象徴。'
-    },
     character: {
       species: '아티팩트 (Artifact)',
       speciesEn: 'Artifact',
@@ -1197,14 +989,6 @@ export const cards: Card[] = [
     descriptionEn: 'Island + Swamp. One of the most popular dual lands in Legacy.',
     descriptionJa: 'Island + Swamp。レガシーで最も人気のあるデュアルランドの一つ。',
     history: 'Reserve List 등재. 재인쇄 불가로 가격 상승 지속.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아 - 청색과 흑색이 만나는 어두운 해저. Dimir 길드의 비밀스러운 영역.',
-      settingEn: 'Dominaria - The dark seabed where blue and black meet. The secretive domain of the Dimir guild.',
-      settingJa: 'ドミナリア - 青と黒が出会う暗い海底。ディミーアギルドの秘密の領域。'
-    },
     character: {
       species: '대지 - 섬 늪 (Land - Island Swamp)',
       speciesEn: 'Land - Island Swamp',
@@ -1242,14 +1026,6 @@ export const cards: Card[] = [
     descriptionEn: 'Island + Mountain. Essential land for UR Delver decks.',
     descriptionJa: 'Island + Mountain。UR Delverデッキの必須ランド。',
     history: '레거시 메타에서 가장 많이 사용되는 듀얼 랜드.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아 - 화산섬, 용암과 바다가 만나는 극한의 환경. Izzet 길드의 실험적 영역.',
-      settingEn: 'Dominaria - A volcanic island, extreme environment where lava meets sea. The experimental domain of the Izzet guild.',
-      settingJa: 'ドミナリア - 火山島、溶岩と海が出会う極限の環境。イゼットギルドの実験的領域。'
-    },
     character: {
       species: '대지 - 섬 산 (Land - Island Mountain)',
       speciesEn: 'Land - Island Mountain',
@@ -1287,14 +1063,6 @@ export const cards: Card[] = [
     descriptionEn: 'Plains + Island. Core land for UW Control decks.',
     descriptionJa: 'Plains + Island。UWコントロールデッキの核心ランド。',
     history: 'Miracles, Stoneblade 등 레거시 컨트롤 덱에서 활약.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아 - 얼어붙은 툰드라, 눈과 얼음의 광활한 평원. Azorius 길드의 질서정연한 영역.',
-      settingEn: 'Dominaria - A frozen tundra, vast plains of snow and ice. The orderly domain of the Azorius guild.',
-      settingJa: 'ドミナリア - 凍ったツンドラ、雪と氷の広大な平原。アゾリウスギルドの秩序正しい領域。'
-    },
     character: {
       species: '대지 - 평원 섬 (Land - Plains Island)',
       speciesEn: 'Land - Plains Island',
@@ -1332,14 +1100,6 @@ export const cards: Card[] = [
     descriptionEn: 'Swamp + Forest. Used in BG Rock and Elves decks.',
     descriptionJa: 'Swamp + Forest。BG Rock、Elvesデッキで使用。',
     history: 'Golgari 색상 조합의 레거시 덱 필수 카드.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아 - 늪지대, 생명과 죽음이 순환하는 습지. Golgari 길드의 자연적 영역.',
-      settingEn: 'Dominaria - A bayou, wetlands where life and death cycle. The natural domain of the Golgari guild.',
-      settingJa: 'ドミナリア - 入り江、命と死が循環する湿地。ゴルガリギルドの自然的領域。'
-    },
     character: {
       species: '대지 - 늪 숲 (Land - Swamp Forest)',
       speciesEn: 'Land - Swamp Forest',
@@ -1377,14 +1137,6 @@ export const cards: Card[] = [
     descriptionEn: 'Mountain + Forest. Used in RG Lands and Punishing Fire decks.',
     descriptionJa: 'Mountain + Forest。RG Lands、Punishing Fireデッキで活用。',
     history: 'Gruul 색상 조합의 대표 듀얼 랜드.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '도미나리아 - 타이가, 야생의 침엽수림과 화산지대. Gruul 길드의 원시적 영역.',
-      settingEn: 'Dominaria - A taiga, wild coniferous forest and volcanic region. The primal domain of the Gruul guild.',
-      settingJa: 'ドミナリア - タイガ、野生の針葉樹林と火山地帯。グルールギルドの原始的領域。'
-    },
     character: {
       species: '대지 - 산 숲 (Land - Mountain Forest)',
       speciesEn: 'Land - Mountain Forest',
@@ -1422,14 +1174,6 @@ export const cards: Card[] = [
     descriptionEn: 'Draw 1 card for free when you have 7 cards in hand. Essential in Vintage.',
     descriptionJa: '手札7枚の時無料で1枚ドロー。ヴィンテージ必須カード。',
     history: 'Arabian Nights 세트 (1993). Power 9은 아니지만 동급 취급.',
-    world: {
-      universe: 'MTG 멀티버스 - 수많은 차원(Plane)이 존재하는 다중 우주. 플레인즈워커들이 차원을 넘나들며 마법 전쟁을 벌인다.',
-      universeEn: 'MTG Multiverse - A multiverse with countless Planes. Planeswalkers travel between dimensions waging magical wars.',
-      universeJa: 'MTGマルチバース - 無数の次元(プレイン)が存在する多元宇宙。プレインズウォーカーが次元を渡り歩き、魔法戦争を繰り広げる。',
-      setting: '라비아 (Rabiah) - 아라비안 나이트 세계관을 기반으로 한 차원. 천일야화의 마법과 신비가 살아있는 곳.',
-      settingEn: 'Rabiah - A plane based on Arabian Nights lore. A place where the magic and mystery of 1001 Nights lives.',
-      settingJa: 'ラビア - アラビアンナイトの世界観を基にした次元。千夜一夜物語の魔法と神秘が生きている場所。'
-    },
     character: {
       species: '대지 (Land)',
       speciesEn: 'Land',
@@ -1468,14 +1212,6 @@ export const cards: Card[] = [
     descriptionEn: 'The only card in the world, created for cancer patient Tyler Gressle through Make-A-Wish Foundation.',
     descriptionJa: 'Make-A-Wish財団を通じて癌と闘う少年Tyler Gressleのために制作された世界唯一のカード。',
     history: '2005년 제작. 2021년 eBay에서 $311,211에 낙찰되었으나 사기로 취소됨. 현재 Tyler 본인 소유.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '현실 세계 - Tyler Gressle 소년의 꿈이 Konami와 Make-A-Wish 재단을 통해 실현된 특별한 카드.',
-      settingEn: "Real World - A special card where Tyler Gressle's dream was realized through Konami and the Make-A-Wish Foundation.",
-      settingJa: '現実世界 - Tyler Gressle少年の夢がKonamiとMake-A-Wish財団を通じて実現した特別なカード。'
-    },
     character: {
       species: '전사족 / 레벨 8',
       speciesEn: 'Warrior / Level 8',
@@ -1513,14 +1249,6 @@ export const cards: Card[] = [
     descriptionEn: 'Collect all 5 pieces for instant victory. An iconic win condition in Yu-Gi-Oh!',
     descriptionJa: '5枚全て集めると即勝利。遊戯王の象徴的な勝利条件。',
     history: '애니메이션 1화에서 유희가 사용. LOB 1st Edition 세트는 수집가들의 성배.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '고대 이집트 - 엑조디아는 고대 이집트에서 봉인된 마신. 5개의 조각으로 분리되어 봉인되었다.',
-      settingEn: 'Ancient Egypt - Exodia was a demon god sealed in ancient Egypt. Separated into 5 pieces and sealed.',
-      settingJa: '古代エジプト - エクゾディアは古代エジプトで封印された魔神。5つのピースに分離されて封印された。'
-    },
     character: {
       species: '어둠 속성 / 마법사족 / 레벨 3',
       speciesEn: 'DARK Attribute / Spellcaster / Level 3',
@@ -1558,14 +1286,6 @@ export const cards: Card[] = [
     descriptionEn: "Joey Wheeler's ace card. Rivals the Blue-Eyes White Dragon.",
     descriptionJa: '城之内克也のエース。青眼の白龍と双璧。',
     history: 'LOB 수록. 후속 서포트 카드들로 강력한 아키타입 형성.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '도미노 시티 - 조노우치 카츠야가 성장하며 듀얼리스트로 거듭나는 곳. 친구들과 함께 듀얼 세계에 도전.',
-      settingEn: 'Domino City - Where Joey Wheeler grows and becomes a duelist. Challenging the dueling world with friends.',
-      settingJa: '童実野シティ - 城之内克也が成長しデュエリストとして生まれ変わる場所。仲間と共にデュエルの世界に挑戦。'
-    },
     character: {
       species: '어둠 속성 / 드래곤족 / 레벨 7',
       speciesEn: 'DARK Attribute / Dragon / Level 7',
@@ -1603,14 +1323,6 @@ export const cards: Card[] = [
     descriptionEn: 'The strongest magic card that revives monsters from the graveyard.',
     descriptionJa: '墓地のモンスターを蘇生させる最強の魔法カード。',
     history: 'OCG/TCG 역사상 가장 오래 금지 목록에 오른 카드 중 하나.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '생사의 경계 - 앙크의 힘으로 죽은 자를 되살리는 고대 이집트의 마법.',
-      settingEn: 'Boundary of Life and Death - Ancient Egyptian magic that revives the dead with the power of the Ankh.',
-      settingJa: '生死の境界 - アンクの力で死者を蘇らせる古代エジプトの魔法。'
-    },
     character: {
       species: '마법 카드 (Magic Card)',
       speciesEn: 'Magic Card (Spell Card)',
@@ -1648,14 +1360,6 @@ export const cards: Card[] = [
     descriptionEn: 'Draw 2 cards. A legendary card permanently banned for being too powerful.',
     descriptionJa: '2枚ドロー。強すぎて永久禁止された伝説のカード。',
     history: '모든 덱에 들어갔던 필수 카드. 현재 영구 금지. 밈으로도 유명.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '욕망의 세계 - 탐욕을 상징하는 마법 아이템. 사용자에게 지식(카드)을 선물한다.',
-      settingEn: 'World of Greed - A magical item symbolizing greed. Gifts knowledge (cards) to the user.',
-      settingJa: '欲望の世界 - 貪欲を象徴する魔法アイテム。使用者に知識（カード）を贈る。'
-    },
     character: {
       species: '마법 카드 (Magic Card)',
       speciesEn: 'Magic Card (Spell Card)',
@@ -1693,14 +1397,6 @@ export const cards: Card[] = [
     descriptionEn: 'A stainless steel card awarded to the winner of the first official Yu-Gi-Oh! tournament in Japan in 1999.',
     descriptionJa: '1999年日本初の公式遊戯王大会優勝者に授与されたステンレス製カード。',
     history: '세계에서 가장 비싼 트레이딩 카드. 가격은 $2,000,000~10,000,000으로 추정.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '1999년 일본 - 유희왕 OCG 최초의 공식 전국 대회. 우승자에게 유일무이한 스테인리스 스틸 카드 수여.',
-      settingEn: "1999 Japan - The first official Yu-Gi-Oh! OCG national tournament. The winner received a unique stainless steel card.",
-      settingJa: '1999年日本 - 遊戯王OCG初の公式全国大会。優勝者にユニークなステンレス製カードが授与された。'
-    },
     character: {
       species: '전사족 / 레벨 8 (스테인리스 스틸)',
       speciesEn: 'Warrior / Level 8 (Stainless Steel)',
@@ -1738,14 +1434,6 @@ export const cards: Card[] = [
     descriptionEn: 'Shonen Jump Championship winner promo. Destroys all monsters with 1500+ ATK.',
     descriptionJa: 'Shonen Jump Championship大会優勝者プロモ。ATK1500以上のモンスターを破壊。',
     history: '한때 최강의 함정 카드. 대회 메타를 지배했던 전설.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '바이러스의 세계 - 상대의 강력한 몬스터를 감염시켜 파괴하는 죽음의 바이러스.',
-      settingEn: 'World of Virus - A death virus that infects and destroys powerful opponent monsters.',
-      settingJa: 'ウイルスの世界 - 相手の強力なモンスターを感染させて破壊する死のウイルス。'
-    },
     character: {
       species: '함정 카드 (Trap Card)',
       speciesEn: 'Trap Card',
@@ -1783,14 +1471,6 @@ export const cards: Card[] = [
     descriptionEn: "Ace card of Yu-Gi-Oh! 5D's protagonist Yusei Fudo. Ghost Rare has 3D hologram effect.",
     descriptionJa: '遊戯王5D\'sの主人公・不動遊星のエース。ゴーストレアは3Dホログラム効果。',
     history: '2008년 The Duelist Genesis 수록. 싱크로 소환 시대를 연 상징적 카드.',
-    world: {
-      universe: '유희왕 세계 - 고대 이집트의 마법 게임에서 유래한 듀얼 몬스터즈. 카드에 영혼이 깃들어 있으며, 듀얼리스트들이 카드로 운명을 건 배틀을 펼친다.',
-      universeEn: 'Yu-Gi-Oh! World - Duel Monsters originated from ancient Egyptian magic games. Cards are imbued with souls, and duelists battle with their fates at stake.',
-      universeJa: '遊戯王世界 - 古代エジプトの魔法ゲームに由来するデュエルモンスターズ。カードに魂が宿り、デュエリストたちがカードで運命を賭けたバトルを繰り広げる。',
-      setting: '네오 도미노 시티 - 유희왕 5D\'s의 미래 도시. D-휠(듀얼 바이크)로 라이딩 듀얼을 펼치는 세계.',
-      settingEn: "Neo Domino City - The future city of Yu-Gi-Oh! 5D's. A world where Riding Duels are fought on D-Wheels (duel motorcycles).",
-      settingJa: 'ネオ・童実野シティ - 遊戯王5D\'sの未来都市。D-ホイール（デュエルバイク）でライディングデュエルを行う世界。'
-    },
     character: {
       species: '바람 속성 / 드래곤족 / 레벨 8 / 싱크로',
       speciesEn: 'WIND Attribute / Dragon / Level 8 / Synchro',
