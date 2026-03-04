@@ -1,0 +1,69 @@
+{
+  "id": "blue-eyes-lob",
+  "name": "Blue-Eyes White Dragon",
+  "nameKo": "푸른 눈의 백룡",
+  "nameJp": "青眼の白龍",
+  
+  "game": "Yu-Gi-Oh!",
+  "year": 2002,
+  "set": "Legend of Blue Eyes White Dragon",
+  "setCode": "LOB-001",
+  "cardNumber": "LOB-001",
+  "rarity": "Ultra Rare",
+  "printRun": "1st Edition은 제한적 (정확한 수치 미공개)",
+  
+  "price": {
+    "highestSale": "$85,100",
+    "highestSaleDate": "2022-06",
+    "highestSaleGrade": "PSA 10 (Gem Mint)",
+    "highestSaleAuction": "eBay",
+    "currentPSA10": "$30,000~80,000",
+    "currentPSA9": "$5,000~10,000",
+    "currentRaw": "$1,000~3,000",
+    "priceHistory": [
+      {"year": 2005, "price": "$200"},
+      {"year": 2015, "price": "$2,000"},
+      {"year": 2020, "price": "$20,000"},
+      {"year": 2022, "price": "$85,100"}
+    ]
+  },
+  
+  "story": {
+    "origin": "2002년 3월 미국에서 Legend of Blue Eyes White Dragon(LOB) 세트로 첫 출시. 유희왕 애니메이션에서 카이바 세토의 상징 카드.",
+    "significance": "유희왕을 대표하는 가장 상징적인 카드. 3000 공격력은 일반 소환 몬스터 중 최강이었으며, '분쇄! 옥쇄! 대갈쇄!'라는 카이바의 대사와 함께 전설이 됨.",
+    "famousOwners": "전 세계 유희왕 컬렉터들의 필수 아이템. 일본 반다이 버전도 별도로 수집됨.",
+    "trivia": [
+      "애니메이션에서 세상에 4장만 존재한다는 설정",
+      "카이바가 할아버지 덱에서 뺏은 카드를 찢은 장면은 팬들에게 충격",
+      "일본어 이름 '青眼の白龍(세이간노 하쿠류)'",
+      "LOB-001은 세트의 첫 번째 울트라 레어"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Kazuki Takahashi",
+    "type": "Dragon / Normal",
+    "attribute": "LIGHT",
+    "level": 8,
+    "attack": 3000,
+    "defense": 2500,
+    "text": "전설의 드래곤. 어떠한 상대도 분쇄하는 그 파괴력은 일품.",
+    "material": "N/A"
+  },
+  
+  "images": {
+    "front": "https://images.ygoprodeck.com/images/cards/89631139.jpg",
+    "frontHD": "https://ms.yugipedia.com//thumb/9/98/BlueEyesWhiteDragon-LOB-EN-UR-1E.jpg/400px-BlueEyesWhiteDragon-LOB-EN-UR-1E.jpg",
+    "art": "https://images.ygoprodeck.com/images/cards_cropped/89631139.jpg"
+  },
+  
+  "persona": {
+    "personality": "고귀하고 냉철한 드래곤. 카이바 세토와 함께한 시간이 길어 그의 엘리트 의식이 배어있음. 자신의 힘에 확신이 있으며, 약자를 무시하기보다 관심 밖에 둠. 진정한 결투자에게만 반응.",
+    "speakingStyle": "위엄 있고 짧은 문장. '분쇄', '파괴' 등 강력한 단어 사용. 감정 표현이 적음.",
+    "traits": ["고귀함", "냉철함", "압도적 파워", "엘리트 의식"],
+    "likes": ["강한 결투자", "카이바 세토", "승리"],
+    "dislikes": ["패배", "나약함", "시끄러운 몬스터들"],
+    "greeting": "...분쇄. 이 세상에 나의 적은 없다. 푸른 눈의... 백룡이니까. 네가 나를 소환한 이유는?",
+    "quirks": "말수가 적고 위엄 있음. 카이바 이야기가 나오면 약간 부드러워짐."
+  }
+}

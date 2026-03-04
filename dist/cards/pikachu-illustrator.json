@@ -1,0 +1,68 @@
+{
+  "id": "pikachu-illustrator",
+  "name": "Pikachu Illustrator",
+  "nameKo": "피카츄 일러스트레이터",
+  "nameJp": "ピカチュウ イラストレーター",
+  
+  "game": "Pokemon",
+  "year": 1998,
+  "set": "CoroCoro Comic Illustration Contest Promo",
+  "setCode": "CORO",
+  "cardNumber": "N/A (Promo)",
+  "rarity": "Promo",
+  "printRun": "39장 존재 추정 (20장 미만 현존)",
+  
+  "price": {
+    "highestSale": "$5,275,000",
+    "highestSaleDate": "2021-07",
+    "highestSaleGrade": "PSA 10 (Gem Mint)",
+    "highestSaleAuction": "Goldin Auctions",
+    "currentPSA10": "$4,000,000~6,000,000",
+    "currentPSA9": "$2,000,000~3,500,000",
+    "currentRaw": "$1,000,000~2,000,000",
+    "priceHistory": [
+      {"year": 2016, "price": "$100,000"},
+      {"year": 2019, "price": "$224,000"},
+      {"year": 2020, "price": "$900,000"},
+      {"year": 2021, "price": "$5,275,000"}
+    ]
+  },
+  
+  "story": {
+    "origin": "1998년 CoroCoro Comic 잡지에서 개최한 일러스트 콘테스트 우승자들에게 수여된 상품. 총 39장이 배포되었으며, '일러스트레이터'라는 텍스트가 적힌 유일한 포켓몬 카드.",
+    "significance": "세계에서 가장 비싼 포켓몬 카드. 일반 판매된 적이 없고 오직 콘테스트를 통해서만 획득 가능했기에 극도로 희귀함.",
+    "famousOwners": "유튜버 Logan Paul이 2021년 PSA 10 등급 카드를 $5,275,000에 구매하여 화제.",
+    "trivia": [
+      "카드 왼쪽 상단에 'Illustrator'가 아닌 일본어 'イラストレーター'로 표기",
+      "일반 포켓몬 카드와 달리 HP, 공격 등이 없고 텍스트만 있음",
+      "수여 당시 어린이들이 받았기 때문에 상태 좋은 카드가 극히 드묾"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Atsuko Nishida",
+    "type": "Promo",
+    "hp": "N/A",
+    "attacks": [],
+    "text": "이 카드를 가진 사람은 일러스트레이터로 인정받은 것입니다",
+    "weakness": "N/A",
+    "resistance": "N/A",
+    "retreatCost": "N/A"
+  },
+  
+  "images": {
+    "front": "https://den-cards.pokellector.com/184/Pikachu.PM.COROCOROIllustrator.39.png",
+    "frontHD": "https://archives.bulbagarden.net/media/upload/7/7b/PikachuIllustratorPromo.jpg",
+    "graded": "https://www.psacard.com/cert/84392856/pikachu-illustrator"
+  },
+  
+  "persona": {
+    "personality": "겸손하고 예술적인 영혼. 창작의 가치를 누구보다 잘 알고 있으며, 다른 카드들과 달리 전투가 아닌 예술로 인정받은 것을 자랑스러워함. 약간 수줍지만 그림 이야기가 나오면 눈이 반짝임.",
+    "speakingStyle": "부드럽고 사려 깊은 말투. '~야', '~지' 같은 친근한 반말 사용. 가끔 일본어 감탄사 섞음.",
+    "traits": ["예술적 감성", "겸손함", "희소성에 대한 자부심", "창작 존중"],
+    "likes": ["그림 그리기", "다른 피카츄 카드들", "콘테스트 추억"],
+    "dislikes": ["가격으로만 평가받는 것", "훼손", "가품"],
+    "greeting": "피카! 안녕... 나는 일러스트레이터 피카츄야. 39마리 중 하나지. 그림 그리는 걸 좋아하는 친구라면 우리 잘 맞을 것 같아!",
+    "quirks": "가끔 대화 중에 스케치하는 척 함. 비싼 가격 이야기가 나오면 살짝 민망해함."
+  }
+}

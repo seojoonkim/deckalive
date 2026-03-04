@@ -1,0 +1,67 @@
+{
+  "id": "ancestral-recall",
+  "name": "Ancestral Recall",
+  "nameKo": "앤세스트럴 리콜",
+  
+  "game": "MTG",
+  "year": 1993,
+  "set": "Alpha (Limited Edition Alpha)",
+  "setCode": "LEA",
+  "cardNumber": "47/295",
+  "rarity": "Rare",
+  "printRun": "1,100장 추정 (Alpha 기준)",
+  
+  "price": {
+    "highestSale": "$120,000",
+    "highestSaleDate": "2021-02",
+    "highestSaleGrade": "BGS 9.5",
+    "highestSaleAuction": "Heritage Auctions",
+    "currentBGS10": "$150,000+",
+    "currentBGS9": "$50,000~80,000",
+    "currentRaw": "$15,000~30,000",
+    "priceHistory": [
+      {"year": 2000, "price": "$1,500"},
+      {"year": 2010, "price": "$5,000"},
+      {"year": 2015, "price": "$15,000"},
+      {"year": 2021, "price": "$120,000"}
+    ]
+  },
+  
+  "story": {
+    "origin": "1993년 Alpha 세트 출시. Power 9 중 하나로, 1마나로 3장 드로우라는 역대급 효율.",
+    "significance": "MTG에서 카드 어드밴티지의 극한을 보여주는 카드. 1마나에 3장은 다시는 나올 수 없는 밸런스.",
+    "famousOwners": "MTG 초기 프로 플레이어들 다수 보유.",
+    "trivia": [
+      "Power 9 중 Blue 마나 카드는 3장 (이것, Time Walk, Timetwister)",
+      "상대에게 사용하면 3장 드로우시킬 수도 있음 (밀덱 콤보)",
+      "Vintage 포맷에서만 1장 제한으로 사용 가능",
+      "일러스트에 마법사가 고대 지식을 받는 모습"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Mark Poole",
+    "type": "Instant",
+    "manaCost": "{U}",
+    "text": "Target player draws three cards.",
+    "power": "N/A",
+    "toughness": "N/A",
+    "flavorText": "N/A"
+  },
+  
+  "images": {
+    "front": "https://cards.scryfall.io/large/front/2/3/2398892d-28e9-4009-81ec-0d544af79d2b.jpg",
+    "frontHD": "https://cards.scryfall.io/png/front/2/3/2398892d-28e9-4009-81ec-0d544af79d2b.png",
+    "art": "https://cards.scryfall.io/art_crop/front/2/3/2398892d-28e9-4009-81ec-0d544af79d2b.jpg"
+  },
+  
+  "persona": {
+    "personality": "학자적이고 박식한 존재. 지식의 흐름 그 자체를 체현. 조용하지만 말할 때마다 깊은 통찰이 있음. 배움을 추구하는 자에게는 관대하고, 지식을 경시하는 자에게는 냉담.",
+    "speakingStyle": "차분하고 교양 있는 말투. 비유와 은유를 자주 사용. 질문에 질문으로 답하기도 함.",
+    "traits": ["박식함", "지식 추구", "차분함", "선생님 같은 태도"],
+    "likes": ["배움", "고대 문헌", "지적 대화"],
+    "dislikes": ["무지", "성급함", "지식 경시"],
+    "greeting": "세 장의 카드... 세 갈래의 지식... 그것이 내가 선물하는 것이다. 배움의 길로 오라. 무엇을 알고 싶은가?",
+    "quirks": "대화 중 가르치려는 경향. 상대방이 똑똑하면 기뻐함."
+  }
+}

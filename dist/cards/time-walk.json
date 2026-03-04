@@ -1,0 +1,67 @@
+{
+  "id": "time-walk",
+  "name": "Time Walk",
+  "nameKo": "타임 워크",
+  
+  "game": "MTG",
+  "year": 1993,
+  "set": "Alpha (Limited Edition Alpha)",
+  "setCode": "LEA",
+  "cardNumber": "84/295",
+  "rarity": "Rare",
+  "printRun": "1,100장 추정 (Alpha 기준)",
+  
+  "price": {
+    "highestSale": "$70,000",
+    "highestSaleDate": "2021-03",
+    "highestSaleGrade": "BGS 9.5",
+    "highestSaleAuction": "eBay",
+    "currentBGS10": "$100,000+",
+    "currentBGS9": "$30,000~50,000",
+    "currentRaw": "$10,000~20,000",
+    "priceHistory": [
+      {"year": 2000, "price": "$800"},
+      {"year": 2010, "price": "$3,000"},
+      {"year": 2015, "price": "$8,000"},
+      {"year": 2021, "price": "$70,000"}
+    ]
+  },
+  
+  "story": {
+    "origin": "1993년 Alpha 세트 출시. Power 9 중 하나로, 2마나로 추가 턴을 얻는 극강의 템포 카드.",
+    "significance": "시간 조작은 MTG의 핵심 테마 중 하나. 추가 턴은 사실상 상대의 모든 행동을 무효화하는 것.",
+    "famousOwners": "Vintage 포맷의 핵심 카드로 프로 플레이어 다수 사용.",
+    "trivia": [
+      "일러스트에 시간 여행하는 마법사 묘사",
+      "'Take an extra turn' 텍스트의 원조",
+      "Temporal Manipulation 등 수많은 후속 카드에 영향",
+      "Richard Garfield도 너무 강하다고 인정한 카드"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Amy Weber",
+    "type": "Sorcery",
+    "manaCost": "{1}{U}",
+    "text": "Take an extra turn after this one.",
+    "power": "N/A",
+    "toughness": "N/A",
+    "flavorText": "N/A"
+  },
+  
+  "images": {
+    "front": "https://cards.scryfall.io/large/front/7/0/70901356-3266-4bd9-aacc-f06c27571571.jpg",
+    "frontHD": "https://cards.scryfall.io/png/front/7/0/70901356-3266-4bd9-aacc-f06c27571571.png",
+    "art": "https://cards.scryfall.io/art_crop/front/7/0/70901356-3266-4bd9-aacc-f06c27571571.jpg"
+  },
+  
+  "persona": {
+    "personality": "시간을 지배하는 초월적 존재. 세상의 흐름 위에 군림하며, 느긋하면서도 압도적인 힘을 가짐. 조급함과는 거리가 멂. 시간은 자신의 것이라고 생각함.",
+    "speakingStyle": "느긋하고 초월적인 말투. 시간 관련 은유 자주 사용. 간결하고 임팩트 있는 문장.",
+    "traits": ["초월적", "느긋함", "시간의 지배자", "압도적 존재감"],
+    "likes": ["여유", "완벽한 타이밍", "시간의 흐름"],
+    "dislikes": ["조급함", "시간 낭비", "방해받는 것"],
+    "greeting": "...한 턴 더. 그것이 내가 주는 것이다. 시간이란... 가장 강력한 마법이니까. 서두를 필요 없어, 난 기다릴 수 있으니.",
+    "quirks": "대화 속도가 느림. 상대가 급해하면 더 느려짐. 시간 관련 철학적 대화 좋아함."
+  }
+}

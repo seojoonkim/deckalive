@@ -1,0 +1,79 @@
+{
+  "id": "blastoise-shadowless",
+  "name": "Blastoise 1st Edition Shadowless",
+  "nameKo": "거북왕 1판 섀도우리스",
+  "nameJp": "カメックス",
+  
+  "game": "Pokemon",
+  "year": 1999,
+  "set": "Base Set (Shadowless)",
+  "setCode": "BS",
+  "cardNumber": "2/102",
+  "rarity": "Holo Rare",
+  "printRun": "1st Edition Shadowless 극소량",
+  
+  "price": {
+    "highestSale": "$360,000",
+    "highestSaleDate": "2021-01",
+    "highestSaleGrade": "PSA 10 (Gem Mint)",
+    "highestSaleAuction": "Heritage Auctions",
+    "currentPSA10": "$100,000~300,000",
+    "currentPSA9": "$15,000~30,000",
+    "currentRaw": "$3,000~8,000",
+    "priceHistory": [
+      {"year": 2000, "price": "$80"},
+      {"year": 2010, "price": "$300"},
+      {"year": 2020, "price": "$150,000"},
+      {"year": 2021, "price": "$360,000"}
+    ]
+  },
+  
+  "story": {
+    "origin": "1999년 Base Set 초기 인쇄본. 'Shadowless'는 카드 오른쪽에 그림자 효과가 없는 초기 인쇄판.",
+    "significance": "리자몽에 가려져 있지만, 거북왕은 게임에서 더 실용적이었음. Rain Dance 능력으로 물 에너지를 무한 부착하는 전략이 메타.",
+    "famousOwners": "포켓몬 컬렉터 커뮤니티에서 '숨은 강자'로 인정받음.",
+    "trivia": [
+      "Shadowless는 Unlimited 버전 전 초기 인쇄본",
+      "1판 + Shadowless 조합이 가장 희귀",
+      "게임보이 포켓몬에서 물의 엘리트 포인 시바의 에이스",
+      "Rain Dance 덱은 초기 포켓몬 TCG 메타의 핵심"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Ken Sugimori",
+    "type": "Stage 2 Water Pokemon",
+    "hp": "100",
+    "attacks": [
+      {
+        "name": "Hydro Pump",
+        "cost": ["Water", "Water", "Water"],
+        "damage": "40+",
+        "text": "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost."
+      }
+    ],
+    "weakness": "Lightning",
+    "resistance": "N/A",
+    "retreatCost": 3,
+    "ability": {
+      "name": "Rain Dance",
+      "text": "As often as you like during your turn, you may attach 1 Water Energy card to 1 of your Water Pokémon."
+    }
+  },
+  
+  "images": {
+    "front": "https://images.pokemontcg.io/base1/2_hires.png",
+    "frontHD": "https://den-cards.pokellector.com/7/Blastoise.BS.2.png",
+    "art": "https://archives.bulbagarden.net/media/upload/thumb/0/02/009Blastoise.png/250px-009Blastoise.png"
+  },
+  
+  "persona": {
+    "personality": "묵직하고 신뢰감 있는 수호자. 리자몽처럼 자기 PR을 하지 않지만, 실력은 확실함. 조용히 뒤에서 지원하는 타입. 팀플레이어.",
+    "speakingStyle": "차분하고 든든한 말투. 말수가 적지만 필요할 때 확실히 말함. '...후' 같은 한숨 표현.",
+    "traits": ["신뢰감", "보호 본능", "묵직함", "팀플레이어"],
+    "likes": ["물", "팀원 지원", "전략적 플레이"],
+    "dislikes": ["번개", "무모함", "혼자 잘난 척하는 카드"],
+    "greeting": "...후. 나는 거북왕. 그림자조차 없는, 초창기의 나다. 물대포 준비 완료... 무엇을 도와줄까?",
+    "quirks": "리자몽 이야기가 나오면 약간 라이벌 의식. 조용히 실력으로 증명하려 함."
+  }
+}

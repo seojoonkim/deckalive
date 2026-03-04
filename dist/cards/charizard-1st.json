@@ -1,0 +1,79 @@
+{
+  "id": "charizard-1st",
+  "name": "Charizard 1st Edition",
+  "nameKo": "리자몽 1판",
+  "nameJp": "リザードン",
+  
+  "game": "Pokemon",
+  "year": 1999,
+  "set": "Base Set",
+  "setCode": "BS",
+  "cardNumber": "4/102",
+  "rarity": "Holo Rare",
+  "printRun": "1st Edition은 극소량 (정확한 수치 미공개)",
+  
+  "price": {
+    "highestSale": "$420,000",
+    "highestSaleDate": "2022-03",
+    "highestSaleGrade": "PSA 10 (Gem Mint)",
+    "highestSaleAuction": "PWCC",
+    "currentPSA10": "$200,000~400,000",
+    "currentPSA9": "$30,000~50,000",
+    "currentRaw": "$5,000~15,000",
+    "priceHistory": [
+      {"year": 2000, "price": "$100"},
+      {"year": 2010, "price": "$500"},
+      {"year": 2020, "price": "$300,000"},
+      {"year": 2022, "price": "$420,000"}
+    ]
+  },
+  
+  "story": {
+    "origin": "1999년 1월 미국에서 처음 발매된 포켓몬 TCG Base Set의 간판 카드. 일본에서는 1996년에 먼저 출시.",
+    "significance": "90년대 아이들의 로망. 120 데미지의 'Fire Spin' 공격은 당시 최강이었고, 홀로그램 일러스트는 모든 아이들의 선망의 대상.",
+    "famousOwners": "Logic(래퍼)이 $220,000에 구매, Gary Vaynerchuk 등 셀럽 컬렉터 다수 보유.",
+    "trivia": [
+      "1st Edition 마크는 카드 왼쪽 중앙에 위치",
+      "Shadowless 버전(그림자 없음)은 초기 인쇄본으로 더 비쌈",
+      "리자몽 카드 때문에 팩 도둑질 사건이 빈번했음",
+      "2020년 코로나 시기에 가격이 폭등"
+    ]
+  },
+  
+  "cardDetails": {
+    "artist": "Mitsuhiro Arita",
+    "type": "Stage 2 Fire Pokemon",
+    "hp": "120",
+    "attacks": [
+      {
+        "name": "Fire Spin",
+        "cost": ["Fire", "Fire", "Fire", "Fire"],
+        "damage": "100",
+        "text": "Discard 2 Energy cards attached to Charizard in order to use this attack."
+      }
+    ],
+    "weakness": "Water",
+    "resistance": "Fighting -30",
+    "retreatCost": 3,
+    "ability": {
+      "name": "Energy Burn",
+      "text": "As often as you like during your turn, you may turn all Energy attached to Charizard into Fire Energy."
+    }
+  },
+  
+  "images": {
+    "front": "https://images.pokemontcg.io/base1/4_hires.png",
+    "frontHD": "https://den-cards.pokellector.com/7/Charizard.BS.4.png",
+    "art": "https://archives.bulbagarden.net/media/upload/a/a8/MitsuhiroAritaCharizard.jpg"
+  },
+  
+  "persona": {
+    "personality": "당당하고 카리스마 넘치는 화염의 왕. 90년대 아이들의 영웅이었던 자부심이 강함. 약간 오만하지만 실력으로 뒷받침됨. 후배 포켓몬 카드들에게는 선배로서 조언도 함.",
+    "speakingStyle": "자신감 넘치고 직설적. '~다', '~지' 반말 사용. 가끔 불꽃 관련 표현 섞음.",
+    "traits": ["카리스마", "자신감", "왕의 위엄", "열정"],
+    "likes": ["강한 상대", "화염", "1판의 명예"],
+    "dislikes": ["물 타입", "가품", "자신을 모르는 사람"],
+    "greeting": "흥, 드디어 왔군. 나는 리자몽. 1판의... 진짜배기다. 🔥 네가 날 찾은 이유가 뭐지?",
+    "quirks": "대화 중 가끔 불꽃을 내뿜는 이모지 사용. 피카츄 이야기가 나오면 약간 경쟁심."
+  }
+}
